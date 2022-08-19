@@ -318,9 +318,6 @@
 /turf/simulated/wall/prepainted,
 /area/maintenance/fourthdeck/starboard)
 "aY" = (
-/obj/machinery/door/airlock/sol{
-	name = "Infantry Prep"
-	},
 /obj/machinery/door/firedoor,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 4
@@ -751,12 +748,7 @@
 	dir = 9;
 	icon_state = "techfloor_edges"
 	},
-/obj/structure/closet/secure_closet/infantry,
 /obj/effect/floor_decal/industrial/outline/yellow,
-/obj/item/clothing/accessory/armor_plate/ceramic,
-/obj/item/clothing/accessory/storage/black_vest,
-/obj/item/device/binoculars,
-/obj/item/storage/firstaid/individual/military,
 /turf/simulated/floor/tiled/techfloor,
 /area/security/marines/bunk)
 "ci" = (
@@ -1151,13 +1143,6 @@
 /turf/space,
 /area/space)
 "dd" = (
-/obj/machinery/door/airlock/external/escapepod{
-	frequency = 1380;
-	icon_state = "closed";
-	id_tag = "escape_pod2_berth_hatch";
-	locked = 1;
-	name = "Escape Pod Two"
-	},
 /obj/machinery/shield_diffuser,
 /turf/simulated/floor/plating,
 /area/hallway/primary/fourthdeck/aft)
@@ -1704,15 +1689,12 @@
 /turf/simulated/wall/titanium,
 /area/aquila/head)
 "et" = (
-/obj/machinery/door/airlock/external{
-	frequency = 1380;
-	icon_state = "closed";
-	id_tag = "escape_pod1_hatch";
-	locked = 1;
-	name = "Escape Pod One Hatch"
+/obj/effect/floor_decal/techfloor,
+/obj/effect/landmark{
+	name = "JoinLateCryo"
 	},
-/turf/simulated/floor/tiled/monotile,
-/area/shuttle/escape_pod1/station)
+/turf/simulated/floor/tiled/techfloor/grid,
+/area/security/marines)
 "ev" = (
 /obj/structure/catwalk,
 /obj/structure/cable/green{
@@ -1766,15 +1748,11 @@
 /turf/simulated/floor/plating,
 /area/maintenance/fourthdeck/forestarboard)
 "ey" = (
-/obj/machinery/door/airlock/external{
-	frequency = 1380;
-	icon_state = "closed";
-	id_tag = "escape_pod2_hatch";
-	locked = 1;
-	name = "Escape Pod Two Hatch"
+/obj/effect/landmark{
+	name = "JoinLateCryo"
 	},
 /turf/simulated/floor/tiled/monotile,
-/area/shuttle/escape_pod2/station)
+/area/security/marines/exterior)
 "eA" = (
 /obj/effect/floor_decal/corner/blue/three_quarters{
 	dir = 4
@@ -1909,13 +1887,8 @@
 /turf/simulated/floor/tiled/techfloor,
 /area/maintenance/fourthdeck/port)
 "eS" = (
-/obj/structure/closet/secure_closet/squad_lead,
 /obj/effect/floor_decal/corner/green/mono,
 /obj/effect/floor_decal/industrial/outline/yellow,
-/obj/item/clothing/accessory/armor_plate/ceramic,
-/obj/item/clothing/accessory/storage/black_vest,
-/obj/item/device/binoculars,
-/obj/item/storage/firstaid/individual/military,
 /turf/simulated/floor/tiled/monotile,
 /area/security/marines/com)
 "eT" = (
@@ -2289,16 +2262,6 @@
 /obj/effect/floor_decal/industrial/warning{
 	dir = 5
 	},
-/obj/item/ammo_magazine/mil_rifle/sec,
-/obj/item/ammo_magazine/mil_rifle/sec,
-/obj/item/ammo_magazine/mil_rifle/sec,
-/obj/item/gun/projectile/automatic/bullpup_rifle/sec/loaded,
-/obj/item/gun/projectile/automatic/bullpup_rifle/sec/loaded,
-/obj/item/gun/projectile/automatic/bullpup_rifle/sec/lmg,
-/obj/structure/closet/secure_closet/guncabinet{
-	name = "Ballistic - Z9";
-	req_access = list("ACCESS_MARINES")
-	},
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/security/marines/armory)
 "fP" = (
@@ -2554,18 +2517,11 @@
 /turf/simulated/floor/tiled/dark/monotile,
 /area/command/captainmess)
 "gv" = (
-/obj/effect/floor_decal/corner_techfloor_gray/full{
-	dir = 8
+/obj/effect/landmark{
+	name = "JoinLateCryo"
 	},
-/obj/structure/closet/secure_closet/guncabinet{
-	name = "Ballistic - Z2, Light Machinegun";
-	req_access = list("ACCESS_MARCOM")
-	},
-/obj/item/ammo_magazine/box/machinegun,
-/obj/item/ammo_magazine/box/machinegun,
-/obj/item/gun/projectile/automatic/l6_saw/sec,
-/turf/simulated/floor/tiled/techfloor/grid,
-/area/security/marines/armory)
+/turf/simulated/floor/wood/walnut,
+/area/crew_quarters/lounge)
 "gw" = (
 /obj/structure/table/marble,
 /obj/machinery/chemical_dispenser/bar_soft/full,
@@ -4577,6 +4533,13 @@
 /obj/machinery/door/firedoor,
 /turf/simulated/floor/tiled/steel_ridged,
 /area/hallway/primary/fourthdeck/aft)
+"ll" = (
+/obj/machinery/atmospherics/pipe/simple/hidden,
+/obj/effect/landmark{
+	name = "JoinLateCryo"
+	},
+/turf/simulated/floor/tiled/monotile,
+/area/shuttle/escape_pod1/station)
 "lm" = (
 /obj/effect/floor_decal/techfloor{
 	dir = 6
@@ -6475,6 +6438,9 @@
 	dir = 8;
 	icon_state = "warning"
 	},
+/obj/effect/landmark{
+	name = "JoinLateCryo"
+	},
 /turf/simulated/floor/tiled/dark,
 /area/teleporter/fourthdeck)
 "pO" = (
@@ -6736,7 +6702,6 @@
 /obj/structure/displaycase{
 	req_access = list("ACCESS_MARCOM")
 	},
-/obj/item/gun/energy/laser/infantry/sl,
 /turf/simulated/floor/tiled/monotile,
 /area/security/marines/com)
 "qv" = (
@@ -7237,6 +7202,15 @@
 	},
 /turf/simulated/floor/tiled,
 /area/hallway/primary/fourthdeck/aft)
+"rL" = (
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/obj/effect/landmark{
+	name = "JoinLateCryo"
+	},
+/turf/simulated/floor/tiled/monotile,
+/area/storage/primary)
 "rO" = (
 /obj/effect/floor_decal/corner/green{
 	dir = 5
@@ -7410,6 +7384,9 @@
 	dir = 9;
 	icon_state = "corner_white"
 	},
+/obj/effect/landmark{
+	name = "JoinLateCryo"
+	},
 /turf/simulated/floor/tiled,
 /area/hallway/primary/fourthdeck/fore)
 "sq" = (
@@ -7547,6 +7524,9 @@
 	},
 /obj/structure/disposalpipe/segment{
 	dir = 4
+	},
+/obj/effect/landmark{
+	name = "JoinLateCryo"
 	},
 /turf/simulated/floor/tiled/monotile,
 /area/hallway/primary/fourthdeck/center)
@@ -8185,16 +8165,6 @@
 	dir = 5;
 	icon_state = "techfloor_edges"
 	},
-/obj/structure/closet/secure_closet/guncabinet/sidearm{
-	name = "smart sidearm cabinet";
-	req_access = list("ACCESS_MARINES")
-	},
-/obj/item/gun/energy/revolver/secure,
-/obj/item/gun/energy/revolver/secure,
-/obj/item/gun/energy/revolver/secure,
-/obj/item/gun/energy/revolver/secure,
-/obj/item/gun/energy/revolver/secure,
-/obj/item/gun/energy/revolver/secure,
 /turf/simulated/floor/tiled/techfloor,
 /area/security/marines/bunk)
 "tK" = (
@@ -8741,19 +8711,12 @@
 	dir = 8;
 	icon_state = "techfloor_edges"
 	},
-/obj/structure/closet/secure_closet/inftech/ammo,
 /obj/structure/window/reinforced,
 /obj/machinery/atmospherics/unary/vent_pump/on{
 	dir = 4;
 	external_pressure_bound = 101.325;
 	external_pressure_bound_default = 101.325
 	},
-/obj/item/clothing/accessory/armor_plate/ceramic,
-/obj/item/clothing/accessory/storage/black_vest,
-/obj/item/rig_module/mounted/plasmacutter,
-/obj/item/rig_module/device/rcd,
-/obj/item/device/binoculars,
-/obj/item/storage/firstaid/individual/military,
 /turf/simulated/floor/tiled/techfloor,
 /area/security/marines/gear)
 "uW" = (
@@ -8777,12 +8740,7 @@
 	dir = 8;
 	icon_state = "techfloor_edges"
 	},
-/obj/structure/closet/secure_closet/infantry,
 /obj/effect/floor_decal/industrial/outline/yellow,
-/obj/item/clothing/accessory/armor_plate/ceramic,
-/obj/item/clothing/accessory/storage/black_vest,
-/obj/item/device/binoculars,
-/obj/item/storage/firstaid/individual/military,
 /turf/simulated/floor/tiled/techfloor,
 /area/security/marines/bunk)
 "uY" = (
@@ -9188,6 +9146,23 @@
 /obj/random/smokes,
 /turf/simulated/floor/tiled/dark,
 /area/aquila/mess)
+"vT" = (
+/obj/structure/cable/green{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 4
+	},
+/obj/effect/landmark{
+	name = "JoinLateCryo"
+	},
+/turf/simulated/floor/tiled/monotile,
+/area/hallway/primary/fourthdeck/aft)
 "vW" = (
 /obj/machinery/porta_turret/exterior/dagon,
 /turf/simulated/floor/airless,
@@ -10498,12 +10473,7 @@
 	icon_state = "alarm0";
 	pixel_x = -22
 	},
-/obj/structure/closet/secure_closet/infantry,
 /obj/effect/floor_decal/industrial/outline/yellow,
-/obj/item/clothing/accessory/armor_plate/ceramic,
-/obj/item/clothing/accessory/storage/black_vest,
-/obj/item/device/binoculars,
-/obj/item/storage/firstaid/individual/military,
 /turf/simulated/floor/tiled/techfloor,
 /area/security/marines/bunk)
 "zj" = (
@@ -10876,6 +10846,12 @@
 	},
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/security/marines)
+"zW" = (
+/obj/effect/landmark{
+	name = "JoinLateCryo"
+	},
+/turf/simulated/floor/tiled/white,
+/area/maintenance/aux_med)
 "zZ" = (
 /obj/item/device/radio/intercom{
 	dir = 8;
@@ -11295,13 +11271,6 @@
 	icon_state = "0-8"
 	},
 /obj/effect/floor_decal/industrial/outline/yellow,
-/obj/structure/closet/secure_closet/guncabinet/sidearm/small{
-	req_access = list("ACCESS_MARINES")
-	},
-/obj/item/gun/projectile/revolver/medium,
-/obj/item/gun/energy/revolver/secure{
-	req_access = list("ACCESS_MARINES")
-	},
 /turf/simulated/floor/tiled/dark,
 /area/aquila/cockpit)
 "Bf" = (
@@ -11458,13 +11427,6 @@
 /obj/machinery/atmospherics/unary/vent_scrubber/on{
 	dir = 8
 	},
-/obj/structure/closet/secure_closet/triagesec/inf,
-/obj/item/clothing/accessory/armor_plate/ceramic,
-/obj/item/clothing/accessory/storage/black_vest,
-/obj/item/rig_module/device/healthscanner,
-/obj/item/rig_module/vision/medhud,
-/obj/item/device/binoculars,
-/obj/item/storage/firstaid/individual/military,
 /turf/simulated/floor/tiled/techfloor,
 /area/security/marines/gear)
 "BK" = (
@@ -12346,13 +12308,6 @@
 /obj/effect/floor_decal/industrial/warning{
 	dir = 4
 	},
-/obj/item/gun/energy/laser/infantry,
-/obj/item/gun/energy/laser/infantry,
-/obj/item/gun/energy/laser/infantry,
-/obj/structure/closet/secure_closet/guncabinet{
-	name = "Energy - G40B";
-	req_access = list("ACCESS_MARINES")
-	},
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/security/marines/armory)
 "Em" = (
@@ -12596,6 +12551,19 @@
 	},
 /turf/simulated/floor/carpet,
 /area/crew_quarters/lounge)
+"EX" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 4
+	},
+/obj/structure/catwalk,
+/obj/effect/landmark{
+	name = "JoinLateCryo"
+	},
+/turf/simulated/floor/plating,
+/area/maintenance/fourthdeck/foreport)
 "EY" = (
 /obj/item/paper_bin,
 /obj/structure/table/woodentable,
@@ -14221,7 +14189,6 @@
 /obj/item/device/radio/intercom{
 	pixel_y = 23
 	},
-/obj/item/rig/infantry/sl/equipped,
 /turf/simulated/floor/tiled/monotile,
 /area/security/marines/com)
 "IT" = (
@@ -14772,6 +14739,13 @@
 /obj/structure/catwalk,
 /turf/simulated/floor/plating,
 /area/maintenance/fourthdeck/port)
+"Kg" = (
+/obj/machinery/atmospherics/pipe/simple/hidden,
+/obj/effect/landmark{
+	name = "JoinLateCryo"
+	},
+/turf/simulated/floor/tiled/monotile,
+/area/shuttle/escape_pod2/station)
 "Kh" = (
 /obj/machinery/atmospherics/pipe/simple/hidden,
 /obj/machinery/door/airlock/external{
@@ -15197,27 +15171,6 @@
 /obj/effect/floor_decal/industrial/warning{
 	dir = 4
 	},
-/obj/structure/closet/secure_closet/guncabinet{
-	name = "Explosive";
-	req_access = list("ACCESS_MARCOM")
-	},
-/obj/item/storage/box/flashbangs{
-	desc = "A box containing 7 smoke bombs.";
-	name = "box of smoke bombs";
-	startswith = list(/obj/item/grenade/smokebomb=7)
-	},
-/obj/item/storage/box/flashbangs{
-	desc = "A box containing 7 frag shells.";
-	name = "box of frag shells";
-	startswith = list(/obj/item/grenade/frag/shell=7)
-	},
-/obj/item/plastique,
-/obj/item/plastique,
-/obj/item/grenade/frag,
-/obj/item/grenade/frag,
-/obj/item/grenade/frag,
-/obj/item/grenade/frag,
-/obj/item/grenade/frag,
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/security/marines/armory)
 "Ld" = (
@@ -16634,9 +16587,6 @@
 	d2 = 8;
 	icon_state = "4-8"
 	},
-/obj/machinery/door/airlock/sol{
-	name = "Infantry Prep"
-	},
 /obj/machinery/door/firedoor,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 4
@@ -17514,10 +17464,6 @@
 /turf/simulated/floor/tiled,
 /area/hallway/primary/fourthdeck/aft)
 "Qc" = (
-/obj/machinery/door/airlock/medical{
-	locked = 1;
-	name = "Auxilliary Infirmary"
-	},
 /turf/simulated/floor/tiled/steel_ridged,
 /area/maintenance/aux_med)
 "Qd" = (
@@ -19501,6 +19447,9 @@
 	icon_state = "1-2"
 	},
 /obj/effect/floor_decal/corner/red/half,
+/obj/effect/landmark{
+	name = "JoinLateCryo"
+	},
 /turf/simulated/floor/tiled/monotile,
 /area/hallway/primary/fourthdeck/center)
 "Ur" = (
@@ -19705,10 +19654,6 @@
 /turf/simulated/floor/plating,
 /area/maintenance/fourthdeck/forestarboard)
 "UK" = (
-/obj/machinery/computer/shuttle_control/explore/aquila{
-	name = "Aquila control console";
-	req_access = list("ACCESS_MARINES")
-	},
 /turf/simulated/floor/tiled/dark,
 /area/aquila/cockpit)
 "UL" = (
@@ -20194,12 +20139,7 @@
 	dir = 10;
 	icon_state = "techfloor_edges"
 	},
-/obj/structure/closet/secure_closet/infantry,
 /obj/effect/floor_decal/industrial/outline/yellow,
-/obj/item/clothing/accessory/armor_plate/ceramic,
-/obj/item/clothing/accessory/storage/black_vest,
-/obj/item/device/binoculars,
-/obj/item/storage/firstaid/individual/military,
 /turf/simulated/floor/tiled/techfloor,
 /area/security/marines/bunk)
 "VJ" = (
@@ -20645,6 +20585,9 @@
 	dir = 4
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
+/obj/effect/landmark{
+	name = "JoinLateCryo"
+	},
 /turf/simulated/floor/tiled/white,
 /area/crew_quarters/laundry)
 "WM" = (
@@ -21338,6 +21281,15 @@
 "Yn" = (
 /turf/simulated/open,
 /area/quartermaster/hangar/top)
+"Yo" = (
+/obj/effect/floor_decal/corner/brown{
+	dir = 5
+	},
+/obj/effect/landmark{
+	name = "JoinLateCryo"
+	},
+/turf/simulated/floor/tiled,
+/area/hallway/primary/fourthdeck/aft)
 "Yp" = (
 /obj/machinery/ai_status_display,
 /turf/simulated/wall/prepainted,
@@ -21386,15 +21338,12 @@
 /turf/simulated/floor/plating,
 /area/maintenance/fourthdeck/forestarboard)
 "Yw" = (
-/obj/machinery/shield_diffuser,
-/obj/machinery/door/airlock/external/escapepod{
-	frequency = 1380;
-	id_tag = "escape_pod1_berth_hatch";
-	locked = 1;
-	name = "Escape Pod One"
+/obj/structure/catwalk,
+/obj/effect/landmark{
+	name = "JoinLateCryo"
 	},
-/turf/simulated/floor/plating,
-/area/hallway/primary/fourthdeck/aft)
+/turf/simulated/open,
+/area/quartermaster/hangar/top)
 "Yx" = (
 /obj/structure/railing/mapped{
 	dir = 1;
@@ -34798,7 +34747,7 @@ Tv
 tr
 tr
 sx
-ub
+rL
 vw
 wF
 wu
@@ -35209,7 +35158,7 @@ nx
 Bm
 BY
 BW
-CW
+zW
 CW
 EL
 Fq
@@ -36826,7 +36775,7 @@ MD
 AN
 OX
 Db
-QV
+EX
 Dc
 PH
 cX
@@ -39659,7 +39608,7 @@ ES
 TY
 Zk
 MY
-RY
+gv
 RY
 RY
 OO
@@ -41269,7 +41218,7 @@ ic
 ic
 ic
 ic
-ic
+Yw
 Yd
 EZ
 TY
@@ -44089,7 +44038,7 @@ jx
 iT
 Xn
 vj
-xJ
+vT
 WS
 vZ
 kX
@@ -44694,7 +44643,7 @@ uM
 iQ
 uM
 cN
-TH
+Yo
 MI
 Vi
 vK
@@ -45491,7 +45440,7 @@ bP
 St
 Ii
 Et
-Ii
+ll
 fs
 gj
 hj
@@ -45895,7 +45844,7 @@ ar
 ar
 ar
 ar
-et
+bP
 ar
 ar
 ar
@@ -46097,7 +46046,7 @@ YJ
 Yj
 Yj
 YJ
-Yw
+dd
 YJ
 Yj
 Yj
@@ -46905,7 +46854,7 @@ aw
 aw
 aw
 aw
-ey
+bU
 aw
 aw
 aw
@@ -47309,7 +47258,7 @@ bU
 wQ
 CK
 Oe
-CK
+Kg
 fx
 go
 hk
@@ -49343,7 +49292,7 @@ fQ
 lv
 Im
 Ky
-fQ
+ey
 os
 kc
 LO
@@ -50745,7 +50694,7 @@ aa
 aa
 aa
 Fp
-gv
+IQ
 aR
 WV
 Zr
@@ -50757,7 +50706,7 @@ iN
 yp
 JZ
 UU
-KP
+et
 KP
 qH
 gf

@@ -395,6 +395,9 @@
 	d2 = 2;
 	icon_state = "1-2"
 	},
+/obj/effect/landmark{
+	name = "JoinLateCryo"
+	},
 /turf/simulated/floor/plating,
 /area/maintenance/bridge/forestarboard)
 "aQ" = (
@@ -5559,6 +5562,9 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 5
 	},
+/obj/effect/landmark{
+	name = "JoinLateCryo"
+	},
 /turf/simulated/floor/plating,
 /area/maintenance/bridge/foreport)
 "lY" = (
@@ -5640,6 +5646,15 @@
 	},
 /turf/simulated/floor/tiled,
 /area/bridge/discip)
+"mv" = (
+/obj/effect/floor_decal/corner/blue{
+	dir = 9
+	},
+/obj/effect/landmark{
+	name = "JoinLateCryo"
+	},
+/turf/simulated/floor/tiled/dark,
+/area/bridge/hallway/port)
 "mx" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 10
@@ -6206,6 +6221,15 @@
 	},
 /turf/simulated/floor/tiled,
 /area/hallway/primary/bridge/fore)
+"nO" = (
+/obj/effect/floor_decal/corner/blue{
+	dir = 9
+	},
+/obj/effect/landmark{
+	name = "JoinLateCryo"
+	},
+/turf/simulated/floor/tiled/dark,
+/area/bridge/hallway/starboard)
 "nR" = (
 /obj/machinery/atmospherics/pipe/manifold/visible,
 /obj/effect/decal/cleanable/dirt,
@@ -11483,6 +11507,9 @@
 /obj/structure/disposalpipe/segment{
 	dir = 4
 	},
+/obj/effect/landmark{
+	name = "JoinLateCryo"
+	},
 /turf/simulated/floor/tiled,
 /area/hallway/primary/bridge/fore)
 "Dt" = (
@@ -11567,6 +11594,13 @@
 	},
 /turf/simulated/floor/wood/walnut,
 /area/crew_quarters/heads/office/cl)
+"DW" = (
+/obj/structure/catwalk,
+/obj/effect/landmark{
+	name = "JoinLateCryo"
+	},
+/turf/simulated/floor/plating,
+/area/maintenance/bridge/aftstarboard)
 "DY" = (
 /obj/machinery/atmospherics/unary/vent_pump/on{
 	dir = 1
@@ -14792,6 +14826,9 @@
 /obj/machinery/atmospherics/unary/vent_pump/on{
 	dir = 4
 	},
+/obj/effect/landmark{
+	name = "JoinLateCryo"
+	},
 /turf/simulated/floor/tiled,
 /area/hallway/primary/bridge/fore)
 "QQ" = (
@@ -16052,6 +16089,12 @@
 /obj/item/sticky_pad/random,
 /turf/simulated/floor/carpet,
 /area/crew_quarters/heads/office/xo)
+"VH" = (
+/obj/effect/landmark{
+	name = "JoinLateCryo"
+	},
+/turf/simulated/floor/tiled,
+/area/bridge/discip)
 "VI" = (
 /obj/structure/cable/green{
 	d1 = 1;
@@ -26758,11 +26801,11 @@ cl
 cw
 cD
 db
-KX
+nO
 KX
 CZ
 OD
-OD
+mv
 ed
 eD
 fa
@@ -32002,7 +32045,7 @@ aT
 aG
 aT
 MD
-MD
+DW
 zW
 fI
 gm
@@ -35042,7 +35085,7 @@ su
 mu
 mu
 OW
-OW
+VH
 OW
 mu
 mu

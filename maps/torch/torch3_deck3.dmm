@@ -809,6 +809,9 @@
 	icon_state = "2-4"
 	},
 /obj/structure/catwalk,
+/obj/effect/landmark{
+	name = "JoinLateCryo"
+	},
 /turf/simulated/floor/plating,
 /area/maintenance/thirddeck/aftstarboard)
 "bN" = (
@@ -3988,6 +3991,9 @@
 	icon_state = "1-4"
 	},
 /obj/structure/catwalk,
+/obj/effect/landmark{
+	name = "JoinLateCryo"
+	},
 /turf/simulated/floor/plating,
 /area/maintenance/thirddeck/forestarboard)
 "ie" = (
@@ -4929,9 +4935,6 @@
 /obj/structure/cable/green{
 	d2 = 4;
 	icon_state = "0-4"
-	},
-/obj/effect/wallframe_spawn/reinforced/polarized/no_grille{
-	id = "chroniclers"
 	},
 /turf/simulated/floor/plating,
 /area/chronicler)
@@ -8642,9 +8645,6 @@
 /turf/simulated/wall/r_wall/prepainted,
 /area/crew_quarters/sleep/cryo)
 "rX" = (
-/obj/effect/landmark{
-	name = "JoinLateCryo"
-	},
 /obj/effect/floor_decal/corner/lime/border{
 	dir = 4
 	},
@@ -9159,6 +9159,9 @@
 	icon_state = "2-4"
 	},
 /obj/effect/catwalk_plated,
+/obj/effect/landmark{
+	name = "JoinLateCryo"
+	},
 /turf/simulated/floor/plating,
 /area/crew_quarters/cryolocker)
 "sN" = (
@@ -10360,20 +10363,14 @@
 /obj/effect/floor_decal/corner/lime/border{
 	dir = 4
 	},
-/obj/effect/landmark{
-	name = "JoinLateCryo"
-	},
 /turf/simulated/floor/tiled/techfloor,
 /area/crew_quarters/sleep/cryo)
 "vS" = (
-/obj/effect/floor_decal/corner/lime/border{
-	dir = 4
-	},
 /obj/effect/landmark{
 	name = "JoinLateCryo"
 	},
-/turf/simulated/floor/tiled/techfloor,
-/area/crew_quarters/sleep/cryo)
+/turf/simulated/floor/carpet,
+/area/chronicler)
 "vT" = (
 /obj/machinery/cryopod,
 /turf/simulated/floor/tiled/techfloor/grid,
@@ -10385,14 +10382,18 @@
 /turf/simulated/floor/tiled/techfloor,
 /area/crew_quarters/sleep/cryo)
 "vV" = (
-/obj/effect/floor_decal/corner/lime/border{
-	dir = 8
+/obj/machinery/atmospherics/pipe/simple/visible/fuel,
+/obj/structure/cable/green{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
 	},
+/obj/structure/catwalk,
 /obj/effect/landmark{
 	name = "JoinLateCryo"
 	},
-/turf/simulated/floor/tiled/techfloor,
-/area/crew_quarters/sleep/cryo)
+/turf/simulated/floor/plating,
+/area/maintenance/thirddeck/aftport)
 "vW" = (
 /obj/structure/cable/green{
 	d1 = 1;
@@ -10601,6 +10602,9 @@
 	},
 /obj/machinery/atmospherics/pipe/manifold/hidden/supply{
 	dir = 8
+	},
+/obj/effect/landmark{
+	name = "JoinLateCryo"
 	},
 /turf/simulated/floor/tiled,
 /area/hallway/primary/thirddeck/aft)
@@ -11362,9 +11366,6 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /obj/structure/disposalpipe/segment,
-/obj/effect/landmark{
-	name = "JoinLateCryo"
-	},
 /obj/effect/floor_decal/corner/lime/border{
 	dir = 4
 	},
@@ -11406,6 +11407,12 @@
 	},
 /turf/simulated/floor/airless,
 /area/command/gunnery/missiles/inside)
+"ym" = (
+/obj/effect/landmark{
+	name = "JoinLateCryo"
+	},
+/turf/simulated/floor/tiled/techfloor,
+/area/maintenance/thirddeck/forestarboard)
 "yn" = (
 /obj/structure/dispenser/oxygen,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
@@ -11614,9 +11621,6 @@
 /obj/structure/disposalpipe/segment,
 /obj/effect/floor_decal/industrial/outline/yellow,
 /obj/machinery/hologram/holopad,
-/obj/effect/landmark{
-	name = "JoinLateCryo"
-	},
 /turf/simulated/floor/tiled/techfloor,
 /area/crew_quarters/sleep/cryo)
 "yG" = (
@@ -11751,9 +11755,6 @@
 	icon_state = "1-4"
 	},
 /obj/machinery/atmospherics/pipe/manifold4w/hidden/scrubbers,
-/obj/effect/landmark{
-	name = "Observer-Start"
-	},
 /obj/machinery/atmospherics/pipe/manifold4w/hidden/supply,
 /obj/structure/disposalpipe/segment,
 /obj/effect/floor_decal/corner/lime/bordercorner,
@@ -11887,6 +11888,18 @@
 	},
 /turf/simulated/floor/tiled,
 /area/hallway/primary/thirddeck/center)
+"zp" = (
+/obj/effect/floor_decal/spline/fancy/wood{
+	dir = 4
+	},
+/obj/effect/floor_decal/spline/fancy/wood{
+	dir = 8
+	},
+/obj/effect/landmark{
+	name = "JoinLateCryo"
+	},
+/turf/simulated/floor/wood/walnut,
+/area/crew_quarters/mess)
 "zq" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
@@ -12093,9 +12106,6 @@
 	},
 /obj/effect/floor_decal/corner/lime/border{
 	dir = 4
-	},
-/obj/effect/landmark{
-	name = "JoinLateCryo"
 	},
 /turf/simulated/floor/tiled/techfloor,
 /area/crew_quarters/sleep/cryo)
@@ -12386,6 +12396,9 @@
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 5
+	},
+/obj/effect/landmark{
+	name = "JoinLateCryo"
 	},
 /turf/simulated/floor/tiled/dark,
 /area/chapel/main)
@@ -12725,6 +12738,9 @@
 	dir = 4;
 	icon_state = "pipe-c"
 	},
+/obj/effect/landmark{
+	name = "JoinLateCryo"
+	},
 /turf/simulated/floor/tiled,
 /area/storage/tools)
 "BC" = (
@@ -12732,9 +12748,6 @@
 	d1 = 4;
 	d2 = 8;
 	icon_state = "4-8"
-	},
-/obj/effect/wallframe_spawn/reinforced/polarized/no_grille{
-	id = "chroniclers"
 	},
 /turf/simulated/floor/plating,
 /area/chronicler)
@@ -12838,14 +12851,20 @@
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/ai_monitored/storage/eva)
 "BT" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/supply,
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
+/obj/machinery/atmospherics/pipe/simple/visible/fuel,
+/obj/structure/catwalk,
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
+	},
 /obj/effect/landmark{
 	name = "JoinLateCryo"
 	},
-/obj/effect/floor_decal/corner/lime/border{
-	dir = 8
-	},
-/turf/simulated/floor/tiled/techfloor,
-/area/crew_quarters/sleep/cryo)
+/turf/simulated/floor/plating,
+/area/maintenance/thirddeck/aftport)
 "BU" = (
 /obj/machinery/alarm{
 	dir = 4;
@@ -13016,9 +13035,6 @@
 /obj/effect/floor_decal/corner/lime/border{
 	dir = 4
 	},
-/obj/effect/landmark{
-	name = "JoinLateCryo"
-	},
 /turf/simulated/floor/tiled/techfloor,
 /area/crew_quarters/sleep/cryo)
 "Cs" = (
@@ -13047,6 +13063,9 @@
 	pixel_x = 25;
 	pixel_y = 0;
 	req_access = list(list("ACCESS_ENGINE_EQUIP","ACCESS_ATMOS"))
+	},
+/obj/effect/landmark{
+	name = "JoinLateCryo"
 	},
 /turf/simulated/floor/plating,
 /area/maintenance/thirddeck/starboard)
@@ -13354,9 +13373,6 @@
 	},
 /obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers{
 	dir = 8
-	},
-/obj/effect/landmark{
-	name = "lightsout"
 	},
 /obj/effect/floor_decal/corner/lime/bordercorner{
 	dir = 4
@@ -15396,11 +15412,6 @@
 "HJ" = (
 /obj/machinery/door/firedoor,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
-/obj/machinery/door/airlock/highsecurity{
-	icon_state = "closed";
-	locked = 0;
-	name = "Fire Control"
-	},
 /turf/simulated/floor/tiled/steel_ridged,
 /area/command/disperser)
 "HK" = (
@@ -15411,11 +15422,6 @@
 	},
 /obj/machinery/door/firedoor,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
-/obj/machinery/door/airlock/highsecurity{
-	icon_state = "closed";
-	locked = 0;
-	name = "Fire Control"
-	},
 /turf/simulated/floor/tiled/steel_ridged,
 /area/command/disperser)
 "HL" = (
@@ -15484,11 +15490,6 @@
 "HS" = (
 /obj/machinery/door/firedoor,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
-/obj/machinery/door/airlock/highsecurity{
-	icon_state = "closed";
-	locked = 0;
-	name = "Fire Control"
-	},
 /turf/simulated/floor/tiled/steel_ridged,
 /area/command/disperser)
 "HT" = (
@@ -15669,6 +15670,9 @@
 	dir = 1
 	},
 /obj/effect/catwalk_plated/dark,
+/obj/effect/landmark{
+	name = "JoinLateCryo"
+	},
 /turf/simulated/floor/plating,
 /area/command/disperser)
 "It" = (
@@ -18084,6 +18088,12 @@
 	},
 /turf/simulated/floor/tiled/monotile,
 /area/crew_quarters_boh/cabin_main/janitorial)
+"Nr" = (
+/obj/effect/landmark{
+	name = "JoinLateCryo"
+	},
+/turf/simulated/floor/tiled/techfloor,
+/area/maintenance/thirddeck/aftstarboard)
 "Ns" = (
 /obj/machinery/atmospherics/unary/vent_scrubber/on{
 	dir = 1
@@ -18257,11 +18267,11 @@
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/maintenance/thirddeck/foreport)
 "NK" = (
-/obj/machinery/camera/network/third_deck{
-	c_tag = "Third Deck Saferoom"
+/obj/effect/landmark{
+	name = "JoinLateCryo"
 	},
-/turf/simulated/floor/lino,
-/area/chronicler)
+/turf/simulated/floor/tiled/techfloor/grid,
+/area/maintenance/thirddeck/foreport)
 "NL" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 4
@@ -18581,6 +18591,9 @@
 	},
 /obj/effect/floor_decal/industrial/warning{
 	dir = 4
+	},
+/obj/effect/landmark{
+	name = "JoinLateCryo"
 	},
 /turf/simulated/floor/tiled/dark,
 /area/teleporter/thirddeck)
@@ -20661,6 +20674,12 @@
 	},
 /turf/simulated/floor/wood/maple,
 /area/crew_quarters/mess)
+"TI" = (
+/obj/effect/landmark{
+	name = "JoinLateCryo"
+	},
+/turf/simulated/floor/tiled/dark/monotile,
+/area/crew_quarters/public_office)
 "TJ" = (
 /obj/random/junk,
 /obj/structure/railing/mapped{
@@ -20736,6 +20755,13 @@
 	},
 /turf/simulated/floor/plating,
 /area/maintenance/thirddeck/aftport)
+"TU" = (
+/obj/structure/catwalk,
+/obj/effect/landmark{
+	name = "JoinLateCryo"
+	},
+/turf/simulated/floor/plating,
+/area/maintenance/thirddeck/foreport)
 "TV" = (
 /obj/effect/floor_decal/industrial/hatch/yellow,
 /obj/machinery/disposal,
@@ -22864,9 +22890,6 @@
 	d1 = 1;
 	d2 = 8;
 	icon_state = "1-8"
-	},
-/obj/machinery/door/airlock/civilian{
-	name = "Chroniclers"
 	},
 /turf/simulated/floor/tiled/steel_ridged,
 /area/chronicler)
@@ -33204,7 +33227,7 @@ Yc
 LS
 yG
 tc
-MP
+NK
 CT
 zS
 GV
@@ -33615,7 +33638,7 @@ Mf
 XY
 zS
 Yb
-Ur
+TU
 BV
 BV
 BV
@@ -35194,7 +35217,7 @@ aO
 aO
 aO
 br
-bs
+ym
 cD
 dv
 dv
@@ -36438,7 +36461,7 @@ PE
 Hv
 CA
 lK
-lD
+vS
 ab
 Bm
 Yb
@@ -36835,7 +36858,7 @@ ob
 wR
 ip
 BC
-NK
+Hv
 xV
 PR
 XL
@@ -38459,7 +38482,7 @@ Sj
 vN
 yR
 DB
-yR
+TI
 yR
 KC
 Bq
@@ -39660,16 +39683,16 @@ sk
 tD
 rV
 vR
-vS
+rX
 Zt
 yS
 zU
 zU
 Cr
-vS
+rX
 ks
 DN
-vS
+rX
 rX
 FC
 sz
@@ -40265,14 +40288,14 @@ qS
 IZ
 Jc
 uQ
-vV
-vV
+Mk
+Mk
 yb
 Mc
-vV
-vV
-vV
-vV
+Mk
+Mk
+Mk
+Mk
 KB
 DP
 Mk
@@ -40450,7 +40473,7 @@ ce
 cQ
 dG
 qm
-fp
+zp
 fp
 fp
 Tg
@@ -41077,10 +41100,10 @@ TF
 yX
 ye
 yZ
-BT
-BT
-BT
-BT
+Mk
+Mk
+Mk
+Mk
 Dg
 Ub
 rV
@@ -48157,7 +48180,7 @@ JZ
 Kb
 Kb
 TT
-Kb
+vV
 Kl
 zy
 pI
@@ -49136,7 +49159,7 @@ aT
 dn
 ef
 SH
-dn
+Nr
 Ng
 pG
 nX
@@ -49765,7 +49788,7 @@ JU
 JU
 JU
 JU
-JU
+BT
 SD
 JU
 Ee

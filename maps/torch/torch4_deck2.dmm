@@ -4209,9 +4209,6 @@
 /area/engineering/engineering_monitoring)
 "iI" = (
 /obj/machinery/door/firedoor,
-/obj/machinery/door/airlock/multi_tile/glass/engineering{
-	name = "Engineering Bay"
-	},
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/engineering/locker_room)
 "iL" = (
@@ -9209,6 +9206,15 @@
 	},
 /turf/simulated/floor/reinforced/carbon_dioxide,
 /area/engineering/atmos)
+"tW" = (
+/obj/effect/floor_decal/industrial/warning{
+	dir = 8
+	},
+/obj/effect/landmark{
+	name = "JoinLateCryo"
+	},
+/turf/simulated/floor/tiled,
+/area/engineering/locker_room)
 "tX" = (
 /obj/structure/table/rack{
 	dir = 8
@@ -9551,11 +9557,6 @@
 /area/engineering/engine_room)
 "uL" = (
 /obj/machinery/shield_diffuser,
-/obj/machinery/door/airlock/external/escapepod{
-	id_tag = "escape_pod5_berth_hatch";
-	locked = 1;
-	name = "Escape Pod Five"
-	},
 /turf/simulated/floor/tiled/steel_ridged,
 /area/maintenance/seconddeck/foreport)
 "uM" = (
@@ -9827,13 +9828,6 @@
 /turf/simulated/floor/plating,
 /area/vacant/armory)
 "vv" = (
-/obj/machinery/door/airlock/external{
-	frequency = 1380;
-	icon_state = "closed";
-	id_tag = "escape_pod5_hatch";
-	locked = 1;
-	name = "Escape Pod Five Hatch"
-	},
 /turf/simulated/floor/tiled/steel_ridged,
 /area/shuttle/escape_pod5/station)
 "vy" = (
@@ -11449,6 +11443,9 @@
 	icon_state = "2-4"
 	},
 /obj/structure/catwalk,
+/obj/effect/landmark{
+	name = "JoinLateCryo"
+	},
 /turf/simulated/floor/plating,
 /area/maintenance/seconddeck/foreport)
 "zM" = (
@@ -11982,6 +11979,21 @@
 	dir = 4
 	},
 /obj/structure/catwalk,
+/turf/simulated/floor/plating,
+/area/maintenance/seconddeck/aftport)
+"Ba" = (
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply,
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
+/obj/machinery/atmospherics/pipe/simple/hidden/cyan,
+/obj/structure/catwalk,
+/obj/effect/landmark{
+	name = "JoinLateCryo"
+	},
 /turf/simulated/floor/plating,
 /area/maintenance/seconddeck/aftport)
 "Bb" = (
@@ -15036,6 +15048,18 @@
 	},
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/engineering/atmos)
+"Ix" = (
+/obj/structure/cable/green{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
+	},
+/obj/structure/catwalk,
+/obj/effect/landmark{
+	name = "JoinLateCryo"
+	},
+/turf/simulated/floor/plating,
+/area/maintenance/seconddeck/foreport)
 "Iy" = (
 /obj/machinery/atmospherics/omni/filter{
 	tag_east = 2;
@@ -15429,6 +15453,18 @@
 /obj/effect/floor_decal/industrial/hatch/yellow,
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/engineering/locker_room)
+"Jw" = (
+/obj/structure/cable/green{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
+	},
+/obj/structure/catwalk,
+/obj/effect/landmark{
+	name = "JoinLateCryo"
+	},
+/turf/simulated/floor/plating,
+/area/maintenance/seconddeck/aftport)
 "Jx" = (
 /obj/structure/cable,
 /obj/machinery/power/terminal{
@@ -16434,11 +16470,23 @@
 	},
 /turf/simulated/floor/tiled/techfloor,
 /area/maintenance/seconddeck/foreport)
+"MA" = (
+/obj/machinery/atmospherics/pipe/simple/hidden{
+	dir = 4
+	},
+/obj/effect/landmark{
+	name = "JoinLateCryo"
+	},
+/turf/simulated/floor/tiled/monotile,
+/area/shuttle/escape_pod5/station)
 "MD" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 6
 	},
 /obj/structure/catwalk,
+/obj/effect/landmark{
+	name = "JoinLateCryo"
+	},
 /turf/simulated/floor/plating,
 /area/maintenance/seconddeck/aftstarboard)
 "ME" = (
@@ -17548,6 +17596,28 @@
 "PF" = (
 /turf/simulated/wall/prepainted,
 /area/engineering/bluespace)
+"PG" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 4
+	},
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/obj/structure/cable{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8";
+	pixel_x = 0
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 4
+	},
+/obj/structure/catwalk,
+/obj/effect/landmark{
+	name = "JoinLateCryo"
+	},
+/turf/simulated/floor/plating,
+/area/maintenance/seconddeck/forestarboard)
 "PH" = (
 /obj/effect/floor_decal/industrial/warning{
 	dir = 1
@@ -19653,6 +19723,9 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /obj/structure/catwalk,
+/obj/effect/landmark{
+	name = "JoinLateCryo"
+	},
 /turf/simulated/floor/plating,
 /area/hallway/primary/seconddeck/fore)
 "Wg" = (
@@ -31360,7 +31433,7 @@ mb
 Wp
 vt
 wj
-Pq
+MA
 xX
 vt
 Wp
@@ -35786,7 +35859,7 @@ bI
 bI
 bI
 lE
-Nf
+PG
 OV
 jp
 jp
@@ -36405,7 +36478,7 @@ Im
 mr
 ru
 Nm
-Nm
+Ix
 Nm
 Nm
 Nm
@@ -39642,7 +39715,7 @@ kO
 nn
 Wy
 sI
-Wy
+Ba
 Wy
 Wy
 An
@@ -41868,7 +41941,7 @@ FI
 Bc
 BP
 vI
-vl
+Jw
 Bw
 Cg
 CD
@@ -42052,7 +42125,7 @@ gC
 ho
 FL
 fW
-fW
+tW
 kU
 fW
 ho
