@@ -344,7 +344,7 @@
 	desc = "A sink used for washing one's hands and face."
 	anchored = TRUE
 	var/busy = 0 	//Something's being washed at the moment
-/*
+
 /obj/structure/hygiene/sink/MouseDrop_T(var/obj/item/thing, var/mob/user)
 	..()
 	if(!istype(thing) || !thing.is_open_container())
@@ -455,7 +455,7 @@
 		"<span class='notice'>[user] washes \a [I] using \the [src].</span>", \
 		"<span class='notice'>You wash \a [I] using \the [src].</span>")
 
-*/
+
 /obj/structure/hygiene/sink/kitchen
 	name = "kitchen sink"
 	icon_state = "sink_alt"

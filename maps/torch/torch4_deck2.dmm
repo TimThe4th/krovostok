@@ -407,9 +407,6 @@
 /obj/machinery/light/small{
 	dir = 8
 	},
-/obj/machinery/oxygen_pump{
-	pixel_x = -32
-	},
 /obj/machinery/atmospherics/unary/vent_pump/high_volume{
 	dir = 2;
 	frequency = 1379;
@@ -847,11 +844,12 @@
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/maintenance/seconddeck/forestarboard)
 "bG" = (
-/obj/machinery/portable_atmospherics/powered/scrubber,
-/obj/effect/decal/cleanable/cobweb,
-/obj/effect/floor_decal/industrial/outline/grey,
-/turf/simulated/floor/tiled/techfloor,
-/area/maintenance/seconddeck/forestarboard)
+/obj/effect/floor_decal/industrial/outline/orange,
+/obj/machinery/sealgen{
+	dir = 4
+	},
+/turf/simulated/floor/tiled/techfloor/grid,
+/area/maintenance/auxsolarport)
 "bH" = (
 /obj/structure/cable{
 	d1 = 4;
@@ -1106,9 +1104,6 @@
 /turf/simulated/floor/plating,
 /area/maintenance/seconddeck/forestarboard)
 "cf" = (
-/obj/machinery/oxygen_pump{
-	pixel_x = 32
-	},
 /obj/effect/floor_decal/techfloor{
 	dir = 8;
 	icon_state = "techfloor_edges"
@@ -1435,6 +1430,9 @@
 	dir = 4;
 	icon_state = "techfloor_edges"
 	},
+/obj/machinery/oxygen_pump{
+	pixel_x = 32
+	},
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/maintenance/seconddeck/forestarboard)
 "cK" = (
@@ -1544,6 +1542,10 @@
 	dir = 1
 	},
 /obj/structure/catwalk,
+/obj/machinery/oxygen_pump{
+	pixel_x = 0;
+	pixel_y = -32
+	},
 /turf/simulated/floor/plating,
 /area/maintenance/auxsolarstarboard)
 "cW" = (
@@ -1742,8 +1744,6 @@
 /turf/simulated/floor/airless,
 /area/maintenance/seconddeck/aftport)
 "dn" = (
-/obj/structure/bed/roller,
-/obj/effect/floor_decal/industrial/outline/yellow,
 /turf/simulated/floor/tiled,
 /area/hallway/primary/seconddeck/elevator)
 "do" = (
@@ -7826,6 +7826,7 @@
 "qN" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
+/obj/machinery/ship_map,
 /turf/simulated/floor/tiled,
 /area/engineering/foyer)
 "qO" = (
@@ -9202,7 +9203,6 @@
 	frequency = 1441;
 	icon_state = "map_injector";
 	id = "co2_in";
-	pixel_y = 0;
 	use_power = 1
 	},
 /turf/simulated/floor/reinforced/carbon_dioxide,
@@ -9461,11 +9461,10 @@
 /turf/simulated/floor/plating,
 /area/engineering/atmos)
 "uE" = (
-/obj/machinery/atmospherics/unary/vent_pump{
+/obj/machinery/atmospherics/unary/vent_pump/tank{
 	dir = 8;
 	external_pressure_bound = 0;
 	external_pressure_bound_default = 0;
-	frequency = 1441;
 	icon_state = "map_vent_in";
 	id_tag = "co2_out";
 	initialize_directions = 1;
@@ -9755,30 +9754,20 @@
 /turf/simulated/floor/tiled/techfloor,
 /area/engineering/atmos)
 "vn" = (
-/obj/effect/floor_decal/corner/black{
-	dir = 6;
-	icon_state = "corner_white"
-	},
-/obj/machinery/atmospherics/pipe/simple/visible/green{
-	dir = 4;
-	icon_state = "intact"
-	},
-/obj/machinery/atmospherics/pipe/simple/hidden/black{
-	dir = 2;
-	icon_state = "intact"
-	},
 /obj/machinery/computer/air_control{
 	dir = 8;
-	frequency = 1441;
-	icon_state = "computer";
 	input_tag = "co2_in";
 	name = "Carbon Dioxide Supply Control";
 	output_tag = "co2_out";
 	sensor_name = "Carbon Dioxide Supply";
 	sensor_tag = "co2_sensor"
 	},
-/obj/machinery/light/spot{
-	dir = 1
+/obj/machinery/atmospherics/pipe/simple/visible/green{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/black,
+/obj/effect/floor_decal/corner/black{
+	dir = 6
 	},
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/engineering/atmos)
@@ -10676,6 +10665,7 @@
 	dir = 5;
 	icon_state = "corner_white"
 	},
+/obj/machinery/ship_map,
 /turf/simulated/floor/tiled,
 /area/hallway/primary/seconddeck)
 "xO" = (
@@ -11078,7 +11068,6 @@
 	frequency = 1441;
 	icon_state = "map_injector";
 	id = "n2o_in";
-	pixel_y = 0;
 	use_power = 1
 	},
 /turf/simulated/floor/reinforced/n20,
@@ -11316,11 +11305,10 @@
 /turf/simulated/floor/plating,
 /area/maintenance/seconddeck/forestarboard)
 "zx" = (
-/obj/machinery/atmospherics/unary/vent_pump{
+/obj/machinery/atmospherics/unary/vent_pump/tank{
 	dir = 8;
 	external_pressure_bound = 0;
 	external_pressure_bound_default = 0;
-	frequency = 1441;
 	icon_state = "map_vent_in";
 	id_tag = "n2o_out";
 	initialize_directions = 1;
@@ -11665,26 +11653,20 @@
 /turf/simulated/floor/plating,
 /area/maintenance/seconddeck/aftport)
 "Ao" = (
-/obj/effect/floor_decal/corner/orange{
-	dir = 6;
-	icon_state = "corner_white"
-	},
-/obj/machinery/atmospherics/pipe/simple/visible/green{
-	dir = 4;
-	icon_state = "intact"
-	},
-/obj/machinery/atmospherics/pipe/simple/hidden/black{
-	dir = 2;
-	icon_state = "intact"
-	},
 /obj/machinery/computer/air_control{
 	dir = 8;
-	frequency = 1441;
 	input_tag = "h2_in";
 	name = "Hydrogen Supply Control";
 	output_tag = "h2_out";
 	sensor_name = "Hydrogen Supply";
 	sensor_tag = "tox_sensor"
+	},
+/obj/machinery/atmospherics/pipe/simple/visible/green{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/black,
+/obj/effect/floor_decal/corner/orange{
+	dir = 6
 	},
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/engineering/atmos)
@@ -12576,6 +12558,9 @@
 /obj/machinery/camera/network/engineering{
 	c_tag = "Solar Control - Port"
 	},
+/obj/machinery/oxygen_pump{
+	pixel_y = 32
+	},
 /turf/simulated/floor/plating,
 /area/maintenance/auxsolarport)
 "Cy" = (
@@ -13370,12 +13355,6 @@
 	d2 = 2;
 	icon_state = "1-2"
 	},
-/obj/machinery/light/small{
-	dir = 8
-	},
-/obj/machinery/oxygen_pump{
-	pixel_x = -32
-	},
 /obj/effect/floor_decal/techfloor{
 	dir = 8;
 	icon_state = "techfloor_edges"
@@ -13383,6 +13362,10 @@
 /obj/effect/floor_decal/techfloor{
 	dir = 4;
 	icon_state = "techfloor_edges"
+	},
+/obj/machinery/light/small{
+	dir = 4;
+	icon_state = "bulb1"
 	},
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/maintenance/auxsolarport)
@@ -14610,26 +14593,20 @@
 /turf/simulated/floor/plating,
 /area/maintenance/seconddeck/aftport)
 "Ho" = (
-/obj/effect/floor_decal/corner/white{
-	dir = 6;
-	icon_state = "corner_white"
-	},
-/obj/machinery/atmospherics/pipe/simple/visible/green{
-	dir = 4;
-	icon_state = "intact"
-	},
-/obj/machinery/atmospherics/pipe/simple/hidden/black{
-	dir = 2;
-	icon_state = "intact"
-	},
 /obj/machinery/computer/air_control{
 	dir = 8;
-	frequency = 1441;
 	input_tag = "n2o_in";
 	name = "Nitrous Oxide Supply Control";
 	output_tag = "n2o_out";
 	sensor_name = "Nitrous Oxide Supply";
 	sensor_tag = "n2o_sensor"
+	},
+/obj/machinery/atmospherics/pipe/simple/visible/green{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/black,
+/obj/effect/floor_decal/corner/white{
+	dir = 6
 	},
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/engineering/atmos)
@@ -16075,6 +16052,7 @@
 "Lt" = (
 /obj/machinery/portable_atmospherics/powered/scrubber,
 /obj/effect/floor_decal/industrial/outline/grey,
+/obj/effect/decal/cleanable/cobweb,
 /turf/simulated/floor/tiled/techfloor,
 /area/maintenance/seconddeck/forestarboard)
 "Lu" = (
@@ -16153,11 +16131,9 @@
 /turf/simulated/wall/prepainted,
 /area/maintenance/seconddeck/aftport)
 "LJ" = (
-/obj/machinery/door/firedoor,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
-/obj/effect/wallframe_spawn/reinforced/no_grille,
-/turf/simulated/floor/plating,
+/turf/simulated/wall/prepainted,
 /area/engineering/foyer)
 "LL" = (
 /obj/structure/cable/cyan{
@@ -17048,11 +17024,11 @@
 /turf/simulated/floor/tiled,
 /area/engineering/storage)
 "Om" = (
-/obj/item/stool,
 /obj/machinery/camera/network/second_deck{
 	c_tag = "Second Deck Hallway - Elevator Landing";
 	dir = 4
 	},
+/obj/structure/bed/roller,
 /turf/simulated/floor/tiled,
 /area/hallway/primary/seconddeck/elevator)
 "On" = (
@@ -17061,7 +17037,6 @@
 	frequency = 1441;
 	icon_state = "map_injector";
 	id = "h2_in";
-	pixel_y = 0;
 	use_power = 1
 	},
 /turf/simulated/floor/reinforced/hydrogen,
@@ -17451,11 +17426,10 @@
 /turf/simulated/floor/tiled,
 /area/hallway/primary/seconddeck)
 "Pn" = (
-/obj/machinery/atmospherics/unary/vent_pump{
+/obj/machinery/atmospherics/unary/vent_pump/tank{
 	dir = 8;
 	external_pressure_bound = 0;
 	external_pressure_bound_default = 0;
-	frequency = 1441;
 	icon_state = "map_vent_in";
 	id_tag = "h2_out";
 	initialize_directions = 1;
@@ -18361,11 +18335,12 @@
 /turf/simulated/floor/tiled/steel_grid,
 /area/janitor)
 "RO" = (
-/obj/structure/table/rack,
-/obj/random/maintenance/solgov,
-/obj/effect/floor_decal/industrial/outline/grey,
-/turf/simulated/floor/tiled/techfloor,
-/area/maintenance/seconddeck/forestarboard)
+/obj/effect/floor_decal/industrial/outline/orange,
+/obj/machinery/sealgen{
+	dir = 4
+	},
+/turf/simulated/floor/tiled/techfloor/grid,
+/area/maintenance/auxsolarstarboard)
 "RP" = (
 /obj/machinery/atmospherics/pipe/manifold/hidden{
 	dir = 8;
@@ -20936,6 +20911,13 @@
 /obj/effect/floor_decal/industrial/outline/grey,
 /turf/simulated/floor/tiled/techfloor,
 /area/maintenance/seconddeck/central)
+"ZY" = (
+/obj/effect/floor_decal/industrial/outline/orange,
+/obj/machinery/sealgen{
+	dir = 8
+	},
+/turf/simulated/floor/tiled/techfloor/grid,
+/area/maintenance/seconddeck/forestarboard)
 "ZZ" = (
 /obj/machinery/light/small,
 /turf/simulated/floor/airless,
@@ -35566,7 +35548,7 @@ JX
 JX
 bb
 JX
-bI
+ZY
 bI
 bI
 bI
@@ -35767,8 +35749,8 @@ aa
 JX
 JX
 JX
-bG
-RO
+JX
+bI
 NQ
 dv
 bI
@@ -39198,8 +39180,8 @@ aj
 al
 aq
 aa
-aa
-aa
+aD
+aD
 aD
 aD
 aD
@@ -39239,8 +39221,8 @@ BY
 Ir
 Ir
 Ir
-aa
-aa
+Ir
+Ir
 aa
 EA
 ED
@@ -39401,7 +39383,7 @@ am
 ag
 ag
 aD
-aD
+RO
 aD
 bM
 cm
@@ -39441,7 +39423,7 @@ Cx
 CZ
 Dt
 ND
-Ir
+bG
 Ir
 ag
 ag
@@ -40047,8 +40029,8 @@ Cc
 Ir
 Ir
 Ir
-aa
-aa
+Ir
+Ir
 aa
 EA
 EG

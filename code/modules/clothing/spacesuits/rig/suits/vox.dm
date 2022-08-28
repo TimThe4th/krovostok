@@ -33,9 +33,13 @@
 
 /obj/item/clothing/head/helmet/space/rig/vox_rig
 	species_restricted = list(SPECIES_VOX)
+	sprite_sheets = list(
+		SPECIES_VOX = 'icons/bos/mob/onmob/species/vox/onmob_head_vox.dmi')
 
 /obj/item/clothing/suit/space/rig/vox_rig
 	species_restricted = list(SPECIES_VOX)
+	sprite_sheets = list(
+		SPECIES_VOX = 'icons/bos/mob/onmob/species/vox/onmob_suit_vox.dmi')
 	allowed = list(
 		/obj/item/device/flashlight,
 		/obj/item/tank,
@@ -51,7 +55,11 @@
 
 /obj/item/clothing/shoes/magboots/rig/vox_rig
 	species_restricted = list(SPECIES_VOX)
+	sprite_sheets = list(
+		SPECIES_VOX = 'icons/bos/mob/onmob/species/vox/onmob_feet_vox.dmi')
 
 /obj/item/clothing/gloves/rig/vox_rig
 	species_restricted = list(SPECIES_VOX)
+	sprite_sheets = list(
+		SPECIES_VOX = 'icons/bos/mob/onmob/species/vox/onmob_hands_vox.dmi')
 	siemens_coefficient = 0

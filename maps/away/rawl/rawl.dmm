@@ -338,7 +338,7 @@
 /obj/machinery/airlock_sensor{
 	frequency = 1331;
 	id_tag = "rawl_ship_dock_sensor";
-	pixel_y = -24
+	pixel_y = 23
 	},
 /obj/machinery/access_button{
 	command = "cycle_interior";
@@ -719,16 +719,11 @@
 /turf/simulated/wall/titanium,
 /area/ship/rawl/fore)
 "br" = (
-/obj/machinery/door/airlock/external{
-	autoset_access = 0;
-	frequency = 1331;
-	id_tag = "rawl_main_inner";
-	name = "Rawl Interior"
-	},
 /obj/machinery/atmospherics/pipe/simple/hidden{
 	dir = 6
 	},
-/turf/simulated/floor/plating,
+/obj/effect/paint/silver,
+/turf/simulated/wall/titanium,
 /area/ship/rawl/fore)
 "bs" = (
 /obj/effect/wallframe_spawn/reinforced/polarized/full{
@@ -757,7 +752,7 @@
 	frequency = 1331;
 	id_tag = "rawl_main_pump"
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/tiled/techfloor/grid,
 /area/ship/rawl/fore)
 "bw" = (
 /obj/machinery/atmospherics/unary/vent_pump/high_volume{
@@ -768,14 +763,14 @@
 /obj/machinery/light/small{
 	dir = 8
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/tiled/techfloor/grid,
 /area/ship/rawl/fore)
 "bx" = (
 /obj/machinery/atmospherics/unary/vent_pump/high_volume{
 	id_tag = "rawl_main_pump_out_internal";
 	frequency = 1331
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/tiled/techfloor/grid,
 /area/ship/rawl/fore)
 "by" = (
 /obj/effect/paint/brown,
@@ -806,11 +801,11 @@
 /turf/simulated/wall/titanium,
 /area/ship/rawl/fore)
 "bD" = (
-/obj/effect/paint/silver,
 /obj/machinery/atmospherics/pipe/simple/hidden{
 	dir = 5;
 	icon_state = "intact"
 	},
+/obj/effect/paint/silver,
 /turf/simulated/wall/titanium,
 /area/ship/rawl/fore)
 "bE" = (
@@ -833,19 +828,12 @@
 /turf/simulated/wall/titanium,
 /area/ship/rawl/fore)
 "bG" = (
-/obj/machinery/door/airlock/external{
-	autoset_access = 0;
-	density = 1;
-	frequency = 1331;
-	id_tag = "rawl_main_outer";
-	locked = 1;
-	name = "Rawl External Access"
-	},
 /obj/machinery/atmospherics/pipe/simple/hidden{
 	dir = 9;
 	icon_state = "intact"
 	},
-/turf/simulated/floor/plating,
+/obj/effect/paint/silver,
+/turf/simulated/wall/titanium,
 /area/ship/rawl/fore)
 "bH" = (
 /obj/machinery/atmospherics/portables_connector{
@@ -1234,7 +1222,7 @@
 	id_tag = "rawl_main_pump_out_internal";
 	frequency = 1331
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/tiled/techfloor/grid,
 /area/ship/rawl/fore)
 "cM" = (
 /obj/machinery/embedded_controller/radio/airlock/airlock_controller{
@@ -1256,7 +1244,11 @@
 	id_tag = "rawl_main_pump_out_internal";
 	frequency = 1331
 	},
-/turf/simulated/floor/plating,
+/obj/machinery/sealgen/away{
+	dir = 8
+	},
+/obj/effect/floor_decal/industrial/outline/orange,
+/turf/simulated/floor/tiled/techfloor/grid,
 /area/ship/rawl/fore)
 "cN" = (
 /obj/machinery/light{
@@ -1512,6 +1504,14 @@
 "zs" = (
 /turf/simulated/wall,
 /area/space)
+"zt" = (
+/obj/machinery/atmospherics/pipe/manifold/hidden{
+	dir = 1;
+	icon_state = "map"
+	},
+/obj/effect/paint/silver,
+/turf/simulated/wall/titanium,
+/area/ship/rawl/fore)
 "zL" = (
 /obj/structure/cable{
 	d1 = 4;
@@ -1532,6 +1532,20 @@
 	icon_state = "dark"
 	},
 /area/ship/rawl/wreck)
+"Bb" = (
+/obj/machinery/atmospherics/pipe/manifold/hidden,
+/obj/effect/paint/silver,
+/turf/simulated/wall/titanium,
+/area/ship/rawl/fore)
+"BR" = (
+/obj/structure/window/reinforced{
+	dir = 2
+	},
+/obj/machinery/sealgen/away{
+	dir = 1
+	},
+/turf/simulated/floor/tiled/techmaint,
+/area/ship/rawl/pipeworks)
 "Db" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
@@ -1622,6 +1636,13 @@
 "MR" = (
 /turf/simulated/floor/tiled/dark,
 /area/ship/rawl/cargo)
+"NB" = (
+/obj/effect/paint/brown,
+/obj/machinery/sealgen/away{
+	dir = 1
+	},
+/turf/simulated/wall/titanium,
+/area/ship/rawl/pipeworks)
 "PB" = (
 /obj/structure/window/reinforced,
 /obj/machinery/atmospherics/unary/vent_scrubber/on{
@@ -21855,7 +21876,7 @@ Sa
 br
 bw
 cL
-bE
+Bb
 HT
 aa
 aa
@@ -22256,7 +22277,7 @@ aL
 cH
 cK
 cN
-bt
+zt
 bv
 cM
 bG
@@ -24072,7 +24093,7 @@ TU
 au
 Ua
 aH
-Ua
+BR
 ce
 lW
 vO
@@ -24274,7 +24295,7 @@ TU
 an
 Ua
 aI
-Ua
+NB
 nm
 iD
 iD

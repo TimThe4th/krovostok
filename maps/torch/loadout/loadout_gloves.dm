@@ -21,3 +21,8 @@
 	display_name = "gloves, duty"
 	path = /obj/item/clothing/gloves/thick/duty
 	cost = 2
+
+/datum/gear/gloves/fingerless
+	display_name = "gloves, fingerless"
+	path = /obj/item/clothing/gloves/thick/duty/modified/fingerless
+	cost = 2

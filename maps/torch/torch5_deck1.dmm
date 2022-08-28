@@ -5289,7 +5289,6 @@
 	id_tag = "koi_shuttle_sensor";
 	pixel_y = 25
 	},
-/obj/structure/closet/emcloset,
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/koi)
 "aje" = (
@@ -6021,6 +6020,7 @@
 "alV" = (
 /obj/effect/floor_decal/industrial/outline/yellow,
 /obj/structure/closet/secure_closet/forensics,
+/obj/item/device/binoculars,
 /turf/simulated/floor/tiled/monotile,
 /area/security/detectives_office)
 "alW" = (
@@ -7366,7 +7366,7 @@
 	icon_state = "2-8"
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/tiled/dark,
 /area/teleporter/firstdeck)
 "auE" = (
 /obj/structure/cable/green{
@@ -9028,6 +9028,7 @@
 /turf/simulated/floor/grass,
 /area/mempark)
 "aCp" = (
+/obj/machinery/tele_pad,
 /obj/effect/floor_decal/industrial/hatch/yellow,
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/teleporter/firstdeck)
@@ -9057,6 +9058,7 @@
 /obj/item/stack/medical/advanced/bruise_pack,
 /obj/item/stack/medical/advanced/ointment,
 /obj/structure/closet/secure_closet/security_torch,
+/obj/item/device/binoculars,
 /turf/simulated/floor/tiled/monotile,
 /area/security/locker)
 "aCv" = (
@@ -10401,6 +10403,7 @@
 /obj/item/material/knife/nullglass{
 	name = "nullglass blade"
 	},
+/obj/item/device/binoculars,
 /turf/simulated/floor/tiled/dark/monotile,
 /area/security/bo)
 "aJp" = (
@@ -14445,6 +14448,13 @@
 	},
 /turf/simulated/floor/tiled/techfloor,
 /area/rnd/anom_storage)
+"bfX" = (
+/obj/machinery/sealgen{
+	dir = 8
+	},
+/obj/effect/floor_decal/industrial/outline/orange,
+/turf/simulated/floor/tiled/techfloor/grid,
+/area/maintenance/firstdeck/forestarboard)
 "bhb" = (
 /obj/machinery/door/blast/regular{
 	id_tag = "cChamber1sV";
@@ -14692,6 +14702,9 @@
 "brb" = (
 /obj/structure/closet/crate,
 /obj/random/tank,
+/obj/machinery/light{
+	dir = 8
+	},
 /turf/simulated/floor/tiled/dark/monotile,
 /area/teleporter/firstdeck)
 "brj" = (
@@ -14741,6 +14754,10 @@
 "btE" = (
 /turf/simulated/floor/tiled/dark,
 /area/security/questioning)
+"bus" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/supply,
+/turf/simulated/floor/tiled/dark,
+/area/teleporter/firstdeck)
 "bvI" = (
 /obj/machinery/atmospherics/pipe/simple/visible/fuel{
 	dir = 4
@@ -16659,6 +16676,16 @@
 	},
 /turf/simulated/floor/tiled/dark,
 /area/medical/morgue)
+"dKu" = (
+/obj/machinery/atmospherics/unary/vent_pump/high_volume{
+	controlled = 0;
+	dir = 4;
+	frequency = 1436;
+	id_tag = "koi_shuttle_pump_out_internal"
+	},
+/obj/structure/closet/emcloset,
+/turf/simulated/floor/tiled/techfloor/grid,
+/area/koi)
 "dMb" = (
 /obj/effect/floor_decal/corner/pink/bordercorner,
 /obj/structure/cable/green{
@@ -16801,6 +16828,10 @@
 	dir = 4;
 	frequency = 1436;
 	id_tag = "koi_shuttle_pump_out_internal"
+	},
+/obj/effect/floor_decal/industrial/outline/orange,
+/obj/machinery/sealgen{
+	req_access = list("ACCESS_MEDICAL")
 	},
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/koi)
@@ -18499,10 +18530,13 @@
 /turf/simulated/floor/airless,
 /area/command/armoury)
 "gDm" = (
+/obj/effect/floor_decal/techfloor{
+	dir = 4
+	},
 /obj/effect/floor_decal/industrial/warning{
 	dir = 4
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/tiled/dark,
 /area/teleporter/firstdeck)
 "gEb" = (
 /obj/machinery/fabricator,
@@ -18626,6 +18660,10 @@
 	},
 /turf/simulated/floor/tiled/white/monotile,
 /area/medical/equipstorage)
+"gSU" = (
+/obj/structure/memstatue/shmesser,
+/turf/simulated/floor/grass,
+/area/mempark)
 "gTQ" = (
 /obj/effect/floor_decal/corner_techfloor_grid{
 	dir = 5
@@ -19778,6 +19816,7 @@
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
+/obj/machinery/door/firedoor,
 /turf/simulated/floor/tiled/steel_ridged,
 /area/teleporter/firstdeck)
 "iuB" = (
@@ -20426,6 +20465,8 @@
 /obj/effect/floor_decal/techfloor{
 	dir = 9
 	},
+/obj/effect/floor_decal/industrial/outline/orange,
+/obj/machinery/sealgen,
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/maintenance/firstdeck/centralstarboard)
 "jiS" = (
@@ -21466,6 +21507,12 @@
 /area/mempark)
 "kxs" = (
 /obj/effect/floor_decal/techfloor,
+/obj/machinery/access_button/airlock_exterior{
+	frequency = 1436;
+	master_tag = "koi_shuttle";
+	pixel_y = -24;
+	req_access = list("ACCESS_MEDICAL")
+	},
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/maintenance/firstdeck/centralstarboard)
 "kyb" = (
@@ -22122,11 +22169,10 @@
 /obj/machinery/atmospherics/unary/vent_pump/on{
 	dir = 4
 	},
-/obj/structure/closet/firecloset,
 /obj/effect/floor_decal/corner/lightgrey{
 	dir = 9
 	},
-/obj/effect/floor_decal/industrial/outline/yellow,
+/obj/machinery/ship_map,
 /turf/simulated/floor/tiled,
 /area/rnd/entry)
 "lkb" = (
@@ -22608,6 +22654,17 @@
 	pixel_x = -6;
 	pixel_y = 24
 	},
+/obj/item/gun/projectile/automatic/sec_smg/less_lethal,
+/obj/item/gun/projectile/automatic/sec_smg/less_lethal,
+/obj/item/gun/projectile/automatic/sec_smg/less_lethal,
+/obj/item/gun/projectile/automatic/sec_smg/less_lethal,
+/obj/structure/table/rack,
+/obj/structure/window/reinforced{
+	dir = 1
+	},
+/obj/structure/window/reinforced{
+	dir = 4
+	},
 /turf/simulated/floor/tiled/dark/monotile,
 /area/security/storage)
 "lVb" = (
@@ -22911,7 +22968,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 6
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/tiled/dark/monotile,
 /area/teleporter/firstdeck)
 "mlX" = (
 /obj/effect/floor_decal/corner/paleblue{
@@ -22947,6 +23004,13 @@
 	},
 /turf/simulated/floor/tiled/dark,
 /area/security/secpointhal)
+"mof" = (
+/obj/effect/floor_decal/corner/green{
+	dir = 10
+	},
+/obj/machinery/light,
+/turf/simulated/floor/tiled,
+/area/hallway/primary/firstdeck/center)
 "mpq" = (
 /obj/effect/floor_decal/corner/lightgrey{
 	dir = 8
@@ -23628,8 +23692,10 @@
 /turf/simulated/floor/tiled/dark/monotile,
 /area/security/armoury)
 "nhb" = (
+/obj/machinery/hologram/holopad,
+/obj/effect/floor_decal/industrial/outline/yellow,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/tiled/dark/monotile,
 /area/teleporter/firstdeck)
 "nhS" = (
 /obj/structure/cable/green{
@@ -23885,6 +23951,11 @@
 /area/hallway/primary/firstdeck/fore)
 "nub" = (
 /obj/structure/table/standard,
+/obj/machinery/power/apc{
+	dir = 8;
+	name = "west bump";
+	pixel_x = -24
+	},
 /obj/structure/cable/green{
 	d2 = 4;
 	icon_state = "0-4"
@@ -23896,7 +23967,13 @@
 /turf/simulated/wall/prepainted,
 /area/medical/counselor)
 "nvb" = (
-/turf/simulated/floor/plating,
+/obj/effect/floor_decal/corner_techfloor_grid{
+	dir = 4
+	},
+/obj/effect/floor_decal/industrial/warning/corner{
+	dir = 4
+	},
+/turf/simulated/floor/tiled/dark,
 /area/teleporter/firstdeck)
 "nvs" = (
 /obj/structure/table/steel,
@@ -24035,11 +24112,14 @@
 /turf/simulated/wall/r_wall/prepainted,
 /area/mempark)
 "nEb" = (
+/obj/structure/table/standard,
 /obj/machinery/firealarm{
 	dir = 1;
 	pixel_y = -24
 	},
-/obj/structure/table,
+/obj/machinery/light{
+	dir = 8
+	},
 /turf/simulated/floor/tiled/dark/monotile,
 /area/teleporter/firstdeck)
 "nFh" = (
@@ -24376,6 +24456,7 @@
 /turf/simulated/floor/tiled/dark,
 /area/medical/surgery2)
 "nZB" = (
+/obj/machinery/tele_projector,
 /obj/machinery/button/blast_door{
 	id_tag = "teleport1";
 	name = "First Deck Teleporter Access Shutter Control";
@@ -24570,6 +24651,7 @@
 /obj/item/stack/medical/advanced/bruise_pack,
 /obj/item/stack/medical/advanced/ointment,
 /obj/structure/closet/secure_closet/security_torch,
+/obj/item/device/binoculars,
 /turf/simulated/floor/tiled/monotile,
 /area/security/locker)
 "omb" = (
@@ -27452,6 +27534,10 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 10
 	},
+/obj/structure/disposalpipe/segment{
+	dir = 2;
+	icon_state = "pipe-c"
+	},
 /turf/simulated/floor/tiled/monotile,
 /area/security/detectives_office)
 "rrI" = (
@@ -27541,8 +27627,7 @@
 /area/hallway/primary/firstdeck/aft)
 "ruS" = (
 /obj/effect/floor_decal/corner/green/mono,
-/obj/effect/floor_decal/industrial/outline/yellow,
-/obj/structure/closet/emcloset,
+/obj/machinery/ship_map,
 /turf/simulated/floor/tiled/monotile,
 /area/hallway/primary/firstdeck/center)
 "rvb" = (
@@ -27625,6 +27710,35 @@
 /obj/item/device/radio/intercom{
 	pixel_y = 23
 	},
+/obj/structure/table/rack,
+/obj/item/clothing/suit/armor/shieldarmor/purple,
+/obj/item/clothing/suit/armor/shieldarmor/purple,
+/obj/item/clothing/suit/armor/shieldarmor/purple,
+/obj/item/clothing/suit/armor/shieldarmor/purple,
+/obj/item/armorchargebattery/max,
+/obj/item/armorchargebattery/max,
+/obj/item/armorchargebattery/max,
+/obj/item/armorchargebattery/max,
+/obj/item/armorchargebattery/max,
+/obj/item/armorchargebattery/max,
+/obj/item/armorchargebattery/max,
+/obj/item/armorchargebattery/max,
+/obj/item/armorchargebattery,
+/obj/item/armorchargebattery,
+/obj/item/armorchargebattery,
+/obj/item/armorchargebattery,
+/obj/item/armorchargebattery,
+/obj/item/armorchargebattery,
+/obj/item/armorchargebattery,
+/obj/item/armorchargebattery,
+/obj/item/armorchargebattery,
+/obj/item/armorchargebattery,
+/obj/item/armorchargebattery,
+/obj/item/armorchargebattery,
+/obj/item/armorchargebattery,
+/obj/item/armorchargebattery,
+/obj/item/armorchargebattery,
+/obj/item/armorchargebattery,
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/command/armoury/tactical)
 "rzb" = (
@@ -28269,6 +28383,9 @@
 	},
 /turf/simulated/floor/tiled/white,
 /area/rnd/xenobiology/entry)
+"sfO" = (
+/turf/simulated/wall/r_wall/prepainted,
+/area/rnd/entry)
 "sgb" = (
 /obj/structure/cable/green{
 	d1 = 1;
@@ -28568,13 +28685,6 @@
 /turf/simulated/floor/grass,
 /area/mempark)
 "srR" = (
-/obj/structure/closet/crate,
-/obj/item/storage/backpack/dufflebag/firefighter,
-/obj/item/storage/toolbox/mechanical,
-/obj/item/storage/box/flares,
-/obj/random/powercell,
-/obj/random/powercell,
-/obj/random/powercell,
 /obj/structure/hygiene/shower{
 	dir = 4;
 	icon_state = "shower"
@@ -28928,14 +29038,9 @@
 /turf/simulated/floor/tiled/dark,
 /area/security/secpointhal)
 "sNn" = (
-/obj/effect/floor_decal/corner/green/half{
-	dir = 1
-	},
-/obj/machinery/light{
-	dir = 1
-	},
-/turf/simulated/floor/tiled/monotile,
-/area/hallway/primary/firstdeck/center)
+/obj/structure/memstatue/ambrosia,
+/turf/simulated/floor/grass,
+/area/mempark)
 "sOb" = (
 /obj/structure/cable/green{
 	d1 = 4;
@@ -29407,6 +29512,14 @@
 /obj/effect/floor_decal/corner/red/mono,
 /obj/structure/table/steel,
 /obj/item/storage/firstaid/trauma,
+/obj/item/armorchargebattery/max,
+/obj/item/armorchargebattery/max,
+/obj/item/armorchargebattery/max,
+/obj/item/armorchargebattery/max,
+/obj/item/armorchargebattery,
+/obj/item/armorchargebattery,
+/obj/item/armorchargebattery,
+/obj/item/armorchargebattery,
 /turf/simulated/floor/tiled/dark,
 /area/security/armoury)
 "tjb" = (
@@ -30448,8 +30561,12 @@
 /turf/simulated/floor/tiled/techfloor,
 /area/maintenance/firstdeck/aftstarboard)
 "uXr" = (
+/obj/machinery/door/blast/shutters{
+	dir = 4;
+	id_tag = "teleport1";
+	name = "First Deck Teleporter Access Shutters"
+	},
 /obj/effect/floor_decal/industrial/hatch/yellow,
-/obj/structure/barricade,
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/teleporter/firstdeck)
 "uXJ" = (
@@ -30546,8 +30663,8 @@
 /turf/simulated/floor/tiled,
 /area/security/wing)
 "vhs" = (
-/obj/structure/noticeboard{
-	pixel_y = 32
+/obj/structure/sign/booker{
+	pixel_y = 30
 	},
 /turf/simulated/floor/tiled/dark,
 /area/command/conference)
@@ -30653,10 +30770,7 @@
 /obj/machinery/atmospherics/pipe/manifold/hidden/supply{
 	dir = 8
 	},
-/obj/structure/disposalpipe/segment{
-	dir = 2;
-	icon_state = "pipe-c"
-	},
+/obj/structure/disposalpipe/segment,
 /turf/simulated/floor/tiled/monotile,
 /area/security/detectives_office)
 "vzp" = (
@@ -31724,8 +31838,14 @@
 /turf/simulated/floor/tiled/dark,
 /area/security/opscheck)
 "xJP" = (
-/obj/machinery/ai_status_display,
-/turf/simulated/wall/r_wall/prepainted,
+/obj/effect/floor_decal/techfloor{
+	dir = 4
+	},
+/obj/effect/floor_decal/industrial/warning{
+	dir = 4
+	},
+/obj/machinery/tele_beacon,
+/turf/simulated/floor/tiled/dark,
 /area/teleporter/firstdeck)
 "xKq" = (
 /obj/machinery/portable_atmospherics/canister/air,
@@ -43150,7 +43270,7 @@ aaa
 hBr
 hBr
 hBr
-abE
+bfX
 abE
 adS
 aeK
@@ -44788,7 +44908,7 @@ auF
 avT
 aAT
 mXb
-nhb
+bus
 nhb
 auB
 mlw
@@ -44991,7 +45111,7 @@ avU
 aAT
 gDm
 gDm
-gDm
+xJP
 nvb
 aKK
 qHx
@@ -45190,12 +45310,12 @@ rZf
 atD
 auG
 wMo
-xJP
+aAT
 lYS
 nZB
 aCp
 aAT
-xJP
+aAT
 aAT
 iAZ
 pno
@@ -47008,7 +47128,7 @@ aqn
 aqn
 aqn
 aLU
-sNn
+wWr
 nUp
 aai
 aAm
@@ -47212,7 +47332,7 @@ aLU
 awb
 rKo
 aye
-ure
+mof
 aAm
 aAm
 aAm
@@ -50218,7 +50338,7 @@ npl
 mbh
 dUZ
 cin
-dUZ
+dKu
 uNs
 aIg
 abP
@@ -53273,7 +53393,7 @@ nSb
 dMe
 qWb
 mpq
-htb
+sfO
 ljb
 hVb
 imb
@@ -55104,7 +55224,7 @@ pdb
 qhb
 abJ
 rJb
-rHb
+gSU
 rWb
 pdb
 szb
@@ -56309,7 +56429,7 @@ rHb
 hJb
 rHb
 szb
-pdb
+sNn
 ail
 pBb
 pdb

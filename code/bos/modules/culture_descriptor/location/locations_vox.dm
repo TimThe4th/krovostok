@@ -1,42 +1,41 @@
 /decl/cultural_info/location/vox
 	name = HOME_SYSTEM_VOX_CAPITAL
-	description = "The Ark of the Starlight Herald is the capital ark of the Vox Fleets, its Apex the first to commune with the faithful and to rekindle activity from the stagnant centuries since the loss of the Auralis. \
-	It holds the most populous districts and over fifteen billion Vox at any given time, its fleet being the strongest and assembled of only the most skilled veterans of countless wars past. \
-	From the most sacred halls of the construct world the Archon commands, the leader of the military junta of ark admirals, an Armalis twice the size of their contemporaries, and who commands all Vox in their wisdom. \
-	It is the most holy of the arks, and all are expected to make regular pilgrimages to its blessed halls, temples found at nearly every corner of its polished halls. \
-	It is a great honor to both live and serve aboard the Ark of the Starlight Herald, and nearly all Vox aspire to this goal."
-	ruling_body = "the Apex"
+	description = "Ковчег Вестника Звездного Света – это ведущий ковчег флота Империи, Апекс этого мира один из первых, что пробудился после многовекового сна и снизошел до обычных воксов, вернув тем веру в живых Богов, что их создали. \
+	Пожалуй один из самых густонаселенных ковчегов, где число особей переходит за 15 миллиардов воксов, местный флот считается самым сильным и состоит и самых опытных ветеранов войн прошлого. \
+	В самом большом зале этого ковчега восседает Архонт – лидер военной хунты адмиралов ковчега, Армалис, что в два раза больше своих соплеменников, и который командует всеми Воксами Новой Империи. \
+	Это самый священный из ковчегов, который по праву стал также религиозной столицей, снабженная огромными храмами, что внутри себя содержат всю историю Древних. Как можно ожидать в этот ковчег регулярно совершаются паломничества, в надежде прикоснуться с остаткам некогда великой Империи Создателей. \
+	Помимо всего прочего, здесь также базируется и культ поклонения Кихикихи, что занимается изучением потустороннего и сокрытого от глаз обычного существа. \
+	Служить и жить на борту Ковчега Звездного Вестника Света, выполняя великий замысел Ауралис –большая честь, к которой стремится каждый вокс."
+	ruling_body = "Апекс"
 	distance = "multiple systems"
 	hidden_from_codex = TRUE
 
 /decl/cultural_info/location/vox/fortress
 	name = HOME_SYSTEM_VOX_FORTRESS
-	description = "The Ark of the Stalwart Guardian is a heavily fortified ark of the Vox Fleets, its Apex defensive in both its administration and its calculation of potential outcomes. \
-	Through their deliberation, the fleets have been assembled and armed, ancient fleet doctrine and training returning to the Vox from eons long past. \
-	While a place of warmth and home as all arks are, a certain pride and rigid nature is inherent to those serving the machinations of the Stalwart Guardian and the scarred ark admiral serving by their side, a hobbled primalis with two cracked eyes, who has dealt with many of the species of the galaxy before their appointment. \
-	At any given time, the population of this ark is about eight billion, and many return to its decks for retraining of skills long lost. \
-	The halls are clean, the artisans of its district centers collected and proper in the presentation of their creations to the general crew. \
-	All aboard the Ark of the Stalwart Guardian are expected to train diligently in combat, to maintain a ready state for whatever new fate the galaxy may cast."
+	description = "Ковчег Стойкого Стража – это хорошо укрепленный ковчег флота воксов, чей Апекс разработал прекрасный план и обороны и защиты этого мира. \
+	Благодаря этому флот использует обучение и доктрины давних эпох, что прекрасно показывают свою боеспособность при столкновениях с младшими расами. \
+	В то время как остальные ковчеги как правило являются свободными от каких-то военных доктрин, этот мир целиком и полностью стоит на военной дисциплине и порядке, за коим следит жесткий и справедливый Стойкий страж, Архонт с длинными и острыми словно бритва когтями и хромающий, ослепший на два глаза, адмирал ковчега, что имеет за своими плечами обширный список сражений в которых принимал участия. \
+	Примерное количество всего населения ковчега составляет около восьми миллиардов особей, где каждый день проходят тысяча тренировок. \
+	Ремесленники этого ковчега славятся своими оружейными навыками и поставляют для свей Империи свое оружие и броню. \
+	Что и следовало ожидать, многие на этом ковчеге почитают Критики, что позволило создать культу тут свою твердыню. Ежедневные тренировки до истощения, изучения тактики боя изготовление высококлассного оружия, закаляют местных жителей и готовят ко всему коварству галактики."
 
 /decl/cultural_info/location/vox/research
 	name = HOME_SYSTEM_VOX_RESEARCH
-	description = "The Ark of the Curious Acolyte is as all arks, led by the Apex it takes name from, the Curious Acolyte. \
-	This Apex is of the remaining quintet the most caught in its own machinations, diving ever deeper into personal research and directing their Ark Admiral to new archeo-tech digs from the ancient sites of industry and science it recalls in deep thought. \
-	The resident Ark Admiral is a Primalis with extensive augmentation, possessing their original body from first its cortical stack was activated, with ark-made legs, arms, and two of their three eyes replacing the original. \
-	Holding an average at most times of seven billion Vox, most research projects and archeological digs are conducted by this traveling world and its attached fleet, with an abnormal amount of research districts and the majority of ark-made prosthetics and rediscovered technology coming from its halls. \
-	Its fleet is known to conduct cooperative tech digs with outsiders on occasion."
+	description = "Ковчег Любопытного Послушника – как и все миры управляется Апексом, от которого и получил столь забавное название. \
+	Этот Апекс из-за сбоев внутри своей программы больше остальных запутался в протоколах к действию, и все глубже погружается в пучину изучения древних технологий истории и исчезновения Создателей, направляя своего адмирала ковчега на новые места археологический раскопок, где раньше находили древние промышленные и научные центры Ауралис. \
+	Обладая в среднем семью миллиардами особями на своем борту, большинство исследовательских проектов и археологических раскопок проводится именно этим ковчегом, чем и заслужил внимания культа Чакале, аколиты которого обосновали здесь свою твердыню, став также и научным центром в Империи."
 
 /decl/cultural_info/location/vox/processing
 	name = HOME_SYSTEM_VOX_PROCESSING
-	description = "The Ark of the Dutiful Blade is the processing center of most salvage and raw ore collected by the Vox Fleets, its population holding at any given time thirteen billion Vox, the second most populous of the artifact-worlds. \
-	Many honor this ark as the beating heart of Vox industry, which produces the vast majority of resources for itself and the rest as its many technicians repurpose and deconstruct what the fleets bring in, melting down scrap and ore for new materials. \
-	The Ark Admiral serving as the Dutiful Blades personal claw is an Armalis clad in the distinctive bronze salvage suits of its technicians, known for their perfected appraisal of alien tech and ability to find the most value possible from a pile of tangled debris. \
-	This Ark holds not just the majority of technicians, but has a notable amount of decks dedicated to a merchant sub-fleet, constantly departing with what the arks have no need for, and returning with holds full of supply."
+	description = "Ковчег Послушного Клинка – ковчег, что стал центром обработки большей части мусора, трофеев и руды, что собирает местный флот этого мира. Сам по себе огромен и занимается второе место по количеству обитателей, имея число в тринадцать миллиардов особей. \
+	Многие почитают этот ковчег как сердце всей Империи в отрасли промышленности. Данный мир производит подавляющие число ресурсов как для себя, так и остальных ковчегов, поскольку многочисленные техники мира перепрофилируют, трофеи, привезенные флотами, переплавляя их в металл или компоненты для получение новых материалов. \
+	Адмирал ковчега, служающий личным техником Послушного Клинка – это Армалис, одетый в отличительные для техников тяжелые костюмы бронзового цвета, прославился своими способностями к опознаванию техники чужих и находить применение для, на первый взгляд вокса, мусора. \
+	Этот ковчег вмещает в себе не только огромное количество фабрик и техников, но и огромное количество палуб, предназначенных, для торговых судов, которые постоянно отправляются с ненужными для ковчегов хламом, обменивая его на нужные для выживания припасы."
 
 /decl/cultural_info/location/vox/production
 	name = HOME_SYSTEM_VOX_PRODUCTION
-	description = "The Ark of the Vigilant Prophet is the heart of production among the relic-worlds, where great barges of ore, massive spools of wire, crates of biomass are fed to the hungry forges of the most calculating Apex, the Vigilant Prophet. \
-	Here the majority of newly forged starships take flight, and Quill-Captains make berths to unload that which they cannot use, and take what is needed for the long voyages away from the warmth of the home fleets. \
-	Biomatter, both the vacuum-sealed from Zeng-Hu laboratories to the raw flesh of slaughtered space carp, the scraps of exotic matter from abandoned foreign mines to entire space hulks drifting in the void, all feeds the ever gnawing heart of the Vigilant Prophets maw of industry. \
-	New biotech ships are born here, given life and sapience, and crews to make their new family-band. \
-	It is the largest shipyard of the Vox, much of the ark dedicated to general production and naval industry."
+	description = "Ковчег Бдительного Пророка – это сердце производства среди миров кораблей воксов, где в голодные кузницы ковчега поступает огромное количество, барж с килотоннами руды, потоки биомассы и других материлов, находясь под строгим надзором самого расчетливого Апекса, Бдительного Пророка. \
+	Именно здесь начинают свою жизнь недавно созданные живые звездолеты воксов, и Куиллы судов, совершают остановку, чтобы выгрузить все ненужное и снабдить свой драгоценный корабль оборудованием для новой миссии, вдали от тепла родного флота. \
+	Биоматерия из разграбленных лабораторий Хенг-Ху, сырая плоть недавно убитого космического карпа, микроорганизмы и целые космические руины и с подбитыми кораблями, дрейфящими в черной пустоте – все это вечно питает жерло кузни ковчега. \
+	Здесь рождаются и наделяются разумом биотехнологические корабли воксов, а также формируются семьи и команды воксов, для миссий вне границ Империи. \
+	Это крупнейшая верфь воксов, большая часть которой посвящена общему производству и военно-морской промышленности."

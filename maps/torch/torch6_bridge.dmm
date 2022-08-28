@@ -1193,6 +1193,9 @@
 /area/crew_quarters/heads/office/xo)
 "cp" = (
 /obj/structure/table/woodentable/walnut,
+/obj/structure/sign/booker{
+	pixel_y = -30
+	},
 /turf/simulated/floor/carpet,
 /area/crew_quarters/heads/office/xo)
 "cq" = (
@@ -2145,6 +2148,9 @@
 /obj/effect/floor_decal/industrial/outline/yellow,
 /obj/item/gun/energy/gun/secure,
 /obj/item/clothing/accessory/storage/holster/thigh,
+/obj/structure/sign/booker{
+	pixel_y = -30
+	},
 /turf/simulated/floor/tiled/monotile,
 /area/crew_quarters/heads/office/ce)
 "dM" = (
@@ -4068,9 +4074,9 @@
 	dir = 4;
 	icon_state = "techfloor_edges"
 	},
-/obj/machinery/light/small{
-	dir = 4;
-	icon_state = "bulb1"
+/obj/effect/floor_decal/industrial/outline/orange,
+/obj/machinery/sealgen{
+	dir = 8
 	},
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/hallway/primary/bridge/aft)
@@ -4632,6 +4638,7 @@
 	dir = 8;
 	icon_state = "techfloor_edges"
 	},
+/obj/machinery/light/small,
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/hallway/primary/bridge/aft)
 "jc" = (
@@ -5692,6 +5699,12 @@
 	},
 /turf/simulated/floor/plating,
 /area/security/bridgecheck)
+"mC" = (
+/obj/structure/sign/booker{
+	pixel_x = -30
+	},
+/turf/simulated/floor/wood/walnut,
+/area/crew_quarters/heads/office/co)
 "mE" = (
 /turf/simulated/wall/r_wall/prepainted,
 /area/crew_quarters/heads/office/cos)
@@ -5704,6 +5717,9 @@
 	pixel_y = -3
 	},
 /obj/effect/floor_decal/industrial/outline/grey,
+/obj/structure/sign/booker{
+	pixel_y = 30
+	},
 /turf/simulated/floor/tiled/dark/monotile,
 /area/crew_quarters/heads/office/cos)
 "mH" = (
@@ -5746,6 +5762,19 @@
 /obj/item/ammo_magazine/magnum/rubber,
 /obj/structure/closet/secure_closet/cos,
 /obj/item/gun/energy/gun/secure,
+/obj/item/clothing/suit/armor/shieldarmor/red,
+/obj/item/armorchargebattery/max,
+/obj/item/armorchargebattery/max,
+/obj/item/armorchargebattery/max,
+/obj/item/armorchargebattery/max,
+/obj/item/armorchargebattery,
+/obj/item/armorchargebattery,
+/obj/item/armorchargebattery,
+/obj/item/armorchargebattery,
+/obj/item/armorchargebattery,
+/obj/item/armorchargebattery,
+/obj/item/armorchargebattery,
+/obj/item/armorchargebattery,
 /turf/simulated/floor/tiled/dark/monotile,
 /area/crew_quarters/heads/office/cos)
 "mJ" = (
@@ -6812,6 +6841,9 @@
 /obj/machinery/atmospherics/unary/vent_scrubber/on{
 	dir = 1
 	},
+/obj/structure/sign/booker{
+	pixel_x = -30
+	},
 /turf/simulated/floor/tiled/white,
 /area/crew_quarters/heads/office/cmo)
 "pL" = (
@@ -7456,9 +7488,10 @@
 	dir = 4;
 	icon_state = "techfloor_edges"
 	},
-/obj/machinery/light/small{
-	dir = 4
+/obj/machinery/oxygen_pump{
+	pixel_x = 32
 	},
+/obj/machinery/light/small,
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/hallway/primary/bridge/aft)
 "rt" = (
@@ -8594,6 +8627,13 @@
 	},
 /turf/simulated/floor/wood/walnut,
 /area/crew_quarters/heads/office/co)
+"uE" = (
+/obj/effect/floor_decal/industrial/outline/orange,
+/obj/machinery/sealgen{
+	dir = 1
+	},
+/turf/simulated/floor/tiled/techfloor/grid,
+/area/maintenance/auxsolarbridge)
 "uG" = (
 /obj/structure/bed/chair/padded/blue,
 /turf/simulated/floor/tiled/dark,
@@ -9485,6 +9525,9 @@
 	name = "south bump";
 	pixel_y = -24
 	},
+/obj/machinery/oxygen_pump{
+	pixel_x = -32
+	},
 /turf/simulated/floor/plating,
 /area/maintenance/auxsolarbridge)
 "wU" = (
@@ -9568,12 +9611,13 @@
 	frequency = 1379;
 	id_tag = "bridge_eva_pump"
 	},
-/obj/machinery/oxygen_pump{
-	pixel_x = -32
-	},
 /obj/effect/floor_decal/techfloor{
 	dir = 8;
 	icon_state = "techfloor_edges"
+	},
+/obj/effect/floor_decal/industrial/outline/orange,
+/obj/machinery/sealgen{
+	dir = 4
 	},
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/hallway/primary/bridge/aft)
@@ -11764,6 +11808,9 @@
 /obj/machinery/computer/rdservercontrol{
 	dir = 4;
 	icon_state = "computer"
+	},
+/obj/structure/sign/booker{
+	pixel_x = -30
 	},
 /turf/simulated/floor/tiled/monotile,
 /area/crew_quarters/heads/office/rd)
@@ -15365,11 +15412,6 @@
 	frequency = 1379;
 	id_tag = "solar_bridge_pump"
 	},
-/obj/machinery/light/small,
-/obj/machinery/oxygen_pump{
-	pixel_x = 0;
-	pixel_y = -32
-	},
 /obj/machinery/embedded_controller/radio/airlock/airlock_controller{
 	frequency = 1379;
 	id_tag = "solar_bridge_airlock";
@@ -15391,6 +15433,9 @@
 /obj/effect/floor_decal/techfloor{
 	dir = 1;
 	icon_state = "techfloor_edges"
+	},
+/obj/machinery/light/small{
+	dir = 1
 	},
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/maintenance/auxsolarbridge)
@@ -24711,7 +24756,7 @@ RV
 Mz
 Yz
 LY
-Pt
+mC
 An
 uy
 Kq
@@ -33602,7 +33647,7 @@ on
 dV
 dV
 Tc
-dV
+uE
 dV
 ad
 ad
@@ -33805,7 +33850,7 @@ dV
 dV
 ws
 kW
-ad
+dV
 ad
 ad
 ad

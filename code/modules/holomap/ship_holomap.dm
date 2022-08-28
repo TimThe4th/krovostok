@@ -311,11 +311,14 @@
 		LAZYINITLIST(legend)
 		LAZYADD(legend, new /obj/screen/legend(null ,HOLOMAP_AREACOLOR_COMMAND, "■ Command"))
 		LAZYADD(legend, new /obj/screen/legend(null ,HOLOMAP_AREACOLOR_SECURITY, "■ Security"))
+		LAZYADD(legend, new /obj/screen/legend(null ,HOLOMAP_AREACOLOR_MARINES, "■ Marines")) //bos
 		LAZYADD(legend, new /obj/screen/legend(null ,HOLOMAP_AREACOLOR_MEDICAL, "■ Medical"))
 		LAZYADD(legend, new /obj/screen/legend(null ,HOLOMAP_AREACOLOR_SCIENCE, "■ Research"))
 		LAZYADD(legend, new /obj/screen/legend(null ,HOLOMAP_AREACOLOR_EXPLORATION, "■ Exploration"))
 		LAZYADD(legend, new /obj/screen/legend(null ,HOLOMAP_AREACOLOR_ENGINEERING, "■ Engineering"))
+		LAZYADD(legend, new /obj/screen/legend(null ,HOLOMAP_AREACOLOR_MAINT, "■ Maintenance")) //bos
 		LAZYADD(legend, new /obj/screen/legend(null ,HOLOMAP_AREACOLOR_CARGO, "■ Supply"))
+		LAZYADD(legend, new /obj/screen/legend(null ,HOLOMAP_AREACOLOR_GUNNERY, "■ Gunnery")) //bos
 		LAZYADD(legend, new /obj/screen/legend(null ,HOLOMAP_AREACOLOR_AIRLOCK, "■ Airlock"))
 		LAZYADD(legend, new /obj/screen/legend(null ,HOLOMAP_AREACOLOR_ESCAPE, "■ Escape"))
 		LAZYADD(legend, new /obj/screen/legend(null ,HOLOMAP_AREACOLOR_CREW, "■ Crew"))

@@ -22,3 +22,9 @@
 
 /obj/structure/sign/double/lordflag/right
 	icon_state = "lordflag-right"
+
+/obj/structure/sign/booker
+	name = "\improper Lord-Protector Boris Booker portrait"
+	desc = "Portrait of our bravest and smartest leader, Lord-Protector Boris Booker"
+	icon = 'maps/torch/bos/icons/obj/structures/kartini.dmi'
+	icon_state = "booker"

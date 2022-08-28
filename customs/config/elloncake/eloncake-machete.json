@@ -1,0 +1,6 @@
+{
+	"ckey": "Elloncake",
+	"character_name": "Zva'sel Vre'less",
+	"item_path": "/obj/item/material/hatchet/machete/unbreakable/elloncake",
+	"req_access" :      [ "ACCESS_TORCH_EXPLORER" ]
+}

@@ -1,24 +1,24 @@
 /decl/cultural_info/religion/codex
 	name = RELIGION_VOX_CODEX
-	description = "During the fall of the Auralis' grand federation, the risk of their collective knowledge being lost was high. \
-	However, of the Auralis who did all they could to preserve their technology, she did the most; having kept alive for the Vox the ways of biotechnology, \
-	and saving the five sacred arks from the calamity which destroyed all others. Those who follow Chakala believe the way forward for the Vox \
-	is the discovery of science both old and new. Their symbol is a golden trinity of eyes."
+	description = "Во время падения Империи Древних, риск потери их знаний был невозмутимо высок, что могло поставить точку в истории воксов. \
+	Однако, те немногие, что остались в живых, сделали все возможное для сохранения своих знаний, тем самым изготовив кортикальные узлы и подарив их своим сыновьям. \
+	И спася пять священных ковчегов от вечной темноты, они покинули детей своих. \
+	Следуя пути Мудрейшего Чакале, его аколиты верят, что будущее воксов - это изучение сокрытых песками времени древних знаний и изучение абсолютно нового, того, чего не знали сами Создатели. \
+	Символом этого культа - золотая троица глаз, символизирующая великое познание тайн прошлого, настоящего и совершенно нового."
 	hidden_from_codex = TRUE
 
 /decl/cultural_info/religion/guardian
 	name = RELIGION_VOX_GUARDIAN
-	description = "The Auralis are gone, this fact is not denied by the Vox in but one exceptional circumstance. \
-	Kihikihi the Watchful is debated to either protect their children from either this plane of reality or another. \
-	What is not debated, however, is the miraculous events he has performed to save his children. \
-	Some claim to have witnessed Kihikihi in their dying breaths, a comforting claw placed on their shoulder as their sleeve passed on. \
-	The symbol of Kihikihi is a lone feather, glowing bright blue."
+	description = "Ауралис исчезли, воксы не отрицают этот скорбный для их расы факт, кроме одного исключительного обстоятельства, покинули ли они мир полностью? \
+	Среди воксов обсуждается вопрос о том, что произошло с Великодушным Кихикихи и как именно он погиб. \
+	Многие кто наблюдал смерть последнего из великих, считает, что во время переноса сознания всех воксов в коркотикальные узлы, Кихикихи вел ментальную борьбу, защищая свои сыновей от злых сил извне. И даже после своей смерти, Кихикихи наблюдает за нами, готовый в любой момент снова встать на нашу защиту. \
+	Символ Кихикихи - одинокое перо, светящееся ярко-синим светом."
 	hidden_from_codex = TRUE
 
 /decl/cultural_info/religion/force
 	name = RELIGION_VOX_FORCE
-	description = "The Auralis responsible for the unification of the galaxy through both diplomatic might and application of military strength. \
-	Kritika was one of the fiercest warriors of the Auralis, and after the loss of their blade wing continued to serve with brilliance in both command and diplomacy. \
-	Those who follow Kritika ascribe to the belief that a true warrior is not just physically powerful, but clever. \
-	His symbol is an outstretched claw, talons wide and embossed over an open flame."
+	description = "Ауралис, что объединил под своим началом всю галактику с помощью дипломатической мощи, так и с помощью применения военной силы. \
+	Воинственный Критики был одним из самых свирепых войнов Ауралис и когда их Империя пала, продолжал доблестно служить как в командовании, так и в дипломатии. \
+	Среди воксов считается, что лик Критики является покровителем тактиков и войнов Новой Империи, ведь настоящий вокс не только физически силен, но и умен. \
+	Его символ – вытянутая когтистая лапа, на фоне огня."
 	hidden_from_codex = TRUE

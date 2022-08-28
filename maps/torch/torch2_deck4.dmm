@@ -507,14 +507,6 @@
 /turf/simulated/wall/titanium,
 /area/aquila/head)
 "by" = (
-/obj/machinery/shield_diffuser,
-/obj/machinery/door/airlock/external{
-	frequency = 1331;
-	icon_state = "closed";
-	id_tag = "nuke_shuttle_dock_outer";
-	locked = 1;
-	name = "Docking Port Airlock"
-	},
 /obj/machinery/access_button{
 	command = "cycle_exterior";
 	frequency = 1331;
@@ -524,7 +516,7 @@
 	pixel_y = -19;
 	req_access = list(list("ACCESS_EXTERNAL","ACCESS_TORCH_CREW"))
 	},
-/turf/simulated/floor,
+/turf/simulated/wall/r_wall/hull,
 /area/hallway/primary/fourthdeck/fore)
 "bz" = (
 /obj/effect/floor_decal/corner/brown,
@@ -1194,14 +1186,7 @@
 	pixel_x = -24;
 	pixel_y = 0
 	},
-/obj/machinery/light/small{
-	dir = 4
-	},
-/obj/item/device/radio/intercom{
-	dir = 8;
-	pixel_x = 21
-	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/tiled/techfloor/grid,
 /area/hallway/primary/fourthdeck/fore)
 "di" = (
 /obj/effect/paint/green,
@@ -3938,8 +3923,9 @@
 	d2 = 8;
 	icon_state = "2-8"
 	},
-/obj/machinery/atmospherics/pipe/simple/hidden/supply{
-	dir = 9
+/obj/machinery/atmospherics/pipe/simple/hidden/cyan{
+	dir = 9;
+	icon_state = "intact"
 	},
 /turf/simulated/floor/tiled/techfloor,
 /area/aquila/maintenance)
@@ -4505,7 +4491,7 @@
 /obj/machinery/oxygen_pump{
 	pixel_y = 32
 	},
-/turf/simulated/floor,
+/turf/simulated/floor/tiled/techfloor/grid,
 /area/hallway/primary/fourthdeck/fore)
 "ld" = (
 /obj/machinery/door/firedoor,
@@ -4832,6 +4818,13 @@
 	},
 /turf/simulated/floor/plating,
 /area/aquila/maintenance)
+"lT" = (
+/obj/item/device/radio/intercom{
+	dir = 4;
+	pixel_x = -21
+	},
+/turf/space,
+/area/space)
 "lU" = (
 /obj/structure/table/standard{
 	name = "plastic table frame"
@@ -5157,6 +5150,15 @@
 	},
 /turf/simulated/floor/airless,
 /area/aquila/maintenance)
+"mw" = (
+/obj/structure/window/phoronreinforced,
+/obj/effect/floor_decal/industrial/outline/orange,
+/obj/machinery/sealgen{
+	req_access = list("ACCESS_MARINES");
+	dir = 1
+	},
+/turf/simulated/floor/tiled/techfloor/grid,
+/area/security/marines)
 "my" = (
 /obj/structure/table/standard,
 /obj/effect/floor_decal/corner/mauve/half{
@@ -5318,7 +5320,7 @@
 /obj/machinery/light/small{
 	dir = 4
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/tiled/techfloor/grid,
 /area/hallway/primary/fourthdeck/aft)
 "mS" = (
 /obj/effect/floor_decal/corner/blue{
@@ -6911,7 +6913,7 @@
 /obj/structure/extinguisher_cabinet{
 	pixel_y = 32
 	},
-/turf/simulated/floor,
+/turf/simulated/floor/tiled/techfloor/grid,
 /area/hallway/primary/fourthdeck/fore)
 "qT" = (
 /obj/effect/floor_decal/industrial/warning{
@@ -6925,7 +6927,7 @@
 /obj/machinery/oxygen_pump{
 	pixel_y = 32
 	},
-/turf/simulated/floor,
+/turf/simulated/floor/tiled/techfloor/grid,
 /area/hallway/primary/fourthdeck/fore)
 "qV" = (
 /obj/effect/floor_decal/industrial/warning/corner{
@@ -7069,6 +7071,7 @@
 	icon_state = "corner_white"
 	},
 /obj/machinery/atmospherics/unary/vent_pump/on,
+/obj/machinery/ship_map,
 /turf/simulated/floor/tiled,
 /area/hallway/primary/fourthdeck/center)
 "rm" = (
@@ -7360,24 +7363,24 @@
 	dir = 8;
 	icon_state = "map"
 	},
-/turf/simulated/floor,
+/turf/simulated/floor/tiled/techfloor/grid,
 /area/hallway/primary/fourthdeck/fore)
 "sl" = (
 /obj/machinery/atmospherics/pipe/simple/hidden{
 	dir = 4
 	},
-/turf/simulated/floor,
+/turf/simulated/floor/tiled/techfloor/grid,
 /area/hallway/primary/fourthdeck/fore)
 "sm" = (
 /obj/machinery/atmospherics/pipe/manifold4w/hidden,
-/turf/simulated/floor,
+/turf/simulated/floor/tiled/techfloor/grid,
 /area/hallway/primary/fourthdeck/fore)
 "sn" = (
 /obj/effect/floor_decal/industrial/warning{
 	dir = 4
 	},
 /obj/machinery/atmospherics/pipe/manifold4w/hidden,
-/turf/simulated/floor,
+/turf/simulated/floor/tiled/techfloor/grid,
 /area/hallway/primary/fourthdeck/fore)
 "so" = (
 /obj/machinery/atmospherics/pipe/simple/hidden{
@@ -8149,17 +8152,21 @@
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/maintenance/fourthdeck/aftstarboard)
 "tG" = (
-/obj/effect/floor_decal/industrial/warning{
-	dir = 9;
-	icon_state = "warning"
-	},
 /obj/machinery/airlock_sensor{
 	frequency = 1380;
 	id_tag = "admin_shuttle_dock_sensor";
 	pixel_x = -30;
 	pixel_y = -8
 	},
-/turf/simulated/floor/plating,
+/obj/machinery/sealgen{
+	dir = 4
+	},
+/obj/effect/floor_decal/industrial/outline/orange,
+/obj/effect/floor_decal/industrial/warning{
+	dir = 9;
+	icon_state = "warning"
+	},
+/turf/simulated/floor/tiled/techfloor/grid,
 /area/hallway/primary/fourthdeck/aft)
 "tH" = (
 /obj/structure/bed/chair/shuttle/blue{
@@ -8233,7 +8240,7 @@
 /area/janitor/aux)
 "tO" = (
 /obj/effect/floor_decal/industrial/warning,
-/turf/simulated/floor,
+/turf/simulated/floor/tiled/techfloor/grid,
 /area/hallway/primary/fourthdeck/fore)
 "tP" = (
 /obj/effect/floor_decal/industrial/warning,
@@ -8242,7 +8249,7 @@
 	frequency = 1331;
 	id_tag = "nuke_shuttle_dock_pump"
 	},
-/turf/simulated/floor,
+/turf/simulated/floor/tiled/techfloor/grid,
 /area/hallway/primary/fourthdeck/fore)
 "tQ" = (
 /obj/structure/cable/cyan{
@@ -8261,7 +8268,7 @@
 	frequency = 1331;
 	id_tag = "nuke_shuttle_dock_pump"
 	},
-/turf/simulated/floor,
+/turf/simulated/floor/tiled/techfloor/grid,
 /area/hallway/primary/fourthdeck/fore)
 "tS" = (
 /obj/structure/cable/green{
@@ -8445,6 +8452,7 @@
 /obj/machinery/atmospherics/unary/vent_scrubber/on{
 	dir = 1
 	},
+/obj/machinery/light,
 /turf/simulated/floor/tiled,
 /area/hallway/primary/fourthdeck/center)
 "un" = (
@@ -9156,15 +9164,19 @@
 /turf/simulated/wall/titanium,
 /area/aquila/passenger)
 "vO" = (
-/obj/effect/floor_decal/industrial/warning{
-	dir = 10
-	},
 /obj/machinery/atmospherics/unary/vent_pump/high_volume{
 	dir = 1;
 	frequency = 1331;
 	id_tag = "nuke_shuttle_dock_pump"
 	},
-/turf/simulated/floor,
+/obj/effect/floor_decal/industrial/outline/orange,
+/obj/effect/floor_decal/industrial/warning{
+	dir = 10
+	},
+/obj/machinery/sealgen{
+	dir = 1
+	},
+/turf/simulated/floor/tiled/techfloor/grid,
 /area/hallway/primary/fourthdeck/fore)
 "vQ" = (
 /turf/simulated/wall/prepainted,
@@ -10996,7 +11008,7 @@
 	dir = 1;
 	icon_state = "warning"
 	},
-/turf/simulated/floor,
+/turf/simulated/floor/tiled/techfloor/grid,
 /area/hallway/primary/fourthdeck/fore)
 "Ar" = (
 /obj/effect/floor_decal/techfloor{
@@ -11058,6 +11070,11 @@
 	icon_state = "1-4"
 	},
 /obj/effect/floor_decal/techfloor,
+/obj/effect/floor_decal/industrial/outline/orange,
+/obj/machinery/sealgen{
+	req_access = list("ACCESS_MARINES");
+	dir = 1
+	},
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/aquila/airlock)
 "AB" = (
@@ -11641,6 +11658,13 @@
 	},
 /turf/simulated/floor/airless,
 /area/aquila/medical)
+"Ck" = (
+/obj/effect/floor_decal/corner/brown{
+	dir = 5
+	},
+/obj/machinery/ship_map,
+/turf/simulated/floor/tiled,
+/area/hallway/primary/fourthdeck/aft)
 "Cm" = (
 /turf/simulated/floor/shuttle_ceiling/torch/air,
 /area/quartermaster/hangar/top)
@@ -11681,10 +11705,6 @@
 	dir = 1
 	},
 /obj/effect/floor_decal/techfloor,
-/obj/item/device/radio/intercom/hailing{
-	dir = 1;
-	pixel_y = -28
-	},
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/security/marines)
 "Cr" = (
@@ -13220,14 +13240,11 @@
 /turf/simulated/floor/tiled/white/monotile,
 /area/maintenance/aux_med)
 "GG" = (
-/obj/machinery/door/airlock/external{
-	frequency = 1331;
-	icon_state = "closed";
-	id_tag = "nuke_shuttle_dock_inner";
-	locked = 1;
-	name = "Docking Port Airlock"
+/obj/effect/floor_decal/industrial/outline/orange,
+/obj/machinery/sealgen{
+	dir = 8
 	},
-/turf/simulated/floor/tiled/steel_ridged,
+/turf/simulated/floor/tiled/techfloor/grid,
 /area/hallway/primary/fourthdeck/fore)
 "GI" = (
 /obj/machinery/atmospherics/pipe/simple/hidden{
@@ -15219,7 +15236,7 @@
 	frequency = 1331;
 	id_tag = "nuke_shuttle_dock_pump"
 	},
-/turf/simulated/floor,
+/turf/simulated/floor/tiled/techfloor/grid,
 /area/hallway/primary/fourthdeck/fore)
 "Le" = (
 /obj/structure/cable/green{
@@ -15790,16 +15807,20 @@
 /turf/simulated/floor/tiled,
 /area/crew_quarters/commissary)
 "Ms" = (
-/obj/effect/floor_decal/industrial/warning{
-	dir = 10
-	},
 /obj/machinery/airlock_sensor{
 	frequency = 1331;
 	id_tag = "rescue_shuttle_dock_sensor";
 	pixel_x = -28;
 	pixel_y = 6
 	},
-/turf/simulated/floor/plating,
+/obj/machinery/sealgen{
+	dir = 4
+	},
+/obj/effect/floor_decal/industrial/outline/orange,
+/obj/effect/floor_decal/industrial/warning{
+	dir = 10
+	},
+/turf/simulated/floor/tiled/techfloor/grid,
 /area/hallway/primary/fourthdeck/aft)
 "Mt" = (
 /obj/structure/railing/mapped,
@@ -16895,6 +16916,13 @@
 /obj/structure/catwalk,
 /turf/simulated/floor/plating,
 /area/maintenance/fourthdeck/foreport)
+"ON" = (
+/obj/machinery/sealgen{
+	dir = 8
+	},
+/obj/effect/floor_decal/industrial/outline/orange,
+/turf/simulated/floor/tiled/techfloor/grid,
+/area/hallway/primary/fourthdeck/fore)
 "OO" = (
 /obj/structure/disposalpipe/segment{
 	dir = 4
@@ -17223,7 +17251,7 @@
 	frequency = 1331;
 	id_tag = "rescue_shuttle_dock_pump"
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/tiled/techfloor/grid,
 /area/hallway/primary/fourthdeck/aft)
 "Pz" = (
 /obj/structure/cable/green{
@@ -17403,16 +17431,6 @@
 /obj/machinery/portable_atmospherics/canister/carbon_dioxide/engine_setup,
 /turf/simulated/floor/tiled/techfloor,
 /area/aquila/maintenance)
-"PS" = (
-/obj/effect/floor_decal/corner/green/half{
-	dir = 1;
-	icon_state = "bordercolorhalf"
-	},
-/obj/machinery/light{
-	dir = 1
-	},
-/turf/simulated/floor/tiled/monotile,
-/area/hallway/primary/fourthdeck/center)
 "PT" = (
 /obj/machinery/atmospherics/unary/vent_scrubber/on,
 /turf/simulated/floor/tiled,
@@ -17813,7 +17831,7 @@
 /obj/effect/floor_decal/industrial/warning{
 	dir = 6
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/tiled/techfloor/grid,
 /area/hallway/primary/fourthdeck/aft)
 "QN" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
@@ -18126,6 +18144,30 @@
 	},
 /turf/simulated/floor/tiled,
 /area/hallway/primary/fourthdeck/fore)
+"Ru" = (
+/obj/structure/table/rack,
+/obj/item/clothing/suit/armor/shieldarmor/blue,
+/obj/item/clothing/suit/armor/shieldarmor/blue,
+/obj/item/clothing/suit/armor/shieldarmor/blue,
+/obj/item/clothing/suit/armor/shieldarmor/blue,
+/obj/item/armorchargebattery,
+/obj/item/armorchargebattery,
+/obj/item/armorchargebattery,
+/obj/item/armorchargebattery,
+/obj/item/armorchargebattery,
+/obj/item/armorchargebattery,
+/obj/item/armorchargebattery,
+/obj/item/armorchargebattery,
+/obj/item/armorchargebattery,
+/obj/item/armorchargebattery,
+/obj/item/armorchargebattery,
+/obj/item/armorchargebattery,
+/obj/item/armorchargebattery,
+/obj/item/armorchargebattery,
+/obj/item/armorchargebattery,
+/obj/item/armorchargebattery,
+/turf/simulated/floor/tiled/techfloor/grid,
+/area/security/marines/armory)
 "Rv" = (
 /obj/structure/closet/l3closet/janitor,
 /obj/effect/floor_decal/industrial/outline/grey,
@@ -18332,7 +18374,7 @@
 /obj/effect/floor_decal/industrial/warning{
 	dir = 10
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/tiled/techfloor/grid,
 /area/hallway/primary/fourthdeck/aft)
 "RS" = (
 /obj/structure/catwalk,
@@ -18457,6 +18499,9 @@
 /obj/machinery/photocopier/faxmachine{
 	department = "Gunnery Chief"
 	},
+/obj/structure/sign/booker{
+	pixel_x = 32
+	},
 /turf/simulated/floor/tiled/monotile,
 /area/quartermaster/deckchief)
 "Si" = (
@@ -18517,14 +18562,7 @@
 	pixel_x = -24;
 	pixel_y = 0
 	},
-/obj/machinery/light/small{
-	dir = 4
-	},
-/obj/item/device/radio/intercom{
-	dir = 8;
-	pixel_x = 21
-	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/tiled/techfloor/grid,
 /area/hallway/primary/fourthdeck/fore)
 "So" = (
 /obj/structure/catwalk,
@@ -18943,7 +18981,7 @@
 	dir = 8;
 	pixel_x = 21
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/tiled/techfloor/grid,
 /area/hallway/primary/fourthdeck/aft)
 "Tc" = (
 /obj/machinery/computer/ship/helm,
@@ -19823,7 +19861,7 @@
 	dir = 8;
 	pixel_x = 21
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/tiled/techfloor/grid,
 /area/hallway/primary/fourthdeck/aft)
 "UU" = (
 /obj/machinery/atmospherics/unary/vent_scrubber/on{
@@ -32352,7 +32390,7 @@ Dd
 HN
 GU
 so
-GG
+le
 jH
 tb
 le
@@ -34356,7 +34394,7 @@ aa
 aa
 aa
 Hw
-WZ
+ON
 WZ
 XD
 mK
@@ -34390,7 +34428,7 @@ WZ
 WZ
 WZ
 WZ
-WZ
+GG
 cv
 aa
 aa
@@ -34557,7 +34595,7 @@ aa
 aa
 aa
 aa
-aa
+PM
 PM
 PM
 XH
@@ -34591,9 +34629,9 @@ Hp
 DT
 DT
 DT
-aa
-aa
-aa
+WZ
+WZ
+WZ
 aa
 aa
 aa
@@ -34794,7 +34832,7 @@ DT
 DT
 aa
 aa
-aa
+lT
 aa
 aa
 aa
@@ -37198,7 +37236,7 @@ kl
 kl
 kl
 Fj
-PS
+rh
 XV
 Uq
 SD
@@ -43864,7 +43902,7 @@ YG
 Ro
 pi
 Xn
-TH
+Ck
 jW
 TT
 ai
@@ -50521,7 +50559,7 @@ aa
 aa
 aa
 Fp
-Fp
+Ru
 IQ
 fO
 El
@@ -51542,7 +51580,7 @@ aa
 aa
 va
 Cp
-va
+mw
 aa
 aa
 va

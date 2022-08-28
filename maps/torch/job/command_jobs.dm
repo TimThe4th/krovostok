@@ -397,8 +397,8 @@
 	title = "ICCG Guard"
 	department = "Support"
 	department_flag = SPT
-	total_positions = 1
-	spawn_positions = 1
+	total_positions = 2
+	spawn_positions = 2
 	supervisors = "the ICCG Representative"
 	selection_color = "#b00000"
 	economic_power = 12

@@ -20,7 +20,7 @@
 	description = "---."
 	suffixes = list("solship/solship.dmm")
 	shuttles_to_initialise = list(/datum/shuttle/autodock/overmap/exploration_shuttle/texas)
-	spawn_cost = 1
+	spawn_cost = 0.5
 
 /obj/effect/overmap/visitable/sector/solship_arrival
 	name = "Incoming Vessel Report"

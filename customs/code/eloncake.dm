@@ -15,3 +15,22 @@
 	w_class = ITEM_SIZE_TINY
 	accessory_icons = list(slot_w_uniform_str = 'customs/icons/mob/custom_items_mob.dmi', slot_wear_suit_str = 'customs/icons/mob/custom_items_mob.dmi')
 	icon_state = "britishranks"
+
+/obj/item/clothing/suit/storage/det_trench/ft/elloncake
+	name = "outcast cloak"
+	desc = "You certainly wouldn't wear it if you were loved"
+	valid_accessory_slots = list(ACCESSORY_SLOT_ARMBAND,ACCESSORY_SLOT_MEDAL,ACCESSORY_SLOT_INSIGNIA,ACCESSORY_SLOT_RANK,ACCESSORY_SLOT_DEPT)
+	icon = 'proxima/icons/obj/clothing/icon_suit.dmi'
+	icon_state = "outcast_cloak"
+	item_state = "outcast_cloak"
+	item_icons = list(slot_wear_suit_str = 'proxima/icons/mob/onmob/mob_suit.dmi')
+
+/obj/item/material/hatchet/machete/unbreakable/elloncake
+	name = "NanoTrasen short sword"
+	desc = "Literally an ancient artifact"
+	icon = 'customs/icons/obj/custom_items_obj.dmi'
+	icon_state = "ntsword"
+	item_state = "ntsword"
+	item_icons = list(
+		slot_l_hand_str = 'customs/icons/mob/custom_items_lhand.dmi',
+		slot_r_hand_str = 'customs/icons/mob/custom_items_rhand.dmi')

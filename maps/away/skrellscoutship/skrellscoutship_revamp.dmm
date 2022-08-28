@@ -113,7 +113,7 @@
 	frequency = 1331;
 	id_tag = "xil_dock_pump"
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/tiled/skrell,
 /area/ship/skrellscoutship/dock)
 "bm" = (
 /obj/machinery/atmospherics/pipe/simple/visible/universal{
@@ -2029,9 +2029,6 @@
 /turf/simulated/floor/tiled/skrell/orange,
 /area/ship/skrellscoutship/maintenance/atmos)
 "vR" = (
-/obj/machinery/light/skrell{
-	dir = 4
-	},
 /obj/machinery/atmospherics/unary/vent_pump/high_volume{
 	dir = 8;
 	frequency = 1331;
@@ -2042,6 +2039,10 @@
 	id_tag = "observatory_dock_sensor";
 	pixel_x = 24
 	},
+/obj/machinery/sealgen/away{
+	dir = 8
+	},
+/obj/effect/floor_decal/industrial/outline/orange,
 /turf/simulated/floor/tiled/skrell,
 /area/ship/skrellskoutship/observatory)
 "vV" = (
@@ -2095,9 +2096,17 @@
 	id_tag = "xil_air_pump"
 	},
 /obj/machinery/light/skrell{
-	dir = 8
+	dir = 1
 	},
-/turf/simulated/floor/plating,
+/obj/machinery/embedded_controller/radio/airlock/docking_port{
+	cycle_to_external_air = 1;
+	frequency = 1290;
+	id_tag = "xil_air";
+	pixel_x = -22;
+	req_access = list("ACCESS_SKRELLSCOUT");
+	tag_exterior_sensor = "xil_air_ext"
+	},
+/turf/simulated/floor/tiled/skrell,
 /area/ship/skrellscoutship/dock/alt)
 "wA" = (
 /obj/machinery/atmospherics/pipe/manifold4w/visible/cyan,
@@ -2213,7 +2222,7 @@
 /obj/machinery/light/skrell{
 	dir = 8
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/tiled/skrell,
 /area/ship/skrellscoutship/dock)
 "xE" = (
 /obj/effect/paint/black,
@@ -2232,29 +2241,27 @@
 	frequency = 1331;
 	id_tag = "xil_dock_pump_out_internal"
 	},
-/obj/machinery/airlock_sensor{
-	frequency = 1331;
-	id_tag = "xil_dock_sensor";
-	pixel_x = 24
-	},
 /obj/structure/cable{
 	d1 = 1;
 	d2 = 2;
 	icon_state = "1-2"
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/tiled/skrell,
 /area/ship/skrellscoutship/dock)
 "xP" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/black{
 	dir = 5
 	},
-/obj/effect/paint/black,
 /obj/structure/cable{
 	d1 = 2;
 	d2 = 4;
 	icon_state = "2-4"
 	},
-/turf/simulated/wall/r_titanium,
+/obj/machinery/sealgen/away{
+	dir = 8
+	},
+/obj/effect/floor_decal/industrial/outline/orange,
+/turf/simulated/floor/tiled/skrell,
 /area/ship/skrellscoutship/maintenance/power)
 "xT" = (
 /obj/effect/wallframe_spawn/reinforced_phoron,
@@ -2431,7 +2438,12 @@
 	d2 = 2;
 	icon_state = "1-2"
 	},
-/turf/simulated/floor/plating,
+/obj/machinery/airlock_sensor{
+	frequency = 1331;
+	id_tag = "xil_dock_sensor";
+	pixel_x = 24
+	},
+/turf/simulated/floor/tiled/skrell,
 /area/ship/skrellscoutship/dock)
 "zs" = (
 /obj/machinery/computer/ship/navigation/telescreen{
@@ -2455,8 +2467,11 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/black{
 	dir = 10
 	},
-/obj/effect/paint/black,
-/turf/simulated/wall/r_titanium,
+/obj/machinery/sealgen/away{
+	dir = 4
+	},
+/obj/effect/floor_decal/industrial/outline/orange,
+/turf/simulated/floor/tiled/skrell,
 /area/ship/skrellscoutship/dock/alt)
 "zK" = (
 /obj/effect/floor_decal/industrial/outline/yellow,
@@ -3445,7 +3460,12 @@
 	frequency = 1290;
 	id_tag = "xil_air_pump"
 	},
-/turf/simulated/floor/plating,
+/obj/machinery/airlock_sensor{
+	frequency = 1290;
+	id_tag = "xil_air_sensor";
+	pixel_x = 24
+	},
+/turf/simulated/floor/tiled/skrell,
 /area/ship/skrellscoutship/dock/alt)
 "Ia" = (
 /obj/machinery/light/skrell{
@@ -4087,31 +4107,23 @@
 /turf/simulated/floor/carpet/purple,
 /area/ship/skrellskoutship/observatory)
 "Om" = (
-/obj/machinery/embedded_controller/radio/airlock/docking_port{
-	cycle_to_external_air = 1;
-	frequency = 1290;
-	id_tag = "xil_air";
-	pixel_x = -22;
-	req_access = list("ACCESS_SKRELLSCOUT");
-	tag_exterior_sensor = "xil_air_ext"
-	},
 /obj/machinery/atmospherics/unary/vent_pump/high_volume{
-	frequency = 1290;
-	id_tag = "xil_air_pump_out_internal"
+	dir = 4;
+	frequency = 1331;
+	id_tag = "observatory_dock_pump"
 	},
-/turf/simulated/floor/plating,
-/area/ship/skrellscoutship/dock/alt)
+/obj/machinery/sealgen/away{
+	dir = 8
+	},
+/obj/effect/floor_decal/industrial/outline/orange,
+/turf/simulated/floor/tiled/skrell,
+/area/ship/skrellskoutship/observatory)
 "On" = (
 /obj/machinery/atmospherics/unary/vent_pump/high_volume{
 	frequency = 1290;
 	id_tag = "xil_air_pump_out_internal"
 	},
-/obj/machinery/airlock_sensor{
-	frequency = 1290;
-	id_tag = "xil_air_sensor";
-	pixel_x = 24
-	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/tiled/skrell,
 /area/ship/skrellscoutship/dock/alt)
 "Op" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/black{
@@ -4677,8 +4689,11 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/black{
 	dir = 9
 	},
-/obj/effect/paint/black,
-/turf/simulated/wall/r_titanium,
+/obj/machinery/sealgen/away{
+	dir = 4
+	},
+/obj/effect/floor_decal/industrial/outline/orange,
+/turf/simulated/floor/tiled/techfloor/grid,
 /area/ship/skrellscoutship/dock)
 "Tg" = (
 /obj/machinery/ion_engine{
@@ -5220,8 +5235,11 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/black{
 	dir = 6
 	},
-/obj/effect/paint/black,
-/turf/simulated/wall/r_titanium,
+/obj/machinery/sealgen/away{
+	dir = 8
+	},
+/obj/effect/floor_decal/industrial/outline/orange,
+/turf/simulated/floor/tiled/skrell,
 /area/ship/skrellscoutship/maintenance/atmos)
 "XO" = (
 /turf/simulated/floor/tiled/skrell/white,
@@ -11508,7 +11526,7 @@ pC
 UU
 FV
 Eu
-FV
+Om
 UU
 NI
 Tf
@@ -11631,7 +11649,7 @@ vu
 zM
 Vf
 wz
-Om
+On
 Yc
 Tb
 Tb

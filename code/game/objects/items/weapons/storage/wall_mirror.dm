@@ -20,7 +20,7 @@
 	)
 	var/shattered = FALSE
 	var/list/ui_cache
-
+/*
 	/// Visual object for handling the viscontents
 	var/obj/effect/reflection/reflection = null
 	vis_flags = VIS_HIDE
@@ -29,12 +29,12 @@
 	if(istype(reflection))
 		reflection.forceMove(loc)
 		reflection.update_mirror_filters() //Mirrors shouldnt move but if they do so should reflection
-
+*/
 /obj/item/storage/mirror/Destroy()
 	clear_mirror_ui_cache(ui_cache)
-	QDEL_NULL(reflection)
-	GLOB.moved_event.unregister(src, src, .proc/on_moved)
 	. = ..()
+/*	QDEL_NULL(reflection)
+	GLOB.moved_event.unregister(src, src, .proc/on_moved)
 
 /obj/item/storage/mirror/Initialize()
 	. = ..()
@@ -46,13 +46,13 @@
 	if(istype(reflection))
 		reflection.alpha = 0
 		addtimer(CALLBACK(reflection, /obj/effect/reflection/.proc/reset_alpha), 15, TIMER_CLIENT_TIME | TIMER_UNIQUE | TIMER_OVERRIDE)
-
+*/
 /obj/item/storage/mirror/MouseDrop(obj/over)
 	. = ..()
 	if (!.)
 		return
 	flick("mirror_open", src)
-	on_flick()
+//	on_flick()
 
 /obj/item/storage/mirror/attack_hand(mob/living/carbon/human/user)
 	if (shattered)
@@ -69,9 +69,9 @@
 	playsound(src, "shatter", 70, 1)
 	desc = "Oh no, seven years of bad luck!"
 
-	if(istype(reflection))
+/*	if(istype(reflection))
 		reflection.alpha_icon_state = "mirror_mask_broken"
-		reflection.update_mirror_filters()
+		reflection.update_mirror_filters() */
 
 /obj/item/storage/mirror/bullet_act(obj/item/projectile/P)
 	if (prob(P.get_structure_damage() * 2))
@@ -79,18 +79,18 @@
 	..()
 
 /obj/item/storage/mirror/attackby(obj/item/I, mob/user)
-	if (prob(I.force) && user.a_intent == I_HURT)
+/*	if (prob(I.force) && user.a_intent == I_HURT)
 		user.visible_message(
 			SPAN_WARNING("\The [user] smashes \the [src] with \the [I]!"),
 			SPAN_WARNING("You smash \the [src] with \the [I]!")
 		)
 		shatter()
-		return TRUE
+		return TRUE */
 	. = ..()
 	if (!.)
 		return
 	flick("mirror_open", src)
-	on_flick()
+//	on_flick()
 
 /obj/item/mirror
 	name = "mirror"
@@ -123,7 +123,7 @@
 		var/changer = ui_cache[W]
 		qdel(changer)
 	LAZYCLEARLIST(ui_cache)
-
+/*
 /obj/effect/reflection
 	name = "reflection"
 	appearance_flags = KEEP_TOGETHER|TILE_BOUND|PIXEL_SCALE
@@ -183,3 +183,4 @@
 	filters += filter("type" = "alpha", "icon" = icon(alpha_icon, alpha_icon_state), "x" = 0, "y" = additional_y_offset)
 
 	vis_contents += get_turf(mirror)
+*/

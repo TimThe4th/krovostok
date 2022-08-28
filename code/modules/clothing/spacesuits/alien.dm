@@ -113,16 +113,24 @@
 /obj/item/clothing/under/vox
 	has_sensor = 0
 	species_restricted = list(SPECIES_VOX, SPECIES_VOX_ARMALIS)
+	armor = list(
+		melee = ARMOR_MELEE_SMALL,
+		bullet = ARMOR_BALLISTIC_MINOR,
+		laser = ARMOR_LASER_MINOR
+		)
 
 /obj/item/clothing/under/vox/vox_casual
-	name = "alien clothing"
+	name = "alien medical clothing"
 	desc = "This doesn't look very comfortable."
 	icon_state = "vox-casual-1"
 	item_state = "vox-casual-1"
-	body_parts_covered = LEGS
+	armor = list(
+		melee = ARMOR_MELEE_MINOR,
+		bio = ARMOR_BIO_RESISTANT
+		)
 
 /obj/item/clothing/under/vox/vox_robes
-	name = "alien robes"
+	name = "alien combat robe"
 	desc = "Weird and flowing!"
 	icon_state = "vox-casual-2"
 	item_state = "vox-casual-2"

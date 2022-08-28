@@ -1,9 +1,9 @@
 #include "armsfactory_jobs.dm"
 
 /datum/map_template/ruin/exoplanet/armsfactory
-	name = "LRA Arms Factory"
+	name = "LPA Arms Factory"
 	id = "armsfactory"
-	description = "Завод - один из подпольных объектов Республиканской Армии, а вы - гордые мятежники."
+	description = "Завод - один из подпольных объектов Ассоциации Патриотов, а вы - гордые мятежники."
 	suffixes = list("armsfactory/armsfactory.dmm")
 	spawn_cost = 0.5
 	template_flags = TEMPLATE_FLAG_CLEAR_CONTENTS | TEMPLATE_FLAG_NO_RUINS | TEMPLATE_FLAG_NO_RADS
@@ -13,11 +13,11 @@
 	)
 
 /decl/submap_archetype/armsfactory
-	descriptor = "LRA Arms Factory"
+	descriptor = "LPA Arms Factory"
 	crew_jobs = list(/datum/job/submap/armsfactory_loyalengi, /datum/job/submap/armsfactory_loyalguard)
 
 /obj/effect/submap_landmark/joinable_submap/armsfactory
-	name = "LRA Arms Factory"
+	name = "LPA Arms Factory"
 	archetype = /decl/submap_archetype/armsfactory
 
 // Areas //
@@ -91,7 +91,7 @@
 	info = {"
 	<center><b>ПАМЯТКА</b></center>
 	<hr>
-	Завод - один из подпольных объектов Республиканской Армии, а вы - гордые мятежники, которые вносят свою лепту в дело свержения военной хунты, которая захватила власть в великой Лордании.<br>
+	Завод - один из подпольных объектов Ассоциации Патриотов, а вы - гордые мятежники, которые вносят свою лепту в дело свержения военной хунты, которая захватила власть в великой Лордании.<br>
 	Ведите дело тихо, минимально привлекая внимание к себе, от этого будет зависеть судьба самой Республики и будущее всей Лордании.<br>
 	Весточки из Центра говорят о том, что в нашем секторе может возобновить свою деятельность флот Суверенников, но не следует ожидать того, что остальные, такие как богопротивные лягушачьи лапки, паскудные петухи-клептоманы или жуки-говноеды, резко уснут.<br>
 	Возможно вы посчитаете продажу оружия врагам наших врагов хорошей идеей для спонсирования революции - не гнушайтесь.<br>

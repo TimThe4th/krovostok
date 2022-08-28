@@ -163,7 +163,32 @@
 
 // Vox clothing
 /datum/gear/vox_mask
-	display_name = "vox breathing mask"
+	display_name = "vox breathing mask(Vox)"
 	path = /obj/item/clothing/mask/gas/vox
+	sort_category = "Xenowear"
+	whitelisted = list(SPECIES_VOX, SPECIES_VOX_ARMALIS)
+
+/datum/gear/vox_uniformciv
+	display_name = "vox civilian uniform(Vox)"
+	path = /obj/item/clothing/under/vox/vox_casual
+	sort_category = "Xenowear"
+	whitelisted = list(SPECIES_VOX, SPECIES_VOX_ARMALIS)
+
+/datum/gear/vox_gloves
+	display_name = "vox gauntlets(Vox)"
+	path = /obj/item/clothing/gloves/vox
+	sort_category = "Xenowear"
+	whitelisted = list(SPECIES_VOX, SPECIES_VOX_ARMALIS)
+	cost = 3
+
+/datum/gear/vox_labcoat
+	display_name = "vox biotechnician labcoat(Vox)"
+	path = /obj/item/clothing/suit/storage/vox
+	sort_category = "Xenowear"
+	whitelisted = list(SPECIES_VOX, SPECIES_VOX_ARMALIS)
+
+/datum/gear/vox_jaw
+	display_name = "vox chitin jaw(Vox)"
+	path = /obj/item/clothing/head/helmet/vox/jaw
 	sort_category = "Xenowear"
 	whitelisted = list(SPECIES_VOX, SPECIES_VOX_ARMALIS)

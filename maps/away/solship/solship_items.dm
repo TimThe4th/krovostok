@@ -10,7 +10,7 @@
 
 /obj/item/card/id/solship/engineer
 	desc = "An identification card issued to SolGov crewmembers."
-	access = list(access_away_solship_main, access_away_solship_eng)
+	access = list(access_away_solship_main, access_away_solship_eng, access_engine_equip)
 
 /obj/item/card/id/solship/medic
 	desc = "An identification card issued to SolGov crewmembers."

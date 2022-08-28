@@ -675,6 +675,7 @@
 	desc = "It looks like it was tailored for a monkey."
 	icon_state = "punpun"
 	worn_state = "punpun"
+	item_icons = list(slot_w_uniform_str = 'icons/mob/species/monkey/onmob_under_monkey.dmi') //bos
 	species_restricted = list(SPECIES_MONKEY)
 	sprite_sheets = list("Monkey" = 'icons/mob/species/monkey/onmob_under_monkey.dmi')
 

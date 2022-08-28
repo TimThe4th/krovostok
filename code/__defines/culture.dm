@@ -34,7 +34,7 @@
 #define FACTION_LARMARINES		"Marine Corps"
 #define FACTION_KGB				"Galactic Security Corps"
 
-#define FACTION_LRA				"Republic Army"
+#define FACTION_LRA				"Patriot Association"
 #define FACTION_SYNDI			"Syndicate"
 #define FACTION_NONE			"Independent"
 

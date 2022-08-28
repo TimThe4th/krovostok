@@ -10,18 +10,18 @@
 	id = "awaysite_voxship"
 	description = "Vox ship."
 	suffixes = list("voxship/voxship-1.dmm","voxship/voxship-2.dmm")
-	spawn_cost = 1.5 //was 0.5
+	spawn_cost = 0.7 //was 0.5
 	shuttles_to_initialise = list(/datum/shuttle/autodock/overmap/vox_shuttle)
 	area_usage_test_exempted_root_areas = list(/area/voxship)
 	area_coherency_test_subarea_count = list(
-		/area/voxship/armory = 17
+		/area/voxship/armory = 20
 	)
 
 /obj/effect/overmap/visitable/ship/voxship
 	name = "Unkown ship type"
 	desc = "An unkown ship type, seemingly corvette to frigate in size made out of a unkown type of metal.\
 	Organic signature detected."
-	vessel_mass = 10000 //Heavy due to all the THICC metal surrounding it.
+	vessel_mass = 6400 //Heavy due to all the THICC metal surrounding it.
 	fore_dir = WEST
 	burn_delay = 2 SECONDS //Now more manoeuvrable due to the less mass
 
@@ -96,13 +96,16 @@
 	descriptor = "Shoal forward base"
 	map = "Vox Ship"
 	crew_jobs = list(
+		/datum/job/submap/voxship_human,
 		/datum/job/submap/voxship_vox,
 		/datum/job/submap/voxship_vox/armalis,
 		/datum/job/submap/voxship_vox/doc,
 		/datum/job/submap/voxship_vox/engineer,
+		/datum/job/submap/voxship_vox/breacher,
+		/datum/job/submap/voxship_vox/inq,
 		/datum/job/submap/voxship_vox/quill
 	)
-	whitelisted_species = list(SPECIES_VOX, SPECIES_VOX_ARMALIS)
+	whitelisted_species = list(SPECIES_VOX, SPECIES_VOX_ARMALIS, SPECIES_HUMAN, SPECIES_DIONA, SPECIES_IPC, SPECIES_SKRELL, SPECIES_TAJ, SPECIES_ADHERENT, SPECIES_UNATHI, SPECIES_YEOSA)
 	blacklisted_species = null
 	call_webhook = WEBHOOK_SUBMAP_LOADED_VOX
 

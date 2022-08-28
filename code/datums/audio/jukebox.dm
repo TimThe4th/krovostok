@@ -150,11 +150,16 @@
 
 
 GLOBAL_LIST_INIT(jukebox_tracks, list(
-	/decl/audio/track/rain, //bos
-	/decl/audio/track/endoftheworld, //bos
-	/decl/audio/track/startthefire, // bos
-	/decl/audio/track/solandterra, //bos
-	/decl/audio/track/comeyouknights, //bos
+	/decl/audio/track/kabak, //bos starts
+	/decl/audio/track/drunkensailor,
+	/decl/audio/track/rain,
+	/decl/audio/track/endoftheworld,
+	/decl/audio/track/killallxenos,
+	/decl/audio/track/zvyozdnoegestapo,
+	/decl/audio/track/vinteresah,
+	/decl/audio/track/startthefire,
+	/decl/audio/track/solandterra,
+	/decl/audio/track/comeyouknights, //bos ends
 	/decl/audio/track/absconditus,
 	/decl/audio/track/ambispace,
 	/decl/audio/track/as_far_as_it_gets,
@@ -185,7 +190,6 @@ GLOBAL_LIST_INIT(jukebox_tracks, list(
 	/decl/audio/track/rimward_cruise,
 	/decl/audio/track/space_oddity,
 	/decl/audio/track/thunderdome,
-	/decl/audio/track/torch,
 	/decl/audio/track/torn,
 	/decl/audio/track/treacherous_voyage,
 	/decl/audio/track/voidsent,
