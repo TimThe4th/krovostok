@@ -1,7 +1,7 @@
 /datum/map/mjolnir
 
-	base_floor_type = /turf/simulated/floor/reinforced/airless
-	base_floor_area = /area/maintenance/exterior
+	base_floor_type = /turf/simulated/floor
+	base_floor_area = /area/mjolnir/outer
 
 	post_round_safe_areas = list (
 		/area/centcom,
@@ -14,6 +14,125 @@
 		/area/shuttle/administration/centcom,
 		/area/shuttle/specops/centcom,
 	)
+
+///
+//MJOLNIR OUTER
+///
+/area/mjolnir
+	name = "\improper Default Area"
+	icon = 'maps/mjolnir/icons/areas.dmi'
+	icon_state = "error"
+
+/area/mjolnir/outer
+	name = "\improper Outdoors"
+	icon_state = "outdoor"
+
+/area/mjolnir/jungle
+	name = "\improper Jungle"
+
+/////
+//MJOLNIR
+///
+
+///
+//CRYOCENTER
+//
+
+/area/mjolnir/cryocenter
+	name = "\improper Cryocenter"
+	icon_state = "cryo"
+
+/area/mjolnir/cryocenter/cryostor
+	name = "\improper Cryogenic Storage"
+	icon_state = "cryostor"
+
+/area/mjolnir/cryocenter/dorms
+	name = "\improper Dormitory"
+
+/area/mjolnir/cryocenter/locker
+	name = "\improper Locker Room"
+
+////
+//MILITIA (sec)
+///
+
+/area/mjolnir/militia
+	name = "\improper Militia"
+	icon_state = "militia"
+
+/area/mjolnir/militia/garrison
+	name = "\improper Garrison"
+	icon_state = "garrison"
+
+////
+//HOSPITAL (med)
+//
+
+/area/mjolnir/hospital
+	name = "\improper Militia"
+	icon_state = "militia"
+
+////
+//MECHANICS (engi)
+//
+
+/area/mjolnir/mechanics
+	name = "\improper Mechanics"
+	icon_state = "mechanics"
+
+////
+//RESEARCH (rnd)
+//
+
+/area/mjolnir/rnd
+	name = "\improper Researchers"
+	icon_state = "rnd"
+
+////
+//CIVILIAN
+//
+
+/area/mjolnir/civ
+	name = "\improper Civilian"
+	icon_state = "civ"
+
+////
+//DEPOT
+//
+
+/area/mjolnir/depot
+	name = "\improper Depot"
+	icon_state = "depot"
+
+////
+//MERCHANT (cargo)
+//
+
+/area/mjolnir/merch
+	name = "\improper Merchant"
+	icon_state = "merch"
+
+////
+//COMMANDO (inf)
+//
+
+/area/mjolnir/commando
+	name = "\improper Commando"
+	icon_state = "commando"
+
+////
+//COMMAND (com)
+//
+
+/area/mjolnir/com
+	name = "\improper Command"
+	icon_state = "com"
+
+
+
+////
+//TORCH - DELETE THIS LATER
+///
 
 //Fifth Deck (Z-0)
 /area/hallway/primary/fifthdeck/fore
