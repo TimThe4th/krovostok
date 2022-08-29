@@ -69,8 +69,8 @@
 //
 
 /area/mjolnir/hospital
-	name = "\improper Militia"
-	icon_state = "militia"
+	name = "\improper Hospital"
+	icon_state = "hospital"
 
 ////
 //MECHANICS (engi)
