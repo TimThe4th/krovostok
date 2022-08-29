@@ -27,6 +27,10 @@
 	name = "\improper Outdoors"
 	icon_state = "outdoor"
 
+/area/mjolnir/outer/back
+	name = "\improper Backyard"
+	icon_state = "back"
+
 /area/mjolnir/jungle
 	name = "\improper Jungle"
 
@@ -47,10 +51,19 @@
 	icon_state = "cryostor"
 
 /area/mjolnir/cryocenter/dorms
-	name = "\improper Dormitory"
+	name = "\improper Cryocenter - Dormitory 1"
+
+/area/mjolnir/cryocenter/dorms/two
+	name = "\improper Cryocente - Dormitory 2"
+
+/area/mjolnir/cryocenter/dorms/three
+	name = "\improper Cryocenter - Dormitory 3"
 
 /area/mjolnir/cryocenter/locker
 	name = "\improper Locker Room"
+
+/area/mjolnir/cryocenter/toilet
+	name = "\improper Cryocenter - Toilet"
 
 ////
 //MILITIA (sec)
@@ -72,6 +85,28 @@
 	name = "\improper Hospital"
 	icon_state = "hospital"
 
+/area/mjolnir/hospital/virology
+	name = "\improper Virology"
+	icon_state = "vir"
+
+/area/mjolnir/patient
+	name = "\improper Patient Room"
+
+/area/mjolnir/morgue
+	name = "\improper Morgue"
+
+/area/mjolnir/hospital/reception
+	name = "\improper Hospital - Reception"
+
+/area/mjolnir/hospital/etc
+	name = "\improper Hospital - Emergency Treatment Center"
+
+/area/mjolnir/hospital/surgery
+	name = "\improper Hospital - Surgery"
+
+/area/mjolnir/hospital/equip
+	name = "\improper Hospital - Equipment Storage"
+
 ////
 //MECHANICS (engi)
 //
@@ -79,6 +114,9 @@
 /area/mjolnir/mechanics
 	name = "\improper Mechanics"
 	icon_state = "mechanics"
+
+/area/mjolnir/mechanics/home
+	name = "\improper Mechanics - Home"
 
 ////
 //RESEARCH (rnd)
@@ -96,8 +134,40 @@
 	name = "\improper Civilian"
 	icon_state = "civ"
 
+/area/mjolnir/civ/bar
+	name = "\improper Bar"
+	icon_state = "bar"
+
+/area/mjolnir/civ/bar/toilet
+	name = "\improper Bar - Toilet"
+
+/area/mjolnir/civ/can
+	name = "\improper Canteen"
+	icon_state = "canteen"
+
+/area/mjolnir/civ/can/kitchen
+	name = "\improper Canteen - Kitchen"
+
+/area/mjolnir/civ/can/freezer
+	name = "\improper Canteen - Freezer"
+
+/area/mjolnir/civ/chapel
+	name = "\improper Chapel"
+	icon_state = "chap"
+
+/area/mjolnir/civ/home_chap
+	name = "\improper Chaplain - Home"
+
+/area/mjolnir/civ/home_bar
+	name = "\improper Bartender - Home"
+
+/area/mjolnir/civ/home_chef
+	name = "\improper Chef - Home"
+
+
+
 ////
-//DEPOT
+//DEPOT (cargo)
 //
 
 /area/mjolnir/depot
@@ -105,12 +175,19 @@
 	icon_state = "depot"
 
 ////
-//MERCHANT (cargo)
+//MERCHANT (gypsies)
 //
 
 /area/mjolnir/merch
 	name = "\improper Merchant"
 	icon_state = "merch"
+
+/area/mjolnir/merch/bazaar
+	name = "\improper Bazaar"
+	icon_state = "baz"
+
+/area/mjolnir/merch/home
+	name = "\improper Merchant - Home"
 
 ////
 //COMMANDO (inf)
@@ -127,6 +204,10 @@
 /area/mjolnir/com
 	name = "\improper Command"
 	icon_state = "com"
+
+/area/mjolnir/com/iccg
+	name = "\improper Command - ICCG"
+	icon_state = "iccg"
 
 
 
