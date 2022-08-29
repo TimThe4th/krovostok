@@ -89,10 +89,10 @@
 	name = "\improper Virology"
 	icon_state = "vir"
 
-/area/mjolnir/patient
+/area/mjolnir/hospital/patient
 	name = "\improper Patient Room"
 
-/area/mjolnir/morgue
+/area/mjolnir/hospital/morgue
 	name = "\improper Morgue"
 
 /area/mjolnir/hospital/reception
