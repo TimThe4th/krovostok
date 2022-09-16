@@ -1,7 +1,7 @@
 #if !defined(using_map_DATUM)
 
 	#include "mjolnir_announcements.dm"
-	#include "mjolnir_antagonism.dm"
+//	#include "mjolnir_antagonism.dm"
 	#include "mjolnir_areas.dm"
 	#include "mjolnir_define.dm"
 	#include "mjolnir_elevator.dm"
@@ -116,17 +116,18 @@
 
 	#include "items/weapon/storage/wallets.dm"
 
-	#include "job/mjolnir_departments.dm"
-	#include "job/mjolnir_access.dm"
-	#include "job/mjolnir_jobs.dm"
 	#include "job/command_jobs.dm"
+	#include "job/commando_jobs.dm"
+	#include "job/depot_jobs.dm"
 	#include "job/engineering_jobs.dm"
+	#include "job/hunter_jobs.dm"
 	#include "job/medical_jobs.dm"
 	#include "job/misc_jobs.dm"
+	#include "job/mjolnir_access.dm"
+	#include "job/mjolnir_departments.dm"
+	#include "job/mjolnir_jobs.dm"
 	#include "job/security_jobs.dm"
-	#include "job/marine_jobs.dm"
-	#include "job/aux_jobs.dm"
-	#include "job/research_jobs.dm"
+	#include "job/service_jobs.dm"
 
 	#include "job/outfits/mjolnir_outfits.dm"
 	#include "job/outfits/command_outfits.dm"
@@ -163,7 +164,7 @@
 	#include "structures/closets/services.dm"
 	#include "structures/closets/supply.dm"
 	#include "structures/closets/exploration.dm"
-
+/*
 	#include "loadout/_defines.dm"
 	#include "loadout/loadout_accessories.dm"
 	#include "loadout/loadout_accessories_boh.dm"
@@ -181,7 +182,7 @@
 	#include "loadout/loadout_sikits.dm"
 	#include "loadout/loadout_military.dm"
 	#include "loadout/~defines.dm"
-
+*/
 	#include "mjolnir_under.dmm"
 	#include "mjolnir_surface.dmm"
 	#include "mjolnir_upper.dmm"

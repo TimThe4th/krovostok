@@ -8,7 +8,7 @@
 	suit = /obj/item/clothing/suit/storage/toggle/brown_jacket/nanotrasen
 	shoes = /obj/item/clothing/shoes/workboots
 	l_ear = /obj/item/device/radio/headset/headset_pilot
-	id_types= list(/obj/item/card/id/torch/passenger/research/nt_pilot)
+//	id_types= list(/obj/item/card/id/torch/passenger/research/nt_pilot)
 
 /decl/hierarchy/outfit/job/torch/crew/research/scientist
 	name = OUTFIT_JOB_NAME("Scientist - Antares")

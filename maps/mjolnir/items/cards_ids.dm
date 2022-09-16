@@ -23,7 +23,7 @@
 /obj/item/card/id/torch/crew
 	desc = "An identification card issued to crewmembers aboard the LRS Antares."
 	color = "#d3e3e1"
-	job_access_type = /datum/job/crew
+	job_access_type = /datum/job/assistant
 	color = "#ccecff"
 
 
@@ -41,18 +41,18 @@
 	job_access_type = /datum/job/doctor
 	detail_color = COLOR_PALE_BLUE_GRAY
 
-/obj/item/card/id/torch/crew/medical/virology
-	job_access_type = /datum/job/doctor/virologist
+///obj/item/card/id/torch/crew/medical/virology
+//	job_access_type = /datum/job/doctor/virologist
 
-/obj/item/card/id/torch/crew/medical/senior
-	job_access_type = /datum/job/senior_doctor
+///obj/item/card/id/torch/crew/medical/senior
+//	job_access_type = /datum/job/senior_doctor
 
 /obj/item/card/id/torch/contractor/medical
 	job_access_type = /datum/job/doctor
 	detail_color = COLOR_PALE_BLUE_GRAY
 
-/obj/item/card/id/torch/contractor/medical/senior
-	job_access_type = /datum/job/senior_doctor
+///obj/item/card/id/torch/contractor/medical/senior
+//	job_access_type = /datum/job/senior_doctor
 
 /obj/item/card/id/torch/contractor/chemist
 	job_access_type = /datum/job/chemist
@@ -85,9 +85,9 @@
 	job_access_type = /datum/job/engineer
 	detail_color = COLOR_SUN
 
-/obj/item/card/id/torch/crew/engineering/senior
-	job_access_type = /datum/job/senior_engineer
-	extra_details = list("onegoldstripe")
+///obj/item/card/id/torch/crew/engineering/senior
+//	job_access_type = /datum/job/senior_engineer
+//	extra_details = list("onegoldstripe")
 
 /obj/item/card/id/torch/contractor/engineering
 	job_access_type = /datum/job/engineer
@@ -127,11 +127,11 @@
 	job_access_type = /datum/job/assistant
 	detail_color = COLOR_CIVIE_GREEN
 
-/obj/item/card/id/torch/contractor/service/bartender
-	job_access_type = /datum/job/canworker
+///obj/item/card/id/torch/contractor/service/bartender
+//	job_access_type = /datum/job/canworker
 
-/obj/item/card/id/torch/crew/service/canworker
-	job_access_type = /datum/job/canworker
+///obj/item/card/id/torch/crew/service/canworker
+//	job_access_type = /datum/job/canworker
 
 
 /obj/item/card/id/torch/crew/representative
@@ -143,19 +143,19 @@
 	job_access_type = /datum/job/terguard
 	detail_color = COLOR_COMMAND_BLUE
 
-/obj/item/card/id/torch/crew/sea
-	job_access_type = /datum/job/sea
-	detail_color = COLOR_COMMAND_BLUE
+///obj/item/card/id/torch/crew/sea
+//	job_access_type = /datum/job/sea
+//	detail_color = COLOR_COMMAND_BLUE
 	extra_details = list("onegoldstripe")
 
-/obj/item/card/id/torch/crew/sea/marine
-	job_access_type = /datum/job/sea/marine
-	detail_color = COLOR_COMMAND_BLUE
-	extra_details = list("onegoldstripe")
+///obj/item/card/id/torch/crew/sea/marine
+//	job_access_type = /datum/job/sea/marine
+//	detail_color = COLOR_COMMAND_BLUE
+//	extra_details = list("onegoldstripe")
 
-/obj/item/card/id/torch/crew/bridgeofficer
-	job_access_type = /datum/job/bridgeofficer
-	detail_color = COLOR_COMMAND_BLUE
+///obj/item/card/id/torch/crew/bridgeofficer
+//	job_access_type = /datum/job/bridgeofficer
+//	detail_color = COLOR_COMMAND_BLUE
 
 /obj/item/card/id/torch/crew/pathfinder
 	job_access_type = /datum/job/pathfinder
@@ -166,9 +166,9 @@
 	job_access_type = /datum/job/explorer
 	detail_color = COLOR_PURPLE
 
-/obj/item/card/id/torch/crew/pilot
-	job_access_type = /datum/job/nt_pilot
-	detail_color = COLOR_PURPLE
+///obj/item/card/id/torch/crew/pilot
+//	job_access_type = /datum/job/nt_pilot
+//	detail_color = COLOR_PURPLE
 
 // EC Science
 /obj/item/card/id/torch/silver/research
@@ -176,10 +176,10 @@
 	detail_color = COLOR_RESEARCH
 	color = COLOR_WHITE
 
-/obj/item/card/id/torch/crew/research
-	desc = "A card issued to science personnel aboard the LRS Antares."
-	job_access_type = /datum/job/scientist_assistant
-	detail_color = COLOR_RESEARCH
+///obj/item/card/id/torch/crew/research
+//	desc = "A card issued to science personnel aboard the LRS Antares."
+//	job_access_type = /datum/job/scientist_assistant
+//	detail_color = COLOR_RESEARCH
 
 /obj/item/card/id/torch/crew/research/scientist
 	job_access_type = /datum/job/scientist
@@ -191,13 +191,13 @@
 	job_access_type = /datum/job/assistant
 	detail_color = COLOR_PAKISTAN_GREEN
 
-/obj/item/card/id/torch/passenger/research
-	desc = "A card issued to corporate personnel aboard the LRS Antares."
-	job_access_type = /datum/job/scientist_assistant
-	detail_color = COLOR_BOTTLE_GREEN
+///obj/item/card/id/torch/passenger/research
+//	desc = "A card issued to corporate personnel aboard the LRS Antares."
+//	job_access_type = /datum/job/scientist_assistant
+//	detail_color = COLOR_BOTTLE_GREEN
 
-/obj/item/card/id/torch/passenger/research/nt_pilot
-	job_access_type = /datum/job/nt_pilot
+///obj/item/card/id/torch/passenger/research/nt_pilot
+//	job_access_type = /datum/job/nt_pilot
 
 /obj/item/card/id/torch/passenger/research/scientist
 	job_access_type = /datum/job/scientist
@@ -225,17 +225,17 @@
 	job_access_type = /datum/job/combat_tech
 	detail_color = COLOR_SUN
 
-/obj/item/card/id/torch/crew/infantry/infmed
-	job_access_type = /datum/job/combat_medic
-	detail_color = COLOR_NAVY_BLUE
+///obj/item/card/id/torch/crew/infantry/infmed
+//	job_access_type = /datum/job/combat_medic
+//	detail_color = COLOR_NAVY_BLUE
 
 //Stowaway
-/obj/item/card/id/torch/stowaway
+/obj/item/card/id/torch/outsider
 	desc = "A card issued to passengers aboard the LRS Antares. Looks like the photo fell off this one."
-	job_access_type = /datum/job/stowaway
+	job_access_type = /datum/job/outsider
 	detail_color = COLOR_PAKISTAN_GREEN
 
-/obj/item/card/id/torch/stowaway/New()
+/obj/item/card/id/torch/outsider/New()
 	..()
 	var/species = SPECIES_HUMAN
 	if(prob(25))
@@ -243,7 +243,7 @@
 	var/datum/species/S = all_species[species]
 	var/decl/cultural_info/culture/C = SSculture.get_culture(S.default_cultural_info[TAG_CULTURE])
 	var/gender = pick(MALE,FEMALE)
-	assignment = "Passenger"
+	assignment = "Civilian"
 	registered_name = C.get_random_name(gender)
 	sex = capitalize(gender)
 	age = rand(7,77)
@@ -255,7 +255,7 @@
 	military_rank = pick(military_branch.spawn_ranks_)
 //	military_rank = global.mil_branches.get_rank(military_branch.name, military_rank)
 
-/obj/item/card/id/torch/chronicler
-	desc = "A card issued to the chroniclers aboard the LRS Antares."
-	job_access_type = /datum/job/chronicler
-	detail_color = COLOR_PAKISTAN_GREEN
+///obj/item/card/id/torch/chronicler
+//	desc = "A card issued to the chroniclers aboard the LRS Antares."
+//	job_access_type = /datum/job/chronicler
+//	detail_color = COLOR_PAKISTAN_GREEN

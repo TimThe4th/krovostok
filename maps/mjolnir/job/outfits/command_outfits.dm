@@ -89,7 +89,7 @@
 	head = /obj/item/clothing/head/lordan/fleet/po
 	shoes = /obj/item/clothing/shoes/lordan/service
 	l_ear = /obj/item/device/radio/headset/sea
-	id_types= list(/obj/item/card/id/torch/crew/sea)
+//	id_types= list(/obj/item/card/id/torch/crew/sea)
 	pda_type = /obj/item/modular_computer/pda/heads
 
 /decl/hierarchy/outfit/job/torch/crew/command/sea/fleet/kgb //cursed af
@@ -102,7 +102,7 @@
 	suit = /obj/item/clothing/suit/storage/toggle/lordan/service/fleet/officer
 	head = /obj/item/clothing/head/beret/lordan/fleet
 	shoes = /obj/item/clothing/shoes/lordan/service
-	id_types= list(/obj/item/card/id/torch/crew/bridgeofficer)
+//	id_types= list(/obj/item/card/id/torch/crew/bridgeofficer)
 	pda_type = /obj/item/modular_computer/pda/heads
 	l_ear = /obj/item/device/radio/headset/bridgeofficer
 

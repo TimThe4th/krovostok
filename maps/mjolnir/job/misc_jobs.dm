@@ -22,65 +22,35 @@ Civilian
 *******/
 
 /datum/job/assistant
-	title = "Passenger"
+	title = "Civilian"
 	total_positions = -1
 	spawn_positions = -1
 	supervisors = "the Executive Officer"
 	economic_power = 6
 	announced = FALSE
 	alt_titles = list(
+		"Off-Duty" = /decl/hierarchy/outfit/job/torch/crew/service/crewman,
+		"Villager",
 		"Journalist" = /decl/hierarchy/outfit/job/torch/passenger/passenger/journalist,
-		"Historian",
-		"Botanist",
 		"Investor" = /decl/hierarchy/outfit/job/torch/passenger/passenger/investor,
 		"Psychologist" = /decl/hierarchy/outfit/job/torch/passenger/passenger/psychologist,
+		"Chronicler" = /decl/hierarchy/outfit/job/torch/passenger/passenger/journalist,
+		"Historian",
 		"Naturalist",
 		"Ecologist",
 		"Entertainer",
 		"Independent Observer",
 		"Sociologist",
-		"Off-Duty" = /decl/hierarchy/outfit/job/torch/crew/service/crewman,
 		"Trainer",
 		"Assistant")
 	outfit_type = /decl/hierarchy/outfit/job/torch/passenger/passenger
 	allowed_branches = list(/datum/mil_branch/civilian)
 	allowed_ranks = list(
-		/datum/mil_rank/civ/civ,
-		/datum/mil_rank/civ/contractor
+		/datum/mil_rank/civ/civ
 	)
 
-/datum/job/merchant
-	title = "Merchant"
-	department = "Civilian"
-	department_flag = CIV
-	total_positions = 2
-	spawn_positions = 2
-	availablity_chance = 100
-	supervisors = "the invisible hand of the market"
-	minimal_player_age = 0
-	create_record = 0
-	outfit_type = /decl/hierarchy/outfit/job/torch/merchant
-	allowed_branches = list(
-		/datum/mil_branch/civilian,
-		/datum/mil_branch/alien
-	)
-	allowed_ranks = list(
-		/datum/mil_rank/civ/civ,
-		/datum/mil_rank/alien
-	)
-	latejoin_at_spawnpoints = 1
-	access = list(access_merchant)
-	announced = FALSE
-	min_skill = list(   SKILL_FINANCE = SKILL_ADEPT,
-	                    SKILL_PILOT	  = SKILL_BASIC)
-
-	max_skill = list(   SKILL_PILOT       = SKILL_MAX)
-	skill_points = 24
-	required_language = null
-	give_psionic_implant_on_join = FALSE
-
-/datum/job/stowaway
-	title = "Stowaway"
+/datum/job/outsider
+	title = "Outsider"
 	department = "Civilian"
 	department_flag = CIV
 	total_positions = 2
@@ -91,7 +61,6 @@ Civilian
 	create_record = 0
 	account_allowed = 0
 	economic_power = 0
-	outfit_type = /decl/hierarchy/outfit/job/torch/stowaway
 	allowed_branches = list(
 		/datum/mil_branch/civilian,
 		/datum/mil_branch/alien
@@ -99,6 +68,53 @@ Civilian
 	allowed_ranks = list(
 		/datum/mil_rank/civ/civ,
 		/datum/mil_rank/alien
+	)
+	latejoin_at_spawnpoints = 1
+	announced = FALSE
+	access = list(access_maint_tunnels, access_emergency_storage)
+
+/datum/job/beggar
+	title = "Beggar"
+	department = "Civilian"
+	department_flag = CIV
+	total_positions = 2
+	spawn_positions = 2
+	ideal_character_age = 30
+	supervisors = "nobody"
+	minimal_player_age = 0
+	create_record = 0
+	account_allowed = 0
+	economic_power = 0
+	allowed_branches = list(
+		/datum/mil_branch/civilian,
+		/datum/mil_branch/alien
+	)
+	allowed_ranks = list(
+		/datum/mil_rank/civ/civ,
+		/datum/mil_rank/alien
+	)
+	latejoin_at_spawnpoints = 1
+	announced = FALSE
+	access = list(access_maint_tunnels, access_emergency_storage)
+
+/datum/job/scientist
+	title = "Scholar"
+	department = "Civilian"
+	selection_color = "#693a9c"
+	department_flag = CIV
+	total_positions = 2
+	spawn_positions = 2
+	ideal_character_age = 30
+	supervisors = "nobody"
+	minimal_player_age = 0
+	create_record = 0
+	account_allowed = 0
+	economic_power = 0
+	allowed_branches = list(
+		/datum/mil_branch/civilian
+	)
+	allowed_ranks = list(
+		/datum/mil_rank/civ/civ
 	)
 	latejoin_at_spawnpoints = 1
 	announced = FALSE

@@ -1,6 +1,6 @@
 /datum/map/mjolnir
-	name = "Nameless"
-	full_name = "Nameless Town"
+	name = "Nova Cuba"
+	full_name = "Nova Cuba"
 	path = "mjolnir"
 	flags = MAP_HAS_BRANCH | MAP_HAS_RANK
 
@@ -9,8 +9,8 @@
 	allowed_spawns = list("Cryogenic Storage", "Cyborg Storage")
 	default_spawn = "Cryogenic Storage"
 
-	station_name  = "Nameless Town"
-	station_short = "Nameless"
+	station_name  = "Nova Cuba"
+	station_short = "Nova Cuba"
 	dock_name     = "TBD"
 	boss_name     = "Lordanian Sovereign Systems Government"
 	boss_short    = "LordGov"

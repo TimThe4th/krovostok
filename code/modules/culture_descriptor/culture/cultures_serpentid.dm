@@ -48,7 +48,7 @@
 
 /decl/cultural_info/culture/nabber/b
 	name = CULTURE_NABBER_B
-	valid_jobs = list(/datum/job/canworker) //bos
+	valid_jobs = list(/datum/job/chef, /datum/job/bartender) //bos
 
 /decl/cultural_info/culture/nabber/b/minus
 	name = CULTURE_NABBER_BMINUS

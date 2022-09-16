@@ -129,6 +129,7 @@
 		/datum/mil_rank/civ/contractor,
 		/datum/mil_rank/civ/ntr,
 		/datum/mil_rank/civ/chr,
+		/datum/mil_rank/civ/mlt,
 		/datum/mil_rank/civ/foundationadvisor,
 		/datum/mil_rank/civ/synthetic
 	)
@@ -138,6 +139,7 @@
 		/datum/mil_rank/civ/contractor,
 		/datum/mil_rank/civ/ntr,
 		/datum/mil_rank/civ/chr,
+		/datum/mil_rank/civ/mlt,
 		/datum/mil_rank/civ/foundationadvisor,
 		/datum/mil_rank/civ/synthetic
 	)
@@ -456,6 +458,10 @@
 
 /datum/mil_rank/civ/synthetic
 	name = "Synthetic"
+
+/datum/mil_rank/civ/mlt
+	name = "Militia"
+	name_short = "MLT"
 
 /*
  *  Lordanian Employees

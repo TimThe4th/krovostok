@@ -114,7 +114,7 @@
 		/datum/mil_rank/larfleet/o6
 	)
 
-	assistant_job = /datum/job/crew
+	assistant_job = /datum/job/assistant
 	min_skill = list(	SKILL_HAULING = SKILL_BASIC,
 						SKILL_WEAPONS = SKILL_BASIC,
 						SKILL_EVA     = SKILL_ADEPT)
@@ -128,7 +128,6 @@
 		/datum/mil_rank/civ/civ,
 		/datum/mil_rank/civ/contractor,
 		/datum/mil_rank/civ/ntr,
-		/datum/mil_rank/civ/chr,
 		/datum/mil_rank/civ/foundationadvisor,
 		/datum/mil_rank/civ/synthetic
 	)
@@ -137,7 +136,6 @@
 		/datum/mil_rank/civ/civ,
 		/datum/mil_rank/civ/contractor,
 		/datum/mil_rank/civ/ntr,
-		/datum/mil_rank/civ/chr,
 		/datum/mil_rank/civ/foundationadvisor,
 		/datum/mil_rank/civ/synthetic
 	)
@@ -150,12 +148,14 @@
 	rank_types = list(
 		/datum/mil_rank/lord/rep,
 		/datum/mil_rank/lord/gov,
-		/datum/mil_rank/lord/kgb
+		/datum/mil_rank/lord/kgb,
+		/datum/mil_rank/lord/chr
 	)
 
 	spawn_rank_types = list(
 		/datum/mil_rank/lord/rep,
 		/datum/mil_rank/lord/gov,
+		/datum/mil_rank/lord/chr,
 		/datum/mil_rank/lord/kgb
 	)
 
@@ -267,7 +267,7 @@
 		/datum/mil_rank/larmarine/o6
 	)
 
-	assistant_job = /datum/job/crew
+	assistant_job = /datum/job/assistant
 
 	min_skill = list(	SKILL_HAULING = SKILL_BASIC,
 						SKILL_WEAPONS = SKILL_BASIC,
@@ -446,10 +446,6 @@
 	name = "NanoTrasen Representative"
 	name_short = "NTR"
 
-/datum/mil_rank/civ/chr
-	name = "Chairman"
-	name_short = "CHR"
-
 /datum/mil_rank/civ/foundationadvisor
 	name = "Psionic Advisor"
 	name_short = "PADV"
@@ -473,6 +469,10 @@
 /datum/mil_rank/lord/kgb
 	name = "Galactic Security Corps"
 	name_short = "GSC"
+
+/datum/mil_rank/lord/chr
+	name = "Chairman"
+	name_short = "CHR"
 
 /*
  *  Terrans

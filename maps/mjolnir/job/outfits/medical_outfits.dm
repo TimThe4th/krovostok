@@ -12,7 +12,7 @@
 	name = OUTFIT_JOB_NAME("Surgeon")
 	uniform = /obj/item/clothing/under/lordan/utility/fleet/medical
 	shoes = /obj/item/clothing/shoes/lordan
-	id_types= list(/obj/item/card/id/torch/crew/medical/senior)
+//	id_types= list(/obj/item/card/id/torch/crew/medical/senior)
 
 /decl/hierarchy/outfit/job/torch/crew/medical/virologist
 	name = OUTFIT_JOB_NAME("Virologist - Antares")
@@ -20,7 +20,7 @@
 	suit = /obj/item/clothing/suit/storage/toggle/labcoat/virologist
 	mask = /obj/item/clothing/mask/surgical
 	shoes = /obj/item/clothing/shoes/white
-	id_types= list(/obj/item/card/id/torch/crew/medical/virology)
+//	id_types= list(/obj/item/card/id/torch/crew/medical/virology)
 
 /decl/hierarchy/outfit/job/torch/crew/medical/virologist/fleet
 	name = OUTFIT_JOB_NAME("Virologist - Fleet")
@@ -32,7 +32,7 @@
 	uniform = /obj/item/clothing/under/rank/medical/scrubs/blue
 	head = /obj/item/clothing/head/surgery/blue
 	shoes = /obj/item/clothing/shoes/white
-	id_types= list(/obj/item/card/id/torch/contractor/medical/senior)
+//	id_types= list(/obj/item/card/id/torch/contractor/medical/senior)
 
 /decl/hierarchy/outfit/job/torch/crew/medical/doctor
 	name = OUTFIT_JOB_NAME("Medical Technician")

@@ -49,15 +49,10 @@
 
 
 
-/decl/hierarchy/outfit/job/torch/stowaway
+/decl/hierarchy/outfit/job/torch/outsider
 	name = OUTFIT_JOB_NAME("Stowaway - Torch")
 	pda_type = null
 	l_ear = null
 	l_pocket = /obj/item/wrench
 	r_pocket = /obj/item/crowbar/prybar
 	id = null
-
-/decl/hierarchy/outfit/job/torch/stowaway/post_equip(var/mob/living/carbon/human/H)
-    ..()
-    var/obj/item/card/id/torch/stowaway/ID = new(H.loc)
-    H.equip_to_slot_or_store_or_drop(ID, id_slot)

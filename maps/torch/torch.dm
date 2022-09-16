@@ -159,7 +159,7 @@
 	#include "structures/closets/services.dm"
 	#include "structures/closets/supply.dm"
 	#include "structures/closets/exploration.dm"
-
+/*
 	#include "loadout/_defines.dm"
 	#include "loadout/loadout_accessories.dm"
 	#include "loadout/loadout_accessories_boh.dm"
@@ -177,7 +177,7 @@
 	#include "loadout/loadout_sikits.dm"
 	#include "loadout/loadout_military.dm"
 	#include "loadout/~defines.dm"
-
+*/
 	#include "torch1_deck5.dmm"
 	#include "torch2_deck4.dmm"
 	#include "torch3_deck3.dmm"

@@ -4,7 +4,7 @@
 	suit = /obj/item/clothing/suit/storage/toggle/lordan/service/command
 	shoes = /obj/item/clothing/shoes/lordan/service
 	l_ear = /obj/item/device/radio/headset/marcom
-	id_types= list(/obj/item/card/id/torch/crew/sea/marine)
+//	id_types= list(/obj/item/card/id/torch/crew/sea/marine)
 	pda_type = /obj/item/modular_computer/pda/heads
 
 /decl/hierarchy/outfit/job/torch/crew/infantry
@@ -30,6 +30,6 @@
 /decl/hierarchy/outfit/job/torch/crew/infantry/combat_medic
 	name = OUTFIT_JOB_NAME("Combat Medic")
 	uniform = /obj/item/clothing/under/lordan/utility/green/medical
-	id_types= list(/obj/item/card/id/torch/crew/infantry/infmed)
+//	id_types= list(/obj/item/card/id/torch/crew/infantry/infmed)
 	pda_type = /obj/item/modular_computer/pda/medical
 	l_ear = /obj/item/device/radio/headset/infantry

@@ -19,7 +19,7 @@
 	uniform = /obj/item/clothing/under/rank/chef
 	shoes = /obj/item/clothing/shoes/black
 	pda_type = /obj/item/modular_computer/pda
-	id_types= list(/obj/item/card/id/torch/crew/service/canworker)
+//	id_types= list(/obj/item/card/id/torch/crew/service/canworker)
 
 /decl/hierarchy/outfit/job/torch/crew/service/canworker/fleet
 	name = OUTFIT_JOB_NAME("Canteen Worker - Fleet")
@@ -37,7 +37,7 @@
 	name = OUTFIT_JOB_NAME("Bartender - Torch")
 	uniform = /obj/item/clothing/under/rank/bartender
 	shoes = /obj/item/clothing/shoes/laceup
-	id_types= list(/obj/item/card/id/torch/contractor/service/bartender)
+//	id_types= list(/obj/item/card/id/torch/contractor/service/bartender)
 	pda_type = /obj/item/modular_computer/pda
 
 /decl/hierarchy/outfit/job/torch/crew/service/crewman
@@ -68,7 +68,7 @@
 	uniform = /obj/item/clothing/under/suit_jacket/charcoal
 	shoes = /obj/item/clothing/shoes/black
 	pda_type = /obj/item/modular_computer/pda
-	id_types= list(/obj/item/card/id/torch/chronicler)
+//	id_types= list(/obj/item/card/id/torch/chronicler)
 
 /decl/hierarchy/outfit/job/torch/crew/service/chronicler/fleet
 	name = OUTFIT_JOB_NAME("Chronicler - Fleet")

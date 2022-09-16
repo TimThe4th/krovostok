@@ -12,7 +12,7 @@
 	name = OUTFIT_JOB_NAME("Senior Engineer")
 	uniform = /obj/item/clothing/under/hazard
 	shoes = /obj/item/clothing/shoes/workboots
-	id_types= list(/obj/item/card/id/torch/crew/engineering/senior)
+//	id_types= list(/obj/item/card/id/torch/crew/engineering/senior)
 	pda_type = /obj/item/modular_computer/pda/heads/ce
 
 /decl/hierarchy/outfit/job/torch/crew/engineering/senior_engineer/fleet

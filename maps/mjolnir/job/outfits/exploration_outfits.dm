@@ -25,7 +25,7 @@
 	uniform = /obj/item/clothing/under/color/black
 	shoes = /obj/item/clothing/shoes/dutyboots
 	l_ear = /obj/item/device/radio/headset/headset_pilot
-	id_types= list(/obj/item/card/id/torch/passenger/research/nt_pilot)
+//	id_types= list(/obj/item/card/id/torch/passenger/research/nt_pilot)
 	head = /obj/item/clothing/head/helmet/solgov/pilot
 	pda_type = /obj/item/modular_computer/pda/explorer
 

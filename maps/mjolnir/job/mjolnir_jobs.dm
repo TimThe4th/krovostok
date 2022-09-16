@@ -1,38 +1,13 @@
-/datum/map/torch
-	species_to_job_whitelist = list(
-		/datum/species/nabber = list(/datum/job/ai, /datum/job/cyborg, /datum/job/janitor, /datum/job/scientist_assistant, /datum/job/chemist,
-									 /datum/job/roboticist, /datum/job/cargo_tech, /datum/job/canworker, /datum/job/engineer, /datum/job/doctor, /datum/job/canworker, /datum/job/assistant),
-	 	/datum/species/human/mule = list(/datum/job/ai, /datum/job/cyborg, /datum/job/merchant),
-	 	/datum/species/vox = list(/datum/job/ai, /datum/job/cyborg, /datum/job/merchant, /datum/job/stowaway),
-	)
-
-	species_to_job_blacklist = list(
-		/datum/species/adherent = list(/datum/job/captain, /datum/job/hop, /datum/job/hos, /datum/job/rd, /datum/job/cmo, /datum/job/chief_engineer, /datum/job/sea, /datum/job/sea/marine, /datum/job/terrep, /datum/job/terguard, /datum/job/squad_lead, /datum/job/combat_tech, /datum/job/grunt, /datum/job/combat_medic, /datum/job/warden, /datum/job/officer, /datum/job/senior_doctor, /datum/job/detective, /datum/job/psychiatrist),
-		/datum/species/diona   = list(/datum/job/captain, /datum/job/hop, /datum/job/hos, /datum/job/rd, /datum/job/officer, /datum/job/warden, /datum/job/sea, /datum/job/sea/marine, /datum/job/squad_lead, /datum/job/combat_tech, /datum/job/grunt, /datum/job/combat_medic, /datum/job/psychiatrist),
-		/datum/species/tajaran = list(/datum/job/captain, /datum/job/hop, /datum/job/hos, /datum/job/rd, /datum/job/cmo, /datum/job/chief_engineer, /datum/job/sea, /datum/job/sea/marine, /datum/job/terrep, /datum/job/terguard, /datum/job/squad_lead, /datum/job/combat_tech, /datum/job/grunt, /datum/job/combat_medic, /datum/job/warden, /datum/job/officer, /datum/job/senior_doctor),
-		/datum/species/skrell = list(/datum/job/captain, /datum/job/hop, /datum/job/hos, /datum/job/cmo, /datum/job/chief_engineer, /datum/job/sea, /datum/job/sea/marine, /datum/job/terrep, /datum/job/terguard, /datum/job/warden, /datum/job/senior_doctor, /datum/job/squad_lead),
-		/datum/species/unathi = list(/datum/job/captain, /datum/job/hop, /datum/job/hos, /datum/job/rd, /datum/job/cmo, /datum/job/chief_engineer, /datum/job/sea, /datum/job/sea/marine, /datum/job/terrep, /datum/job/terguard, /datum/job/warden, /datum/job/senior_doctor, /datum/job/squad_lead, /datum/job/detective),
-		/datum/species/unathi/yeosa = list(/datum/job/captain, /datum/job/hop, /datum/job/hos, /datum/job/rd, /datum/job/cmo, /datum/job/chief_engineer, /datum/job/sea, /datum/job/sea/marine, /datum/job/terrep, /datum/job/terguard, /datum/job/warden, /datum/job/senior_doctor, /datum/job/squad_lead, /datum/job/detective),
-		/datum/species/machine = list(/datum/job/captain, /datum/job/hop, /datum/job/hos, /datum/job/cmo, /datum/job/chief_engineer, /datum/job/sea, /datum/job/sea/marine, /datum/job/terrep, /datum/job/terguard, /datum/job/warden, /datum/job/senior_doctor, /datum/job/detective, /datum/job/squad_lead, /datum/job/psychiatrist, /datum/job/detective),
-		/datum/species/shapeshifter/promethean = list(/datum/job/captain, /datum/job/janitor, /datum/job/officer, /datum/job/hos, /datum/job/sea, /datum/job/sea/marine, /datum/job/terguard, /datum/job/warden, /datum/job/detective, /datum/job/squad_lead, /datum/job/combat_tech, /datum/job/grunt, /datum/job/combat_medic)
-		)
-
-
-	allowed_jobs = list(/datum/job/captain, /datum/job/hop, /datum/job/rd, /datum/job/cmo, /datum/job/chief_engineer, /datum/job/hos,
-						/datum/job/terrep, /datum/job/terguard, /datum/job/sea, /datum/job/sea/marine,
-						/datum/job/bridgeofficer,
-						/datum/job/senior_engineer, /datum/job/engineer, /datum/job/roboticist, /datum/job/engineer_trainee,
-						/datum/job/warden, /datum/job/officer, /datum/job/detective,
-						/datum/job/squad_lead, /datum/job/combat_tech, /datum/job/grunt, /datum/job/combat_medic,
-						/datum/job/senior_doctor, /datum/job/doctor/virologist, /datum/job/doctor, /datum/job/chemist, /datum/job/medical_trainee,
-						/datum/job/psychiatrist,
-						/datum/job/qm, /datum/job/cargo_tech, /datum/job/nt_pilot, /datum/job/mining,
-						/datum/job/chaplain, /datum/job/janitor, /datum/job/canworker, /datum/job/chronicler,
-						/datum/job/pathfinder, /datum/job/explorer, /datum/job/scientist, /datum/job/scientist_assistant,
-						/datum/job/ai, /datum/job/cyborg,
-						/datum/job/crew, /datum/job/assistant, /datum/job/stowaway,
-						/datum/job/merchant
-						)
+/datum/map/mjolnir
+	allowed_jobs = list(
+	/datum/job/captain, /datum/job/mayor, /datum/job/hos, /datum/job/komissar, /datum/job/terrep, /datum/job/terguard,
+	/datum/job/engineer, /datum/job/roboticist, /datum/job/psiengi, /datum/job/engineer_trainee,
+	/datum/job/officer, /datum/job/hangman, /datum/job/detective, /datum/job/secmedic,
+	/datum/job/leadhunter, /datum/job/hunter, /datum/job/xenoexpert,
+	/datum/job/doctor, /datum/job/healer, /datum/job/chemist,
+	/datum/job/qm, /datum/job/cargo_tech, /datum/job/pilot, /datum/job/mining,
+	/datum/job/chaplain, /datum/job/janitor, /datum/job/chef, /datum/job/bartender, /datum/job/farmer, /datum/job/merchant, /datum/job/scientist,
+	/datum/job/assistant, /datum/job/ratcatcher, /datum/job/beggar, /datum/job/outsider)
 
 	access_modify_region = list(
 		ACCESS_REGION_SECURITY = list(access_change_ids),
@@ -45,22 +20,22 @@
 		ACCESS_REGION_NT = list(access_change_ids)
 	)
 
-///datum/map/torch/setup_job_lists()
-//	for(var/job_type in allowed_jobs)
-//		var/datum/job/job = SSjobs.get_by_path(job_type)
-//		// Most species are restricted from SCG security and command roles
-//		if(job && (job.department_flag & COM) && job.allowed_branches.len && !(/datum/mil_branch/civilian in job.allowed_branches))
-//			for(var/species_name in list(SPECIES_IPC, SPECIES_PLASMASANS))
-//				var/datum/species/S = all_species[species_name]
-//				var/species_blacklist = species_to_job_blacklist[S.type]
-//				if(!species_blacklist)
-//					species_blacklist = list()
-//					species_to_job_blacklist[S.type] = species_blacklist
-//				species_blacklist |= job.type
+/datum/map/mjolnir/setup_job_lists()
+	for(var/job_type in allowed_jobs)
+		var/datum/job/job = SSjobs.get_by_path(job_type)
+		// Most species are restricted from SCG security and command roles
+		if(job && (job.department_flag & COM) && job.allowed_branches.len && !(/datum/mil_branch/civilian in job.allowed_branches))
+			for(var/species_name in list(SPECIES_IPC, SPECIES_SKRELL, SPECIES_UNATHI))
+				var/datum/species/S = all_species[species_name]
+				var/species_blacklist = species_to_job_blacklist[S.type]
+				if(!species_blacklist)
+					species_blacklist = list()
+					species_to_job_blacklist[S.type] = species_blacklist
+				species_blacklist |= job.type
 
 // Some jobs for nabber grades defined here due to map-specific job datums.
 /decl/cultural_info/culture/nabber/New()
-	LAZYADD(valid_jobs, /datum/job/scientist_assistant)
+	LAZYADD(valid_jobs, /datum/job/scientist)
 	..()
 
 /decl/cultural_info/culture/nabber/New()
@@ -89,5 +64,5 @@
 	required_language = LANGUAGE_HUMAN_LORD
 
 
-/datum/map/torch
-	default_assistant_title = "Passenger"
+/datum/map/mjolnir
+	default_assistant_title = "Civilian"
