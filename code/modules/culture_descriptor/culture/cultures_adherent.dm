@@ -11,6 +11,10 @@
 		LANGUAGE_HUMAN_EURO,
 		LANGUAGE_SPACER
 	)
+	allowed_accents = list(
+		/decl/accent/adherent
+	)
+
 
 /decl/cultural_info/culture/adherent/get_random_name(var/gender)
 	return "[uppertext("[pick(GLOB.full_alphabet)][pick(GLOB.full_alphabet)]-[pick(GLOB.full_alphabet)] [rand(1000,9999)]")]"

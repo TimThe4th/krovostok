@@ -5,6 +5,9 @@
 	Или вам наплевать."
 	language = LANGUAGE_HUMAN_LORD
 	economic_power = 0.9
+	allowed_accents = list(
+		/decl/accent/lordania_west
+	)
 
 /decl/cultural_info/culture/human/lordanian_east
 	name = CULTURE_HUMAN_LORDANIAN_EAST
@@ -13,6 +16,9 @@
 	что прослеживалось в истории всей Восточной Лордании. Подобная разобщенность, присущая всему Востоку, наделила его жителей особой самостоятельностью."
 	language = LANGUAGE_HUMAN_LORD
 	economic_power = 0.9
+	allowed_accents = list(
+		/decl/accent/lordania_east
+	)
 
 /decl/cultural_info/culture/human/terstenian_cit
 	name = CULTURE_HUMAN_TERSTEN_UP
@@ -23,6 +29,9 @@
 	хотя городские жители Терстена своими повадками скорее похожи на лорданиан, нежели на обычных терстениан."
 	language = LANGUAGE_HUMAN_LORD
 	economic_power = 0.9
+	allowed_accents = list(
+		/decl/accent/tersten
+	)
 
 /decl/cultural_info/culture/human/terstenian_wild
 	name = CULTURE_HUMAN_TERSTEN_DW
@@ -32,6 +41,9 @@
 	Вероятно, что из-за данного факта Вы переняли некоторые черты и повадки бывших заключенных, такие как подозрительность, строгость, грубость или что-то другое."
 	language = LANGUAGE_HUMAN_LORD
 	economic_power = 0.8
+	allowed_accents = list(
+		/decl/accent/tersten_wild
+	)
 
 /decl/cultural_info/culture/human/yuklidian
 	name = CULTURE_HUMAN_YUKLID
@@ -40,6 +52,9 @@
 	  многие жители Юклида перенимают себе те, или иные черты данной философии, такие как единение с природой и отказ от насилия."
 	language = LANGUAGE_HUMAN_LORD
 	economic_power = 1
+	allowed_accents = list(
+		/decl/accent/yuklid
+	)
 
 /decl/cultural_info/culture/human/lorrimanian
 	name = CULTURE_HUMAN_LORRIMAN
@@ -52,3 +67,6 @@
 	Напротив, ваша жизнь окружена технологическими новинками и самыми передовыми разработками человечества."
 	economic_power = 1.1
 	language = LANGUAGE_HUMAN_LORD
+	allowed_accents = list(
+		/decl/accent/lorriman
+	)

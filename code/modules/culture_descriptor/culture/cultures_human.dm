@@ -15,6 +15,31 @@
 		LANGUAGE_SPACER,
 		LANGUAGE_SIGN
 	)
+	allowed_accents = list(
+		/decl/accent/frontier,
+		/decl/accent/lordania_west,
+		/decl/accent/lordania_east,
+		/decl/accent/tersten,
+		/decl/accent/tersten_wild,
+		/decl/accent/yuklid,
+		/decl/accent/lorriman,
+		/decl/accent/gaia,
+		/decl/accent/confederation,
+		/decl/accent/terra,
+		/decl/accent/sol_core,
+		/decl/accent/earth,
+		/decl/accent/luna_upper,
+		/decl/accent/luna_lower,
+		/decl/accent/mars_surface,
+		/decl/accent/mars_tunnel,
+		/decl/accent/pluto,
+		/decl/accent/ceres,
+		/decl/accent/venus_surfacer,
+		/decl/accent/venus_zoner,
+		/decl/accent/ceti_epsilon,
+		/decl/accent/eos,
+		/decl/accent/magnitka
+	)
 
 /decl/cultural_info/culture/human/martian_surfacer
 	name = CULTURE_HUMAN_MARTIAN
@@ -25,8 +50,7 @@
 	economic_power = 1
 	allowed_accents = list(
 		/decl/accent/sol_core,
-		/decl/accent/mars_surface,
-		/decl/accent/mars_tunnel
+		/decl/accent/mars_surface
 	)
 
 /decl/cultural_info/culture/human/martian_tunneller
@@ -37,6 +61,10 @@
 	criminal presence stemming from centuries of poor policing and a focus on the surface by the martian government. Most Tunnellers are resilient, though distrusting \
 	and wary of outsiders, and tend to strongly dislike non-Martians."
 	economic_power = 0.9
+	allowed_accents = list(
+		/decl/accent/sol_core,
+		/decl/accent/mars_tunnel
+	)
 
 /decl/cultural_info/culture/human/luna_poor
 	name = CULTURE_HUMAN_LUNAPOOR
@@ -46,6 +74,10 @@
 	financial, cultural and political power and influence over their lives."
 	economic_power = 1
 	language = LANGUAGE_HUMAN_SELENIAN
+	allowed_accents = list(
+		/decl/accent/sol_core,
+		/decl/accent/luna_lower
+	)
 
 /decl/cultural_info/culture/human/luna_rich
 	name = CULTURE_HUMAN_LUNARICH
@@ -56,6 +88,10 @@
 	with implications far beyond the squabbles of the prefectures."
 	economic_power = 1.3
 	language = LANGUAGE_HUMAN_SELENIAN
+	allowed_accents = list(
+		/decl/accent/sol_core,
+		/decl/accent/luna_upper
+	)
 
 /decl/cultural_info/culture/human/venusian_upper
 	name = CULTURE_HUMAN_VENUSIAN
@@ -63,6 +99,10 @@
 	SCG. As a Venusian, you know luxury, wealth and entertainment. Primarily a tourist destination, many of the permanent residents work in the tourism industry and are notably middle-income. \
 	Those above are exceptionally wealthy, being hotel, casino, resort owners, politicians, bankers or rich retirees."
 	economic_power = 1.4
+	allowed_accents = list(
+		/decl/accent/sol_core,
+		/decl/accent/venus_zoner
+	)
 
 /decl/cultural_info/culture/human/venusian_surfacer
 	name = CULTURE_HUMAN_VENUSLOW
@@ -71,6 +111,10 @@
 	surfacers are a people who value hard work, solidarity, unity and democracy. Unfortunately, while they support noble ideals, the reality of their situation does not always \
 	match them, and much of the surface of Venus finds itself rife with organised crime, separatist groups and other criminal organisations."
 	economic_power = 0.9
+	allowed_accents = list(
+		/decl/accent/sol_core,
+		/decl/accent/venus_surfacer
+	)
 
 /decl/cultural_info/culture/human/belter
 	name = CULTURE_HUMAN_BELTER
@@ -80,7 +124,10 @@
 	culture being mainly about embracing change, new people and new experiences, as well as a sense of pride in their work, as the reputation of Ceres shipbuilding is widely known across \
 	human space."
 	economic_power = 1
-
+	allowed_accents = list(
+		/decl/accent/sol_core,
+		/decl/accent/ceres
+	)
 
 /decl/cultural_info/culture/human/plutonian
 	name = CULTURE_HUMAN_PLUTO
@@ -98,6 +145,10 @@
 		LANGUAGE_SPACER,
 		LANGUAGE_GUTTER,
 		LANGUAGE_SIGN)
+	allowed_accents = list(
+		/decl/accent/sol_core,
+		/decl/accent/pluto
+	)
 
 /decl/cultural_info/culture/human/earthling
 	name = CULTURE_HUMAN_EARTH
@@ -107,6 +158,10 @@
 	The long recovery period of Earth has resulted in much of the population being environmentally aware and heavily conservationist, eager to avoid past mistakes. Most Earthers are \
 	a content folk who see themselves as close to nature and keepers of the heritage of humanity."
 	economic_power = 1.1
+	allowed_accents = list(
+		/decl/accent/sol_core,
+		/decl/accent/earth
+	)
 
 /decl/cultural_info/culture/human/ceti
 	name = CULTURE_HUMAN_CETI
@@ -116,6 +171,10 @@
 	being considered some of the best qualified technical specialists in humanity. Recently there has been a rising transhumanist element in Ceti society resulting in a large \
 	cybernetics culture; it is not uncommon to see many Cetites sporting some chrome."
 	economic_power = 1.1
+	allowed_accents = list(
+		/decl/accent/sol_core,
+		/decl/accent/ceti_epsilon
+	)
 
 /decl/cultural_info/culture/human/spacer_core
 	name = CULTURE_HUMAN_SPACER
@@ -125,6 +184,9 @@
 	mobile, rarely satisfied with settled life. They almost universally know how to live and work in the void and take to such jobs more readily than their planet-bound counterparts."
 	economic_power = 1
 	language = LANGUAGE_SPACER
+	allowed_accents = list(
+		/decl/accent/sol_core
+	)
 
 /decl/cultural_info/culture/human/spacer_frontier
 	name = CULTURE_HUMAN_SPAFRO
@@ -134,6 +196,9 @@
 	technology. An independent sort, people on the frontier are more likely to be isolationist and self-driven."
 	economic_power = 0.9
 	language = LANGUAGE_SPACER
+	allowed_accents = list(
+		/decl/accent/frontier
+	)
 
 /decl/cultural_info/culture/human/confederate
 	name = CULTURE_HUMAN_CONFED
@@ -143,11 +208,19 @@
 	resentful about their loss in the Gaia Conflict. An upbringing on Terra emphasises an odd mix of service to the state, liberalism and militarism."
 	language = LANGUAGE_HUMAN_RUSSIAN
 	economic_power = 0.9
+	allowed_accents = list(
+		/decl/accent/confederation,
+		/decl/accent/terra
+	)
 
 /decl/cultural_info/culture/human/gaia
 	name = CULTURE_HUMAN_GAIAN
 	description = "Gaia is the sole planet in the Galilei system, serving as the DMZ between the Sol Central Government and the Independent Colonial Confederation of Gilgamesh. It is an agricultural world, though various conflicts across the planet's surface have left it scarred. The planet is divided into Sol-Controlled Southern Gaia and Independent-Controlled Northern Gaia, with New Venice remaining a neutral zone inside the DMZ. The planet's population remain divided even 10 years after the Gaia Conflict. New Venice sits on the edge of Lake Cabot. While Gaia is divided, the current Mayor of New Venice serves as a vital mediator between both sides. The Gaian People are tired of war, and long to see their families once again. They suffered hard twenty years prior, and fear they may suffer again."
 	economic_power = 0.9
+	allowed_accents = list(
+		/decl/accent/confederation,
+		/decl/accent/gaia
+	)
 
 /decl/cultural_info/culture/human/other
 	name = CULTURE_HUMAN_OTHER
@@ -162,10 +235,38 @@
 		LANGUAGE_SPACER,
 		LANGUAGE_GUTTER,
 		LANGUAGE_SIGN)
+	allowed_accents = list(
+		/decl/accent/frontier
+	)
 
 /decl/cultural_info/culture/human/vatgrown
 	name = CULTURE_HUMAN_VATGROWN
 	description = "You were grown in a vat, either as clone or as a gene-adapt, and your outlook diverges from baseline humanity accordingly."
+	allowed_accents = list(
+		/decl/accent/lordania_west,
+		/decl/accent/lordania_east,
+		/decl/accent/tersten,
+		/decl/accent/tersten_wild,
+		/decl/accent/yuklid,
+		/decl/accent/lorriman,
+		/decl/accent/gaia,
+		/decl/accent/confederation,
+		/decl/accent/terra,
+		/decl/accent/sol_core,
+		/decl/accent/earth,
+		/decl/accent/luna_upper,
+		/decl/accent/luna_lower,
+		/decl/accent/mars_surface,
+		/decl/accent/mars_tunnel,
+		/decl/accent/pluto,
+		/decl/accent/ceres,
+		/decl/accent/venus_surfacer,
+		/decl/accent/venus_zoner,
+		/decl/accent/ceti_epsilon,
+		/decl/accent/eos,
+		/decl/accent/magnitka,
+		/decl/accent/frontier
+	)
 
 /decl/cultural_info/culture/human/vatgrown/sanitize_name(name)
 	return sanitizeName(name, allow_numbers=TRUE)

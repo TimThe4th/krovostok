@@ -12,6 +12,11 @@
 		LANGUAGE_HUMAN_EURO,
 		LANGUAGE_SPACER
 	)
+	allowed_accents = list(
+		/decl/accent/moghes_sinta_1,
+		/decl/accent/moghes_sinta_2,
+		/decl/accent/moghes_sinta_3,
+	)
 
 /decl/cultural_info/culture/unathi_polar
 	name = CULTURE_UNATHI_POLAR
@@ -24,6 +29,11 @@
 		LANGUAGE_SIGN,
 		LANGUAGE_HUMAN_EURO,
 		LANGUAGE_SPACER
+	)
+	allowed_accents = list(
+		/decl/accent/moghes_sinta_1,
+		/decl/accent/moghes_sinta_2,
+		/decl/accent/moghes_sinta_3,
 	)
 
 /decl/cultural_info/culture/unathi_desert
@@ -38,6 +48,11 @@
 		LANGUAGE_HUMAN_EURO,
 		LANGUAGE_SPACER
 	)
+	allowed_accents = list(
+		/decl/accent/moghes_sinta_1,
+		/decl/accent/moghes_sinta_2,
+		/decl/accent/moghes_sinta_3,
+	)
 
 /decl/cultural_info/culture/unathi_savannah
 	name = CULTURE_UNATHI_SAVANNAH
@@ -50,6 +65,12 @@
 		LANGUAGE_HUMAN_EURO,
 		LANGUAGE_SPACER
 	)
+	allowed_accents = list(
+		/decl/accent/moghes_sinta_1,
+		/decl/accent/moghes_sinta_2,
+		/decl/accent/moghes_sinta_3,
+	)
+
 
 /decl/cultural_info/culture/unathi_salt_swamp
 	name = CULTURE_UNATHI_SALT_SWAMP
@@ -62,6 +83,11 @@
 		LANGUAGE_SIGN,
 		LANGUAGE_HUMAN_EURO,
 		LANGUAGE_SPACER
+	)
+	allowed_accents = list(
+		/decl/accent/moghes_sinta_1,
+		/decl/accent/moghes_sinta_2,
+		/decl/accent/moghes_sinta_3,
 	)
 
 /decl/cultural_info/culture/unathi_space
@@ -76,6 +102,11 @@
 		LANGUAGE_SIGN,
 		LANGUAGE_HUMAN_EURO,
 		LANGUAGE_SPACER
+	)
+	allowed_accents = list(
+		/decl/accent/moghes_sinta_1,
+		/decl/accent/moghes_sinta_2,
+		/decl/accent/moghes_sinta_3,
 	)
 
 
@@ -98,6 +129,9 @@
 		LANGUAGE_HUMAN_EURO,
 		LANGUAGE_SPACER
 	)
+	allowed_accents = list(
+		/decl/accent/moghes_yeosa
+	)
 
 /decl/cultural_info/culture/unathi_yeosa_abyss
 	name = CULTURE_UNATHI_YEOSA_ABYSS
@@ -112,4 +146,7 @@
 		LANGUAGE_SIGN,
 		LANGUAGE_HUMAN_EURO,
 		LANGUAGE_SPACER
+	)
+	allowed_accents = list(
+		/decl/accent/moghes_yeosa
 	)

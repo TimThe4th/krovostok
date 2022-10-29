@@ -13,6 +13,9 @@
 		LANGUAGE_HUMAN_EURO,
 		LANGUAGE_SIGN
 	)
+	allowed_accents = list(
+		/decl/accent/vox
+	)
 
 /decl/cultural_info/culture/vox/truth
 	name = CULTURE_VOX_TRUTH
@@ -24,6 +27,9 @@
 	Ваши когти не находят себе применение за пределами вашего дома, поскольку вы призваны служить своему роду."
 	secondary_langs = list(
 		LANGUAGE_SIGN
+	)
+	allowed_accents = list(
+		/decl/accent/vox
 	)
 
 /decl/cultural_info/culture/vox/tech
@@ -38,6 +44,9 @@
 		LANGUAGE_SPACER,
 		LANGUAGE_SIGN
 	)
+	allowed_accents = list(
+		/decl/accent/vox
+	)
 
 /decl/cultural_info/culture/vox/light
 	name = CULTURE_VOX_LIGHT
@@ -46,6 +55,9 @@
 	За столь огромную жизнь вы немало встречали представителей других рас, пускай такие моменты для них заканчивались не столь приятно, однако опыт общения все равно остается двояким: начиная от жалких и гнусных еретиков, заканчивая не менее ущербных и несовершенных Новалисов.  \
 	Новалис - это не-Воксы, решившие прервать свое мучительное и бесмысленное существование, доказав свою верность и покорность своим новым хозяивам. Обычно это не более чем отбросы в своем обществе, или непутевые странники, что оказались заложниками ситуации, однако после принятия себя как еще один винтик в огромной военной машины Империи их прошлое уже никого не волнует. \
 	К еретикам же относятся жалкие попытки других рас дать отпор великой мощи самих Ауралис, как например безмозглые мартышки СААРЕ, или жалкие ульи жуков Кхармаани, что не годятся даже как слаги."
+	allowed_accents = list(
+		/decl/accent/vox
+	)
 
 /decl/cultural_info/culture/vox/merch
 	name = CULTURE_VOX_MERCHANT
@@ -65,4 +77,7 @@
 		LANGUAGE_HUMAN_RUSSIAN,
 		LANGUAGE_HUMAN_CHINESE,
 		LANGUAGE_HUMAN_ARABIC
+	)
+	allowed_accents = list(
+		/decl/accent/vox
 	)

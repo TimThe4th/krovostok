@@ -9,3 +9,7 @@
 		LANGUAGE_SPACER,
 		LANGUAGE_SIGN
 	)
+	allowed_accents = list(
+		/decl/accent/diona
+	)
+

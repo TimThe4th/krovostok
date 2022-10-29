@@ -2235,6 +2235,7 @@
 #include "code\modules\mob\language\accent\adherent.dm"
 #include "code\modules\mob\language\accent\diona.dm"
 #include "code\modules\mob\language\accent\gcc.dm"
+#include "code\modules\mob\language\accent\lss.dm"
 #include "code\modules\mob\language\accent\misc.dm"
 #include "code\modules\mob\language\accent\serpentid.dm"
 #include "code\modules\mob\language\accent\skrell.dm"
