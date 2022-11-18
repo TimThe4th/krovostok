@@ -7,12 +7,12 @@
 
 /obj/structure/memstatue/roger
     name = "Roger Blackmore statue"
-    desc = "A native of Tersten, a war hero who was head of the Tersten cell of the League of Struggle. Led the takeover of Tersten City, marched in the forefront of the rebels, blew himself up next to one of the army's military installations, posthumously a hero of the Sovereign Lordania."
+    desc = "A native of Tersten, a war hero who was a leader of the Tersten cell of the League of Struggle. Led the takeover of Tersten City, marched in the forefront of the rebels, blew himself up next to one of the army's military installations, posthumously a hero of the Sovereign Lordania."
     icon_state = "shahid"
 
 /obj/structure/memstatue/matt
     name = "Matt Striker statue"
-    desc = "Personally killed over ninety SCG commanders during the conflict. Passed away after numerous attempts on his life due to stress."
+    desc = "Personally killed over ninety SCG commanders during the conflict. Passed away after numerous assassination attempts due to stress."
     icon_state = "suecidnik"
 /*
 /obj/structure/memstatue/boris
@@ -27,12 +27,12 @@
 
 /obj/structure/memstatue/grisha
     name = "Bolshoy Grigoriy statue"
-    desc = " The Hero cat. He bit the wire of an enemy artillery mount and saved the squad."
+    desc = "The Hero cat. He bit the wire of an enemy artillery mount and saved the squad."
     icon_state = "grisha"
 
 /obj/structure/memstatue/shmesser
     name = "Unknown warrior statue"
-    desc = " This naked unknown warrior appeared out of nowhere and attacked Lordania's enemies with only a toolbox. He showed the most important trait of the Lordanian people - courage and commitment to the homeland"
+    desc = "This unknown, naked warrior appeared out of nowhere and attacked Lordania's enemies with only a toolbox. He showed the most important trait of the Lordanian people - courage and commitment to the homeland"
     icon_state = "shmesser"
 
 /obj/structure/memstatue/ambrosia
