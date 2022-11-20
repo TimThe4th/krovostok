@@ -15,6 +15,11 @@
 	name = "big wooden closet"
 	icon = 'maps/mjolnir/bos/icons/obj/structures/closets/huge.dmi'
 
+/obj/structure/closet/mjolnir/rusty
+	name = "old closet"
+	desc = "It's an old, rusty closet."
+	icon = 'maps/mjolnir/bos/icons/obj/structures/closets/green_closet.dmi'
+
 /obj/structure/closet/mjolnir/cardbox
 	name = "cardboard box"
 	desc = "A cardboard box. Big enough for a grown man to fit inside."
