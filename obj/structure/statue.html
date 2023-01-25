@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <base href="../../" />
+    <link rel="stylesheet" href="dmdoc.css" />
+    <title>&#x2F;obj&#x2F;structure&#x2F;statue - Space Station 13 - Baystation 12</title>
+</head>
+<body>
+<header>
+    <a href="index.html">Space Station 13 - Baystation 12</a> -
+    <a href="index.html#modules">Modules</a> -
+    <a href="index.html#types">Types</a>
+ &mdash; <a href="obj/structure/statue.html#proc">Proc Details</a></header>
+<main>
+<h1>statue <aside>/<a href="obj.html">obj</a>/<a href="obj/structure/statue.html">structure/statue</a></aside>
+        
+    
+            <a href="https://github.com/Proxima-Project/Proxi-BoS-Bay12/blob/34f66ef641c768007026c56c213f65d9457d5cab/maps/torch/bos/structures/statue.dm#L11">
+        <img src="git.png" width="16" height="16" title="maps&#x2F;torch&#x2F;bos&#x2F;structures&#x2F;statue.dm 11"/></a></h1>
+
+<table class="summary" cellspacing="0"><tr><td colspan="2"><h2>Procs</h2></td></tr>
+            <tr><th><a href="obj/structure/statue.html#proc/ask_user_to">ask_user_to</a></th><td>Returns the user's choice based on action</td></tr>
+            <tr><th><a href="obj/structure/statue.html#proc/get_search_time">get_search_time</a></th><td>Returns the time it takes to detect the hidden item</td></tr>
+            <tr><th><a href="obj/structure/statue.html#proc/get_transfer_time">get_transfer_time</a></th><td>Returns the time it takes to transfer the hidden item</td></tr>
+            <tr><th><a href="obj/structure/statue.html#proc/intent_action_grab">intent_action_grab</a></th><td>The action performed when user's intent is GRAB</td></tr>
+            <tr><th><a href="obj/structure/statue.html#proc/intent_action_help">intent_action_help</a></th><td>The action performed when user's intent is HELP</td></tr>
+            <tr><th><a href="obj/structure/statue.html#proc/is_item_suitable">is_item_suitable</a></th><td>Returns the ability to hide an object in the statue</td></tr>
+            <tr><th><a href="obj/structure/statue.html#proc/replace_item">replace_item</a></th><td>Replaces item it the statue</td></tr>
+            <tr><th><a href="obj/structure/statue.html#proc/transfer_item_to_statue">transfer_item_to_statue</a></th><td>Moves the item into the statue</td></tr>
+            <tr><th><a href="obj/structure/statue.html#proc/transfer_item_to_user">transfer_item_to_user</a></th><td>Moves the item into the user's hands</td></tr>
+            <tr><th><a href="obj/structure/statue.html#proc/try_to_discover_item">try_to_discover_item</a></th><td>Returns the user's search result</td></tr>
+            <tr><th><a href="obj/structure/statue.html#proc/try_to_get_item">try_to_get_item</a></th><td>Forces the user to make an attempt to find an object hidden in the statue</td></tr>
+            <tr><th><a href="obj/structure/statue.html#proc/try_to_hide_item">try_to_hide_item</a></th><td>Forces the user to make an attempt to hide an object hidden in the statue</td></tr></table><h2 id="proc">Proc Details</h2><h3 id="proc/ask_user_to"><aside class="declaration">proc </aside>ask_user_to<aside>(action, /<a href="mob.html">mob</a>/user) 
+        
+    
+            <a href="https://github.com/Proxima-Project/Proxi-BoS-Bay12/blob/34f66ef641c768007026c56c213f65d9457d5cab/maps/torch/bos/structures/statue.dm#L54">
+        <img src="git.png" width="16" height="16" title="maps&#x2F;torch&#x2F;bos&#x2F;structures&#x2F;statue.dm 54"/></a></aside>
+        </h3>
+        <p>Returns the user's choice based on action</p><h3 id="proc/get_search_time"><aside class="declaration">proc </aside>get_search_time<aside>() 
+        
+    
+            <a href="https://github.com/Proxima-Project/Proxi-BoS-Bay12/blob/34f66ef641c768007026c56c213f65d9457d5cab/maps/torch/bos/structures/statue.dm#L44">
+        <img src="git.png" width="16" height="16" title="maps&#x2F;torch&#x2F;bos&#x2F;structures&#x2F;statue.dm 44"/></a></aside>
+        </h3>
+        <p>Returns the time it takes to detect the hidden item</p><h3 id="proc/get_transfer_time"><aside class="declaration">proc </aside>get_transfer_time<aside>() 
+        
+    
+            <a href="https://github.com/Proxima-Project/Proxi-BoS-Bay12/blob/34f66ef641c768007026c56c213f65d9457d5cab/maps/torch/bos/structures/statue.dm#L48">
+        <img src="git.png" width="16" height="16" title="maps&#x2F;torch&#x2F;bos&#x2F;structures&#x2F;statue.dm 48"/></a></aside>
+        </h3>
+        <p>Returns the time it takes to transfer the hidden item</p><h3 id="proc/intent_action_grab"><aside class="declaration">proc </aside>intent_action_grab<aside>(/<a href="mob.html">mob</a>/user) 
+        
+    
+            <a href="https://github.com/Proxima-Project/Proxi-BoS-Bay12/blob/34f66ef641c768007026c56c213f65d9457d5cab/maps/torch/bos/structures/statue.dm#L148">
+        <img src="git.png" width="16" height="16" title="maps&#x2F;torch&#x2F;bos&#x2F;structures&#x2F;statue.dm 148"/></a></aside>
+        </h3>
+        <p>The action performed when user's intent is GRAB</p><h3 id="proc/intent_action_help"><aside class="declaration">proc </aside>intent_action_help<aside>(/<a href="mob.html">mob</a>/user) 
+        
+    
+            <a href="https://github.com/Proxima-Project/Proxi-BoS-Bay12/blob/34f66ef641c768007026c56c213f65d9457d5cab/maps/torch/bos/structures/statue.dm#L143">
+        <img src="git.png" width="16" height="16" title="maps&#x2F;torch&#x2F;bos&#x2F;structures&#x2F;statue.dm 143"/></a></aside>
+        </h3>
+        <p>The action performed when user's intent is HELP</p><h3 id="proc/is_item_suitable"><aside class="declaration">proc </aside>is_item_suitable<aside>(/<a href="obj.html">obj</a>/<a href="obj/item.html">item</a>/item) 
+        
+    
+            <a href="https://github.com/Proxima-Project/Proxi-BoS-Bay12/blob/34f66ef641c768007026c56c213f65d9457d5cab/maps/torch/bos/structures/statue.dm#L106">
+        <img src="git.png" width="16" height="16" title="maps&#x2F;torch&#x2F;bos&#x2F;structures&#x2F;statue.dm 106"/></a></aside>
+        </h3>
+        <p>Returns the ability to hide an object in the statue</p><h3 id="proc/replace_item"><aside class="declaration">proc </aside>replace_item<aside>(/<a href="obj.html">obj</a>/<a href="obj/item.html">item</a>/item, /<a href="mob.html">mob</a>/user) 
+        
+    
+            <a href="https://github.com/Proxima-Project/Proxi-BoS-Bay12/blob/34f66ef641c768007026c56c213f65d9457d5cab/maps/torch/bos/structures/statue.dm#L37">
+        <img src="git.png" width="16" height="16" title="maps&#x2F;torch&#x2F;bos&#x2F;structures&#x2F;statue.dm 37"/></a></aside>
+        </h3>
+        <p>Replaces item it the statue</p><h3 id="proc/transfer_item_to_statue"><aside class="declaration">proc </aside>transfer_item_to_statue<aside>(/<a href="obj.html">obj</a>/<a href="obj/item.html">item</a>/item, /<a href="mob.html">mob</a>/user) 
+        
+    
+            <a href="https://github.com/Proxima-Project/Proxi-BoS-Bay12/blob/34f66ef641c768007026c56c213f65d9457d5cab/maps/torch/bos/structures/statue.dm#L24">
+        <img src="git.png" width="16" height="16" title="maps&#x2F;torch&#x2F;bos&#x2F;structures&#x2F;statue.dm 24"/></a></aside>
+        </h3>
+        <p>Moves the item into the statue</p><h3 id="proc/transfer_item_to_user"><aside class="declaration">proc </aside>transfer_item_to_user<aside>(/<a href="mob.html">mob</a>/user) 
+        
+    
+            <a href="https://github.com/Proxima-Project/Proxi-BoS-Bay12/blob/34f66ef641c768007026c56c213f65d9457d5cab/maps/torch/bos/structures/statue.dm#L31">
+        <img src="git.png" width="16" height="16" title="maps&#x2F;torch&#x2F;bos&#x2F;structures&#x2F;statue.dm 31"/></a></aside>
+        </h3>
+        <p>Moves the item into the user's hands</p><h3 id="proc/try_to_discover_item"><aside class="declaration">proc </aside>try_to_discover_item<aside>(/<a href="mob.html">mob</a>/user) 
+        
+    
+            <a href="https://github.com/Proxima-Project/Proxi-BoS-Bay12/blob/34f66ef641c768007026c56c213f65d9457d5cab/maps/torch/bos/structures/statue.dm#L73">
+        <img src="git.png" width="16" height="16" title="maps&#x2F;torch&#x2F;bos&#x2F;structures&#x2F;statue.dm 73"/></a></aside>
+        </h3>
+        <p>Returns the user's search result</p><h3 id="proc/try_to_get_item"><aside class="declaration">proc </aside>try_to_get_item<aside>(/<a href="mob.html">mob</a>/user) 
+        
+    
+            <a href="https://github.com/Proxima-Project/Proxi-BoS-Bay12/blob/34f66ef641c768007026c56c213f65d9457d5cab/maps/torch/bos/structures/statue.dm#L84">
+        <img src="git.png" width="16" height="16" title="maps&#x2F;torch&#x2F;bos&#x2F;structures&#x2F;statue.dm 84"/></a></aside>
+        </h3>
+        <p>Forces the user to make an attempt to find an object hidden in the statue</p><h3 id="proc/try_to_hide_item"><aside class="declaration">proc </aside>try_to_hide_item<aside>(/<a href="obj.html">obj</a>/<a href="obj/item.html">item</a>/item, /<a href="mob.html">mob</a>/user) 
+        
+    
+            <a href="https://github.com/Proxima-Project/Proxi-BoS-Bay12/blob/34f66ef641c768007026c56c213f65d9457d5cab/maps/torch/bos/structures/statue.dm#L110">
+        <img src="git.png" width="16" height="16" title="maps&#x2F;torch&#x2F;bos&#x2F;structures&#x2F;statue.dm 110"/></a></aside>
+        </h3>
+        <p>Forces the user to make an attempt to hide an object hidden in the statue</p></main>
+<footer>
+    baystation12.dme
+    <a href="https://github.com/Proxima-Project/Proxi-BoS-Bay12/tree/34f66ef641c768007026c56c213f65d9457d5cab">34f66ef</a>
+        (dev) &mdash; <a href="https://github.com/SpaceManiac/SpacemanDMM/blob/master/src/dmdoc/README.md">dmdoc 1.4.1</a></footer>
+</body>
+</html>
