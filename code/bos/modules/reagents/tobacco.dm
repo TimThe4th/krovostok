@@ -91,7 +91,7 @@
 
 /obj/item/tobacco/female
 	name = "female tobacco"
-	desc = "Female tobacco for good ladys."
+	desc = "Female tobacco for good ladies."
 
 	filling = list(/datum/reagent/tobacco/female = 1)
 
