@@ -21,7 +21,7 @@
 
 /datum/reagent/tobacco/strong
 	name = "Strong tobacco"
-	description = "Strong tobacco for strong men... or women, i don't know"
+	description = "Strong tobacco for strong men... or women, i don't know."
 	taste_description = "strong tobacco that hits the throat hard"
 	scent = "strong tobacco"
 	scent_range = 10
