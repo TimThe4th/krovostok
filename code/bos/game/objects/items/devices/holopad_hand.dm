@@ -188,7 +188,7 @@
 		to_chat(M, "<span class='name'>[voice]</span> transmits, \"[speaking]\" ")
 
 
-
+/*
 /obj/item/device/holopad/cheap
 	name = "Holopda"
 	desc = "New brand pda now with holo-link and built-in clock."
@@ -198,7 +198,7 @@
 /obj/item/device/holopad/cheap/examine(mob/user)
 	. = ..()
 	to_chat(user, "\the [src] displays [stationtime2text()].")
-
+*/
 #undef CALL_NONE
 #undef CALL_CALLING
 #undef CALL_RINGING
