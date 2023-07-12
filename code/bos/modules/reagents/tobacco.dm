@@ -55,7 +55,7 @@
 
 /obj/item/tobacco
 	name = "Peace of tobacco"
-	desc = "Tobacco who used in hookah's for make smoke"
+	desc = "Tobacco who used in hookah's for make smoke."
 	w_class = ITEM_SIZE_TINY
 
 	icon = 'icons/obj/hydroponics_products.dmi'
