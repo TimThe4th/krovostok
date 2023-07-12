@@ -38,7 +38,7 @@
 
 /datum/reagent/tobacco/honey
 	name = "tobacco with honey"
-	description = "tobacco that has been processed in honey"
+	description = "tobacco that has been processed in honey."
 	taste_description = "the sweetness of honey and the strength of tobacco."
 	scent = "sweet tobacco"
 
