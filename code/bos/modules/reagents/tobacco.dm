@@ -32,7 +32,7 @@
 
 /datum/reagent/tobacco/female
 	name = "female tobacco"
-	description = "female tobacco for good lady's"
+	description = "female tobacco for good ladies."
 	taste_description = "weak tobacco that gently caresses the throat."
 	scent = "weak tobacco"
 
