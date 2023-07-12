@@ -141,7 +141,7 @@
 
 /obj/item/storage/chewables/rollable/female
 	name = "bag of female tobacco"
-	desc = "Female tobacco for good ladys."
+	desc = "Female tobacco for good ladies."
 	startswith = list(/obj/item/tobacco/female = 8)
 	icon_state = "rollfine"
 
